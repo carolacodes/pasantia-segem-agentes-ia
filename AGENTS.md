@@ -55,24 +55,27 @@ pasantia-segem-agentes-ia/
 │
 ├── data/
 │   ├── raw/
-│   │   ├── base_original.csv
-│   │   └── base_original.json
+│   │   ├── Entradas origen drive.csv
+│   │   └── Entradas origen drive.json
 │   │
 │   ├── processed/
-│   │   ├── base_limpia_csv.csv
-│   │   ├── base_limpia_json.csv
+│   │   ├── oficios_embargos_limpios.csv
+│   │   ├── oficios_embargos_limpios.json
+│   │   ├── embargos_limpios.csv
+│   │   ├── entidades_embargos_muestra_gliner.csv
+│   │   ├── plantilla_analisis_manual_oficios_embargos.csv
+│   │   ├── muestras_lectura/
 │   │   └── muestras_markdown/
 │   │
 │   └── samples/
-│       └── ejemplos_anonimizados.md
 │
 ├── notebooks/
-│   └── 01_limpieza_csv_json_colab.ipynb
+│   ├── 01_limpieza_csv_json.ipynb
+│   └── 02_limpieza_avanzada_embargos.ipynb
 │
 ├── src/
 │   ├── cleaning.py
-│   ├── markdown_utils.py
-│   └── entities.py
+│   └── markdown_utils.py
 │
 ├── docs/
 │   └── flujo_oficios_embargos.md
