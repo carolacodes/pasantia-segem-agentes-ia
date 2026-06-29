@@ -1,0 +1,10 @@
+﻿metrica,valor
+filas_totales,627.0
+textos_vacios,0.0
+textos_muy_cortos_menos_100_chars,0.0
+longitud_minima,285.0
+longitud_maxima,10926.0
+longitud_promedio,3496.88
+longitud_mediana,3292.0
+palabras_promedio,594.41
+caracteres_raros_total,64323.0

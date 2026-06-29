@@ -21,6 +21,6 @@ Thumbs.db
 
 # Datos sensibles / archivos reales
 data/raw/
-data/processed/
+
 data/samples/
 

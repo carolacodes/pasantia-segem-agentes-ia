@@ -1,0 +1,15 @@
+{
+  "total_embargos_procesados": 627,
+  "textos_legibles": 621,
+  "textos_regulares": 5,
+  "textos_muy_ruidosos": 0,
+  "textos_irrecuperables": 1,
+  "porcentaje_promedio_reduccion_texto": 0.58,
+  "alertas_reduccion_alta": 0,
+  "alertas_posible_perdida_datos": 3,
+  "registros_seleccionados_etapa_posterior": 15,
+  "archivo_dataset_completo": "E:\\CAROLA\\CAROLA TRABAJO\\PASANTIA UNNE - AGENTE ASUNTOS LEGALES\\pasantia-segem-agentes-ia\\data\\processed\\embargos_limpieza_avanzada.csv",
+  "archivo_15_mejores": "E:\\CAROLA\\CAROLA TRABAJO\\PASANTIA UNNE - AGENTE ASUNTOS LEGALES\\pasantia-segem-agentes-ia\\data\\processed\\embargos_15_mejores_legibles.csv",
+  "carpeta_reportes": "E:\\CAROLA\\CAROLA TRABAJO\\PASANTIA UNNE - AGENTE ASUNTOS LEGALES\\pasantia-segem-agentes-ia\\data\\processed\\reportes_embargos",
+  "proximos_pasos": "Validar manualmente los 15 mejores embargos y luego, en una etapa separada, probar GLiNER para extraccion de entidades."
+}

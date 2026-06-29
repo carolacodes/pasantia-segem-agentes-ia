@@ -1,0 +1,1485 @@
+﻿id,nombre,score,estado_ocr,len_antes,len_despues,porcentaje_reduccion,texto_antes,texto_despues,diff
+544832,Embargo - usuario,0.8493299154158319,legible,1698,1688,0.005889281507656066,"OFICIO JUDICIAL
+
+/ L/)
+
+Buenos Aires, de Febrero/de/2026
+Al Sr. Apoderado de |
+""MERCADO LIBRE S.R.L.""
+S / D
+
+De mi consideración:
+
+Tengo el agrado de dirigirme a Ud. en los autos
+caratulados ""CHUQUISACA, SERGIO HORACIO C/ MENUDENCIAS
+S.A, Y OTROS S/ DESPIDO "", Expediente. Nro. 21903/14, que tramita
+por ante el Juzgado Nacional de Primera Instancia del Trabajo Nro. 35, sito
+en la calle Tte. Gral. Juan D. Perón 990 Piso 7mo. de C.A.B.A., a mi cargo,
+Secretaría única a cargo del DR. MARIANO GILLETTE TORRILLA,
+para informarle que se ha decretado embargo sobre bienes de la demandada
+""FAENADORA ARGENTINA S.A."" CUIT 33-71237566-9 hasta cubrir la
+suma de $ 31.177,68.- (en concepto de honorarios del perito contador), con
+más la de $9.000.- presupuestados provisoriamente para responder a
+IMÍOreSES Y COSÍAS occ
+
+Se le hace saber que deberá retener de las sumas que tenga la embargada
+depositadas en esa entidad, por cualquier concepto, presentes y /o futuros,
+los montos indicados ut supra. Dichos importes deberán ser transferidos
+dentro de las 48 horas de retenidos al BANCO DE LA CIUDAD DE
+BUENOS AIRES, SUCURSAL TRIBUNALES, a la orden de V.S. y como
+pertenecientes a estos autos, estando abierta dicha cuenta según los
+siguientes datos: C.B.U. 02900759-00294149207615 - CUIT Banco Ciudad
+30-99903208-3 y Clave 0006-035- -1492-0761-4 . Asimismo, dentro de los
+cinco días de recepcionado el oficio deberá informar al Juzgado el resultado
+de la gestión encomendada. ono
+
+Sin otro particular lo salu
+[...]","OFICIO JUDICIAL
+
+Buenos Aires, de Febrero/de/2026
+Al Sr. Apoderado de |
+""MERCADO LIBRE S.R.L.""
+S / D
+
+De mi consideración:
+
+Tengo el agrado de dirigirme a Ud. en los autos
+caratulados ""CHUQUISACA, SERGIO HORACIO C/ MENUDENCIAS
+S.A, Y OTROS S/ DESPIDO "", expediente. Nro. 21903/14, que tramita
+por ante el juzgado Nacional de Primera Instancia del Trabajo Nro. 35, sito
+en la calle Tte. Gral. Juan D. Perón 990 Piso 7mo. de C.A.B.A., a mi cargo,
+secretaría única a cargo del DR. MARIANO GILLETTE TORRILLA,
+para informarle que se ha decretado embargo sobre bienes de la demandada
+""FAENADORA ARGENTINA S.A."" CUIT 33-71237566-9 hasta cubrir la
+suma de $ 31.177,68.- (en concepto de honorarios del perito contador), con
+más la de $9.000.- presupuestados provisoriamente para responder a
+IMÍOreSES Y COSÍAS occ
+
+Se le hace saber que deberá retener de las sumas que tenga la embargada
+depositadas en esa entidad, por cualquier concepto, presentes y /o futuros,
+los montos indicados ut supra. Dichos importes deberán ser transferidos
+dentro de las 48 horas de retenidos al banco DE LA CIUDAD DE
+BUENOS AIRES, SUCURSAL TRIBUNALES, a la orden de V.S. y como
+pertenecientes a estos autos, estando abierta dicha cuenta según los
+siguientes datos: C.B.U. 02900759-00294149207615 - CUIT banco Ciudad
+30-99903208-3 y Clave 0006-035- -1492-0761-4. Asimismo, dentro de los
+cinco días de recepcionado el oficio deberá informar al juzgado el resultado
+de la gestión encomendada. ono
+
+Sin otro particular lo saludo muy a
+[...]","--- antes
++++ despues
+@@ -1,6 +1,4 @@
+ OFICIO JUDICIAL
+-
+-/ L/)
+ 
+ Buenos Aires, de Febrero/de/2026
+ Al Sr. Apoderado de |
+@@ -11,10 +9,10 @@
+ 
+ Tengo el agrado de dirigirme a Ud. en los autos
+ caratulados ""CHUQUISACA, SERGIO HORACIO C/ MENUDENCIAS
+-S.A, Y OTROS S/ DESPIDO "", Expediente. Nro. 21903/14, que tramita
+-por ante el Juzgado Nacional de Primera Instancia del Trabajo Nro. 35, sito
++S.A, Y OTROS S/ DESPIDO "", expediente. Nro. 21903/14, que tramita
++por ante el juzgado Nacional de Primera Instancia del Trabajo Nro. 35, sito
+ en la calle Tte. Gral. Juan D. Perón 990 Piso 7mo. de C.A.B.A., a mi cargo,
+-Secretaría única a cargo del DR. MARIANO GILLETTE TORRILLA,
++secretaría única a cargo del DR. MARIANO GILLETTE TORRILLA,
+ para informarle que se ha decretado embargo sobre bienes de la demandada
+ ""FAENADORA ARGENTINA S.A."" CUIT 33-71237566-9 hasta cubrir la
+ suma de $ 31.177,68.- (en concepto de honorarios del perito contador), con
+@@ -24,12 +22,12 @@
+ Se le hace saber que deberá retener de las sumas que tenga la embargada
+ depositadas en esa entidad, por cualquier concepto, presentes y /o futuros,
+ los montos indicados ut supra. Dichos importes deberán ser transferidos
+-dentro de las 48 horas de retenidos al BANCO DE LA CIUDAD DE
++dentro de las 48 horas de retenidos al banco DE LA CIUDAD DE
+ BUENOS AIRES, SUCURSAL TRIBUNALES, a la orden de V.S. y como
+ pertenecientes a estos autos, estando abierta dicha cuenta según los
+-siguientes datos: C.B.U. 02900759-00294149207615 - CUIT Banco Ciudad
+-30-99903208-3 y Clave 0006-035- -1492-0761-4 . Asimismo, dentro de los
+-cinco días de recepcionado el oficio deberá informar al Juzgado el resultado
++siguientes datos: C.B.U. 02900759-00294149207615 - CUIT banco Ciudad
++30-99903208-3 y Clave 0006-035- -1492-0761-4. Asimismo, dentro de los
++cinco días de recepcionado el oficio deberá informar al juzgado el resultado
+ de la gestión encomendada. ono
+ 
+ Sin otro particular lo saludo muy atentamente
+@@ -41,7 +39,6 @@
+ 
+ Date: 2026.02.09 18:51:59 ART
+ 
+-¿
+ RECEPCION '
+ 
+ Torr"
+546230,Embargo - usuario,0.9528132683439856,legible,5004,4991,0.0025979216626698643,"A
+
++ 19 MAR 2026 |
+
++
+1
+É
+
+RECEPCION
+
+e
+Poder Judicial de la Nación
+JUZGADO CIVIL 7
+
+40471/2023
+
+VASSALLO, FERNANDO c/ BENITEZ, MARIA ANGELICA
+s/ALIMENTOS
+
+Buenos Aires, de marzo de 2026.- MEG
+OFICIO REIFERATORIO
+
+Mercado Pago
+Assetmanagement SA
+S / D
+
+Tengo el agrado de dirigirme a Ud. en los autos
+caratulados: ""VASSALLO, FERNANDO C/ BENITEZ, MARIA
+ANGELICA S/ALIMENTOS"" expte n* 40471/2023 que tramitan ante
+el Juzgado Nacional de Primera Instancia en lo Civil nro 7 a cargo de
+la Dra Myriam Cataldi, Secretaría única a mi cargo, con domicilio en
+la calle Talcahuano 490, Piso Sexto CABA (correo electrónico:
+jncivil7Opjn.gov.ar) a fin de que proceda a trabar embargo sobre los
+fondos pertenecientes al demandado, Sr. FERNANDO VASALLO,
+DNI N* 20.891.829, que posea en dicha entidad financiera, ya sea
+sobre fondos y valores depositados en cuenta corriente, caja de ahorro,
+inversiones a plazo fijo, cuentas títulos, billeteras virtuales y cualquier
+otro activo financiero, ya sean presentes o futuros, por la suma
+de PESOS SIETE MILLONES SETECIENTOS VEINTE
+MIL CUATROCIENTOS CINCUENTA Y NUEVE CON
+CINCUENTA Y SIETE CENTAVOS ($7.720.459,57), con más la
+suma de PESOS UN MILLON QUINIENTOS MIL ($1.500.000). Las
+sumas resultantes deberán depositarse en la cuenta abierta en el Banco
+de la Nación Argentina, Sucursal Tribunales, a nombre de estos autos
+y a la orden de este juzgado, n* 9989744557, CBU
+0110025950099897445578, debiendo comunicar al Tribunal la traba
+de la medida y el monto de la suma
+[...]","+ 19 MAR 2026 |
+
+1
+
+RECEPCION
+
+Poder Judicial de la Nación
+juzgado CIVIL 7
+
+40471/2023
+
+VASSALLO, FERNANDO c/ BENITEZ, MARIA ANGELICA
+s/ALIMENTOS
+
+Buenos Aires, de marzo de 2026.- MEG
+OFICIO REIFERATORIO
+
+Mercado Pago
+Assetmanagement SA
+S / D
+
+Tengo el agrado de dirigirme a Ud. en los autos
+caratulados: ""VASSALLO, FERNANDO C/ BENITEZ, MARIA
+ANGELICA S/ALIMENTOS"" expediente nro.* 40471/2023 que tramitan ante
+el juzgado Nacional de Primera Instancia en lo Civil nro 7 a cargo de
+la Dra Myriam Cataldi, secretaría única a mi cargo, con domicilio en
+la calle Talcahuano 490, Piso Sexto CABA (correo electrónico:
+jncivil7Opjn.gov.ar) a fin de que proceda a trabar embargo sobre los
+fondos pertenecientes al demandado, Sr. FERNANDO VASALLO,
+DNI N* 20.891.829, que posea en dicha entidad financiera, ya sea
+sobre fondos y valores depositados en cuenta corriente, caja de ahorro,
+inversiones a plazo fijo, cuentas títulos, billeteras virtuales y cualquier
+otro activo financiero, ya sean presentes o futuros, por la suma
+de pesos SIETE MILLONES SETECIENTOS VEINTE
+MIL CUATROCIENTOS CINCUENTA Y NUEVE CON
+CINCUENTA Y SIETE CENTAVOS ($7.720.459,57), con más la
+suma de pesos UN MILLON QUINIENTOS MIL ($1.500.000). Las
+sumas resultantes deberán depositarse en la cuenta abierta en el banco
+de la Nación Argentina, Sucursal Tribunales, a nombre de estos autos
+y a la orden de este juzgado, n* 9989744557, CBU
+0110025950099897445578, debiendo comunicar al Tribunal la traba
+de la medida y el monto de la suma 
+[...]","--- antes
++++ despues
+@@ -1,16 +1,11 @@
+-A
+-
+ + 19 MAR 2026 |
+ 
+-+
+ 1
+-É
+ 
+ RECEPCION
+ 
+-e
+ Poder Judicial de la Nación
+-JUZGADO CIVIL 7
++juzgado CIVIL 7
+ 
+ 40471/2023
+ 
+@@ -26,9 +21,9 @@
+ 
+ Tengo el agrado de dirigirme a Ud. en los autos
+ caratulados: ""VASSALLO, FERNANDO C/ BENITEZ, MARIA
+-ANGELICA S/ALIMENTOS"" expte n* 40471/2023 que tramitan ante
+-el Juzgado Nacional de Primera Instancia en lo Civil nro 7 a cargo de
+-la Dra Myriam Cataldi, Secretaría única a mi cargo, con domicilio en
++ANGELICA S/ALIMENTOS"" expediente nro.* 40471/2023 que tramitan ante
++el juzgado Nacional de Primera Instancia en lo Civil nro 7 a cargo de
++la Dra Myriam Cataldi, secretaría única a mi cargo, con domicilio en
+ la calle Talcahuano 490, Piso Sexto CABA (correo electrónico:
+ jncivil7Opjn.gov.ar) a fin de que proceda a trabar embargo sobre los
+ fondos pertenecientes al demandado, Sr. FERNANDO VASALLO,
+@@ -36,11 +31,11 @@
+ sobre fondos y valores depositados en cuenta corriente, caja de ahorro,
+ inversiones a plazo fijo, cuentas títulos, billeteras virtuales y cualquier
+ otro activo financiero, ya sean presentes o futuros, por la suma
+-de PESOS SIETE MILLONES SETECIENTOS VEINTE
++de pesos SIETE MILLONES SETECIENTOS VEINTE
+ MIL CUATROCIENTOS CINCUENTA Y NUEVE CON
+ CINCUENTA Y SIETE CENTAVOS ($7.720.459,57), con más la
+-suma de PESOS UN MILLON QUINIENTOS MIL ($1.500.000). Las
+-sumas resultantes deberán depositarse en la cuenta abierta en el Banco
++suma de pesos UN MILLON QUINIENTOS MIL ($1.500.000). Las
++sumas resultantes deberán depositarse en la cuenta abierta en el banco
+ de la Nación Argentina, Sucursal Tribunales, a nombre de estos autos
+ y a la orden de este juzgado, n* 9989744557, CBU
+ 0110025950099897445578, debiendo comunicar al Tribunal la traba
+@@ -49,13 +44,13 @@
+ 11279194 3849306869220260311125510861
+ 
+ El auto que ordena la medida en su parte pertinente dice ""
+-Buenos Aires 3 de diciembre de 2025. AUTOS Y VISTOS: (...) Sin
++Buenos Aires 3 de diciembre de 2025. autos Y VISTOS: (.) Sin
+ perjuicio de ello, de conformidad con lo previsto por el art. 550
+ CCyC, que prevé la traba de medidas cautelares para asegurar el pago
+ de alimentos futuros, provisionales, definitivos o convenidos, por la
+-suma de PESOS SIETE MILLONES SETECIENTOS VEINTE MIL
++suma de pesos SIETE MILLONES SETECIENTOS VEINTE MIL
+ CUATROCIENTOS CINCUENTA Y NUEVE CON CINCUENTA
+-Y SIETE CENTAVOS ($7.720.459,57), con más la suma de PESOS
++Y SIETE CENTAVOS ($7.720.459,57), con más la suma de pesos
+ UN MILLON QUINIENTOS MIL ($1.500.000) que se presupuestan
+ provisoriamente para responder a intereses y costas, trábese embargo
+ sobre los fondos pertenecientes al demandado, Sr.
+@@ -64,12 +59,12 @@
+ República, ya sea sobre fondos y valores depositados en cuenta
+ corriente, caja de ahorro, inversiones a plazo fijo, cuentas títulos,
+ billeteras virtuales y cualquier otro activo financiero, ya sean
+-presentes o futuros. (...) Las sumas resultantes deberán depositarse
+-en la cuenta abierta en el Banco de la Nación Argentina, Sucursal
++presentes o futuros. (.) Las sumas resultantes deberán depositarse
++en la cuenta abierta en el banco de la Nación Argentina, Sucursal
+ Tribunales, a nombre de estos autos y a la orden de este juzgado, n*
+-9989744557, CBU 0110025950099897445578. (...) líbrese oficio a
+-Mercado Pago Assetmanagement SA y Mercado Libre. (...)"". Fdo:
++9989744557, CBU 0110025950099897445578. (.) líbrese oficio a
++Mercado Pago Assetmanagement SA y Mercado Libre. (.)"". Fdo:
+ Myriam M. Cataldi. Jueza Nacional en lo Civil. Buenos Aires, de 2
+ febrero de 2026.- En atención a lo solicitado y lo que surge de la
+[...] diff truncado"
+543050,Embargo - usuario,0.9183744642310036,legible,4379,4337,0.00959123087462891,"TEXTO Y DATOS DE LA NOTIFICACIÓN
+
+[
+| Usuario conectado:
+
+MINGIACA GABRIEL ALEJANDRO - 202610119308 nofificaciones.scba.gov.ar
+
+| Organismo: JUZGADO DE FAMILIA N? 5 - SAN ISIDRO
+| Carátula: MUGUILLO GERVASIO CAMILA SOLEDAD C/ GOMEZ DIEGO JAVIER S/ EJ
+| SENTENCIA 1
+Número de causa: SI-38561-2022 ¡
+Tipo de notificación: OFICIO ELECTRONICO A |
+Destinatarios: 20261011930Qnotificaciones.scba.gov.ar
+Fecha notificación: 13/3/2026
+Alta o disponibilidad 42/3/2026 12:20:08 ARE A
+Firma digital: Firma válida | RECIBIDO
+Firmado y Notificado por: ELHELOU Fernando Gabriel. SECRETARIO — Certificado Correcto. Fecha de Firma: 12/03/2026
+12:20:05
+Firmado por: ELHELOU Fernando Gabriel. SECRETARIO — Certificado Correcto. Fecha de Firma: 12/03/2026
+12:20:04
+
+OFICIO
+
+San Isidro, en fecha de firma electrónica.-
+
+MERCADO PAGO
+SID
+
+Tengo el agrado de dirigirme a Ud. en relación a los autos caratulados ""MUGUILLO GERVASIO
+CAMILA SOLEDAD C/ GOMEZ DIEGO JAVIER S/ EJECUCION DE SENTENCIA"" Expte: SI - 38561 - 2022, en
+| trámite por ante el Juzgado de Familia N* 5, Departamento Judicial de San Isidro, a cargo de la Dra. GRILLO
+¡Juana Maria - JUEZ, Secretaría única, a cargo de los Dres, María Sol Bacman Ravera y Fernando Gabriel
+¡Elhelou, sito en Av. Centenario 1860, San Isidro, Provincia de Buenos Aires, con domicilio electrónico:
+juzfam5-siOjusbuenosaires.gov.ar, a los fines de solicitarle la traba de embargo en relación al Sr. DIEGO
+JAVIER GOMEZ, DNI N? 27.270.953, en la billetera virtual Mercado Pago (CVU 
+[...]","TEXTO Y DATOS DE LA NOTIFICACIÓN
+
+[| Usuario conectado:
+
+MINGIACA GABRIEL ALEJANDRO - 202610119308 nofificaciones.scba.gov.ar
+
+| Organismo: juzgado DE FAMILIA N? 5 - SAN ISIDRO
+| carátula: MUGUILLO GERVASIO CAMILA SOLEDAD C/ GOMEZ DIEGO JAVIER S/ EJ
+| sentencia 1
+Número de causa: SI-38561-2022 ¡
+Tipo de notificación: OFICIO ELECTRONICO A |
+Destinatarios: 20261011930Qnotificaciones.scba.gov.ar
+Fecha notificación: 13/3/2026
+Alta o disponibilidad 42/3/2026 12:20:08 ARE A
+Firma digital: Firma válida | RECIBIDO
+Firmado y Notificado por: ELHELOU Fernando Gabriel. SECRETARIO - Certificado Correcto. Fecha de Firma: 12/03/2026
+12:20:05
+Firmado por: ELHELOU Fernando Gabriel. SECRETARIO - Certificado Correcto. Fecha de Firma: 12/03/2026
+12:20:04
+
+OFICIO
+
+San Isidro, en fecha de firma electrónica.-
+
+MERCADO PAGO
+SID
+
+Tengo el agrado de dirigirme a Ud. en relación a los autos caratulados ""MUGUILLO GERVASIO
+CAMILA SOLEDAD C/ GOMEZ DIEGO JAVIER S/ EJECUCION DE sentencia"" expediente: SI - 38561 - 2022, en
+| trámite por ante el juzgado de Familia N* 5, Departamento Judicial de San Isidro, a cargo de la Dra. GRILLO
+¡Juana Maria - JUEZ, secretaría única, a cargo de los Dres, María Sol Bacman Ravera y Fernando Gabriel
+¡Elhelou, sito en Av. Centenario 1860, San Isidro, Provincia de Buenos Aires, con domicilio electrónico:
+juzfam5-siOjusbuenosaires.gov.ar, a los fines de solicitarle la traba de embargo en relación al Sr. DIEGO
+JAVIER GOMEZ, DNI N? 27.270.953, en la billetera virtual Mercado Pago (
+[...]","--- antes
++++ despues
+@@ -1,22 +1,21 @@
+ TEXTO Y DATOS DE LA NOTIFICACIÓN
+ 
+-[
+-| Usuario conectado:
++[| Usuario conectado:
+ 
+ MINGIACA GABRIEL ALEJANDRO - 202610119308 nofificaciones.scba.gov.ar
+ 
+-| Organismo: JUZGADO DE FAMILIA N? 5 - SAN ISIDRO
+-| Carátula: MUGUILLO GERVASIO CAMILA SOLEDAD C/ GOMEZ DIEGO JAVIER S/ EJ
+-| SENTENCIA 1
++| Organismo: juzgado DE FAMILIA N? 5 - SAN ISIDRO
++| carátula: MUGUILLO GERVASIO CAMILA SOLEDAD C/ GOMEZ DIEGO JAVIER S/ EJ
++| sentencia 1
+ Número de causa: SI-38561-2022 ¡
+ Tipo de notificación: OFICIO ELECTRONICO A |
+ Destinatarios: 20261011930Qnotificaciones.scba.gov.ar
+ Fecha notificación: 13/3/2026
+ Alta o disponibilidad 42/3/2026 12:20:08 ARE A
+ Firma digital: Firma válida | RECIBIDO
+-Firmado y Notificado por: ELHELOU Fernando Gabriel. SECRETARIO — Certificado Correcto. Fecha de Firma: 12/03/2026
++Firmado y Notificado por: ELHELOU Fernando Gabriel. SECRETARIO - Certificado Correcto. Fecha de Firma: 12/03/2026
+ 12:20:05
+-Firmado por: ELHELOU Fernando Gabriel. SECRETARIO — Certificado Correcto. Fecha de Firma: 12/03/2026
++Firmado por: ELHELOU Fernando Gabriel. SECRETARIO - Certificado Correcto. Fecha de Firma: 12/03/2026
+ 12:20:04
+ 
+ OFICIO
+@@ -27,25 +26,25 @@
+ SID
+ 
+ Tengo el agrado de dirigirme a Ud. en relación a los autos caratulados ""MUGUILLO GERVASIO
+-CAMILA SOLEDAD C/ GOMEZ DIEGO JAVIER S/ EJECUCION DE SENTENCIA"" Expte: SI - 38561 - 2022, en
+-| trámite por ante el Juzgado de Familia N* 5, Departamento Judicial de San Isidro, a cargo de la Dra. GRILLO
+-¡Juana Maria - JUEZ, Secretaría única, a cargo de los Dres, María Sol Bacman Ravera y Fernando Gabriel
++CAMILA SOLEDAD C/ GOMEZ DIEGO JAVIER S/ EJECUCION DE sentencia"" expediente: SI - 38561 - 2022, en
++| trámite por ante el juzgado de Familia N* 5, Departamento Judicial de San Isidro, a cargo de la Dra. GRILLO
++¡Juana Maria - JUEZ, secretaría única, a cargo de los Dres, María Sol Bacman Ravera y Fernando Gabriel
+ ¡Elhelou, sito en Av. Centenario 1860, San Isidro, Provincia de Buenos Aires, con domicilio electrónico:
+ juzfam5-siOjusbuenosaires.gov.ar, a los fines de solicitarle la traba de embargo en relación al Sr. DIEGO
+ JAVIER GOMEZ, DNI N? 27.270.953, en la billetera virtual Mercado Pago (CVU 0000003100087743731453) por la
+-suma de $14.309.175 (PESOS CATORCE MILLONES TRESCIENTOS NUEVE MIL CIENTO SETENTA Y CINCO),
+-con más la suma de $7.200.000 (PESOS SIETE MILLONES DOCIENTOS MIL) presupuestada prima facie para
++suma de $14.309.175 (pesos CATORCE MILLONES TRESCIENTOS NUEVE MIL CIENTO SETENTA Y CINCO),
++con más la suma de $7.200.000 (pesos SIETE MILLONES DOCIENTOS MIL) presupuestada prima facie para
+ responde a intereses y costas del presente juicio, haciendo saber que dichos importes deberán ser depositados en
+-la cuenta judicial a orden de este Juzgado: BANCO PROVINCIA DE BUENOS AIRES. SUC.5099-SAN ISIDRO-
+-BANCO PROVINCIA BS AS. CUIT PODER JUDICIAL 30707216650. CBU: 0140136927509993898056.
++la cuenta judicial a orden de este juzgado: banco PROVINCIA DE BUENOS AIRES. SUC.5099-SAN ISIDRO-
++banco PROVINCIA BS AS. CUIT PODER JUDICIAL 30707216650. CBU: 0140136927509993898056.
+ Transcripción del auto que ordena la presente medida, en su parte pertinente: ""San Isidro,
+ [26/02/2026.- Atento lo expuesto y conforme lo peticionado, siendo exacto lo señalado por la actora respecto a la
+ [inexistencia de fondos depositados en la cuenta judicial de autos (se adjunta constancia), ampliáse el
+ embargo que fuera trabado por resolución del 24/10/2025 sobre los fondos que por cualquier concepto posea el
+ [demandado -en el presente o futuro- en la billetera virtual de Mercado Pago (CVU 0000003100087743731453),
+ debiendo las sumas retenidas ser depositadas en la cuenta judicial abierta a nombre de autos y a la orden de este
+-Juzgado, en el Banco de la Provincia de Buenos Aires, Sucursal Tribunales de San Isidro
++juzgado, en el banco de la Provincia de Buenos Aires, Sucursal Tribunales de San Isidro
+ (CBÚ 0140136927509993898056), hasta cubrir la suma de $14.309.175 (pesos catorce millones trescientos nueve
+ mil ciento setenta y cinco), con más la suma de $7.200.000 (pesos siete millones docientos mil)
+-presupuestada prima facie para responde a intereses y
++presupuestada prima facie para responde a interes
+ [...]"
+518820,Embargo - usuario,0.8597392682797453,legible,3025,3012,0.004297520661157025,"a (la
+, CART, . DOCUMENTO
+DESTINATARIO
+Primera Instancia
+Comercial N* 9 MERCADO LIBRE S.R.L.
+13
+DOMICILIO
+1 == >= — yda. € s N* 3039, Piso 2
+Ez X= =WX= | LOCALIDAD PROVINGA
+pe == =.1= 264A4 Ciudad Autónoma
+Y [
+
+omcloreiliarmano.S..
+| s. que en los autos caratulados ""REZZET MA CIELO C/ GIECO ORLANDO MN
+(Expte. N* 5013), en trámite por ante el ÓN do de Primera Instancia en lo Civil y
+lraná, Provincia de Entre Ríos, a cargo del Dr. Angel Luis MOIA, Secretaría N* 2 Ni [)
+W ha dispuesto librar el presente fin de informar que se ha decretado EMBARGO contfa
+| .UL LT. N9 20-26858525-8, sobre los fondos ph ah y futuros que por cualquier concdp
+en cal ¡ente hasta cubrir la suma total reclamada de hi 333.240,47, con más la de $ 1,30
+provisd riamente intereses y costas; lo que hace un total de PESOS UN MILLON SEISCIENTOS C A
+MIL E SENTA Y DOS CON TREINTA Y UN CENTAVOS ($ 1.641.162,31), la que deberá
+i I| Nuevo Banco de Entre Ríos S.A. - py od Tribunales, Cuenta N* 62-208
+0894723, como Lain al a estos autos y a A rden de S.S.--
+ordenan el presente, en sus partes RAIN Y ""PARANA, 6 de noviembre de
+y edtrónica de fecha 04.11.2024, 09:32 hs.: Atento a lo manifestado, lo peticionado en k ]
+'proved| y. exclusiva responsabilidad, decrétase embargo contra el ejecutado Orlando Jesús ( UIT. 20-
+268587 8, 4 M e hará efectivo sobre los actuales y ANS hd por cualquier concepto el referido vupidaido pudiere
+
+b diere t er,
+84 estimada
+
+Jesús
+
+Ñ Í Q
+E tener e MERC ROM da LIBRE 8, R.L., CUIT 30-70308853-4
+[...]","a (la, CART,. DOCUMENTO
+DESTINATARIO
+Primera Instancia
+Comercial N* 9 MERCADO LIBRE S.R.L.
+13
+DOMICILIO
+1 == >= - yda. € s N* 3039, Piso 2
+Ez X= =WX= | LOCALIDAD PROVINGA
+pe == =.1= 264A4 Ciudad Autónoma
+Y [omcloreiliarmano.S..
+| s. que en los autos caratulados ""REZZET MA CIELO C/ GIECO ORLANDO MN
+(expediente. N* 5013), en trámite por ante el ÓN do de Primera Instancia en lo Civil y
+lraná, Provincia de Entre Ríos, a cargo del Dr. Angel Luis MOIA, secretaría N* 2 Ni [)
+W ha dispuesto librar el presente fin de informar que se ha decretado embargo contfa
+|.UL LT. N9 20-26858525-8, sobre los fondos ph ah y futuros que por cualquier concdp
+en cal ¡ente hasta cubrir la suma total reclamada de hi 333.240,47, con más la de $ 1,30
+provisd riamente intereses y costas; lo que hace un total de pesos UN MILLON SEISCIENTOS C A
+MIL E SENTA Y DOS CON TREINTA Y UN CENTAVOS ($ 1.641.162,31), la que deberá
+i I| Nuevo banco de Entre Ríos S.A. - py od Tribunales, cuenta N* 62-208
+0894723, como Lain al a estos autos y a A rden de S.S.--
+ordenan el presente, en sus partes RAIN Y ""PARANA, 6 de noviembre de
+y edtrónica de fecha 04.11.2024, 09:32 hs.: Atento a lo manifestado, lo peticionado en k]
+'proved| y. exclusiva responsabilidad, decrétase embargo contra el ejecutado Orlando Jesús (UIT. 20-
+268587 8, 4 M e hará efectivo sobre los actuales y ANS hd por cualquier concepto el referido vupidaido pudiere
+
+b diere t er,
+84 estimada
+
+Jesús
+
+Ñ Í Q
+E tener e MERC ROM da LIBRE 8, R.L., CUIT 30-70308853-4, 
+[...]","--- antes
++++ despues
+@@ -1,29 +1,26 @@
+-a (la
+-, CART, . DOCUMENTO
++a (la, CART,. DOCUMENTO
+ DESTINATARIO
+ Primera Instancia
+ Comercial N* 9 MERCADO LIBRE S.R.L.
+ 13
+ DOMICILIO
+-1 == >= — yda. € s N* 3039, Piso 2
++1 == >= - yda. € s N* 3039, Piso 2
+ Ez X= =WX= | LOCALIDAD PROVINGA
+ pe == =.1= 264A4 Ciudad Autónoma
+-Y [
+-
+-omcloreiliarmano.S..
++Y [omcloreiliarmano.S..
+ | s. que en los autos caratulados ""REZZET MA CIELO C/ GIECO ORLANDO MN
+-(Expte. N* 5013), en trámite por ante el ÓN do de Primera Instancia en lo Civil y
+-lraná, Provincia de Entre Ríos, a cargo del Dr. Angel Luis MOIA, Secretaría N* 2 Ni [)
+-W ha dispuesto librar el presente fin de informar que se ha decretado EMBARGO contfa
+-| .UL LT. N9 20-26858525-8, sobre los fondos ph ah y futuros que por cualquier concdp
++(expediente. N* 5013), en trámite por ante el ÓN do de Primera Instancia en lo Civil y
++lraná, Provincia de Entre Ríos, a cargo del Dr. Angel Luis MOIA, secretaría N* 2 Ni [)
++W ha dispuesto librar el presente fin de informar que se ha decretado embargo contfa
++|.UL LT. N9 20-26858525-8, sobre los fondos ph ah y futuros que por cualquier concdp
+ en cal ¡ente hasta cubrir la suma total reclamada de hi 333.240,47, con más la de $ 1,30
+-provisd riamente intereses y costas; lo que hace un total de PESOS UN MILLON SEISCIENTOS C A
++provisd riamente intereses y costas; lo que hace un total de pesos UN MILLON SEISCIENTOS C A
+ MIL E SENTA Y DOS CON TREINTA Y UN CENTAVOS ($ 1.641.162,31), la que deberá
+-i I| Nuevo Banco de Entre Ríos S.A. - py od Tribunales, Cuenta N* 62-208
++i I| Nuevo banco de Entre Ríos S.A. - py od Tribunales, cuenta N* 62-208
+ 0894723, como Lain al a estos autos y a A rden de S.S.--
+ ordenan el presente, en sus partes RAIN Y ""PARANA, 6 de noviembre de
+-y edtrónica de fecha 04.11.2024, 09:32 hs.: Atento a lo manifestado, lo peticionado en k ]
+-'proved| y. exclusiva responsabilidad, decrétase embargo contra el ejecutado Orlando Jesús ( UIT. 20-
++y edtrónica de fecha 04.11.2024, 09:32 hs.: Atento a lo manifestado, lo peticionado en k]
++'proved| y. exclusiva responsabilidad, decrétase embargo contra el ejecutado Orlando Jesús (UIT. 20-
+ 268587 8, 4 M e hará efectivo sobre los actuales y ANS hd por cualquier concepto el referido vupidaido pudiere
+ 
+ b diere t er,
+@@ -33,8 +30,8 @@
+ 
+ Ñ Í Q
+ E tener e MERC ROM da LIBRE 8, R.L., CUIT 30-70308853-4, con icilio en Avda. Caseros N* 3039, Pisp|2P|de CABA, en S
+-S 'cantid dj sufidid d Ihre hasta cubrir la suma total reclamada de PESOS TRESCIENTOS TREINTA Y T, ISCIENTOS
+-E CUARENTA a A q UARENTA Y SIETE CENTAVOS (8 333.240,47) con mas PESOS UN MILLON (Y ÑOS Abs =
++S 'cantid dj sufidid d Ihre hasta cubrir la suma total reclamada de pesos TRESCIENTOS TREINTA Y T, ISCIENTOS
++E CUARENTA a A q UARENTA Y SIETE CENTAVOS (8 333.240,47) con mas pesos UN MILLON (Y ÑOS Abs =
+ BS MIL precia TO VEINTIUNO CON OCHENTA y CUATRO CENTAVOS (8 1.307.921,54) esthad y 2
+ 
+ Vente] intereses Y costas, la que deberá depositarse en cuenta judicial en la Sucursal Tribunales del
+@@ -48,33 +45,31 @@
+ 
+ 59 (92.0. 0:21 hs.-: Atento a lo manifestado, lo peticionado por la accionante, ya los fines okde
+ 
+-¡ ! e] nuevo ofi cio Ley 22.172 correspondiente ¡para la toma de razón, quedando)
++¡! e] nuevo ofi cio Ley 22.172 correspondiente ¡para la toma de razón, quedando)
+ 
+ Teriateresada, quien deberá, asimismo, subirlo por módulo de RT
+ 
+ E le correspondez-."" Edo.: Ángel Luis Moia - Juez. === 1
+ a CERINI y/o el profesional que ella designe se encuentran facu adds para d 14 p
+ 
+-AJúda : a Uds. muy ns ; - eS £ 2. p-!
++AJúda: a Uds. muy ns; - eS £ 2. p-!
+ 
+ CLIENTE CORPORATIVO
+ 
+ OLLS080LOy
+ 
+-E 20360757232 ||
+-
+-? ANA
++E 20360757232 ||? ANA
+ 2 corra
+ 
+-AA
+[...] diff truncado"
+538081,Embargo - usuario,0.9476720848950427,legible,5717,5697,0.0034983382893125766,"8 UN 00000
+100009755236
+
+PODER JUDICIAL DE LA NACION
+DIRECCIÓN GENERAL DE NOTIFICACIONES
+
+CARATULA DE NOTIFICACION
+Origen: JUZGADO EN LO CIVIL Y COMERCIAL N*10 - MAR DEL PL
+Destinatario: MERCADO PAGO ASSET MANAGEMENT S.A.
+Dirección: CASEROS AV. 3039 2
+Caracter: Común
+Expediente: MP-1493-2026
+CHIAMINO WALTER RICARDO C/ BIERNVERT CLAUDIA
+nJo3|z6 ZONA 0034
+EZ A
+
+INFORME DEL OFICIAL NOTIFICADOR ——— IgM A
+
+CC Fecha de recepción en Ofic../
+Deleg. o Juzgado de Paz
+
+PODER JUDICIAL PROVINCIA DE BUENOS
+AIRES
+Sello del
+
+CEDULA
+Organo
+
+Nombre del Organo JUZGADO CIVIL Y COMERCIAL N* 10- MAR DEL
+
+PLATA
+
+Domicilio del Organo Almirante Brown Nro: 1771, MAR DEL PLATA
+Nombre del
+Requerido MERCADO PAGO ASSET MANAGEMENT S.A.
+DOMICILIO: AV, CASEROS NRO; 3039
+
+1[o3 [26
+
+11.00 hh LOCALIDAD/PARTIDO:
+PISO DTO. UNIDAD CIUDAD AUTONOMA DE
+
+BUENOS AIRES
+
+TIPO DE DOMICILIO (Indicar por SI - NO según corresponda
+
+Denunciado SI Constituido NO
+
+: RECIBIDO
+CARÁCTER (Indicar por SI - NO según Po e
+
+Y/O HABILITACION DE DIA Y NO
+HORA
+
+URGENTE NO
+OBSERVACIONES ESPECIALES
+
+(Traslado de demanda - Art.94CPCC- Art.524 CPCC - Bajo responsabilidad de la
+parte)
+
+(testar lo que no corresponda)
+
+JS CIVIL Y MAR DEL [NO
+COMERCIAL | PLATA — onias
+TO A A EA HA A AA
+o
+re Expte. NeÍZONA ÍFUERO No e DEP. JUD. es PERSONAL
+
+NOTIFICO a Ud, que en el expediente caratulado FT
+WALTER RICARDO C/ BIERNVERT CLAUDIA CARINA S/ COBRO
+EJECUTIVO (Expte. N* MP - 1493- 2026)""
+
+que tramita por ante este órgano, se ha resuelto: ""Funcionario
+Firma
+[...]","8 UN 00000
+100009755236
+
+PODER JUDICIAL DE LA NACION
+DIRECCIÓN GENERAL DE NOTIFICACIONES
+
+carátula DE NOTIFICACION
+Origen: juzgado EN LO CIVIL Y COMERCIAL N*10 - MAR DEL PL
+Destinatario: MERCADO PAGO ASSET MANAGEMENT S.A.
+Dirección: CASEROS AV. 3039 2
+Caracter: Común
+expediente: MP-1493-2026
+CHIAMINO WALTER RICARDO C/ BIERNVERT CLAUDIA
+nJo3|z6 ZONA 0034
+EZ A
+
+INFORME DEL OFICIAL NOTIFICADOR --- IgM A
+
+CC Fecha de recepción en Ofic../
+Deleg. o juzgado de Paz
+
+PODER JUDICIAL PROVINCIA DE BUENOS
+AIRES
+Sello del
+
+CEDULA
+Organo
+
+Nombre del Organo juzgado CIVIL Y COMERCIAL N* 10- MAR DEL
+
+PLATA
+
+Domicilio del Organo Almirante Brown Nro: 1771, MAR DEL PLATA
+Nombre del
+Requerido MERCADO PAGO ASSET MANAGEMENT S.A.
+DOMICILIO: AV, CASEROS NRO; 3039
+
+1[o3 [26
+
+11.00 hh LOCALIDAD/PARTIDO:
+PISO DTO. UNIDAD CIUDAD AUTONOMA DE
+
+BUENOS AIRES
+
+TIPO DE DOMICILIO (Indicar por SI - NO según corresponda
+
+Denunciado SI Constituido NO: RECIBIDO
+CARÁCTER (Indicar por SI - NO según Po e
+
+Y/O HABILITACION DE DIA Y NO
+HORA
+
+URGENTE NO
+OBSERVACIONES ESPECIALES
+
+(Traslado de demanda - Art.94CPCC- Art.524 CPCC - Bajo responsabilidad de la
+parte)
+
+(testar lo que no corresponda)
+
+JS CIVIL Y MAR DEL [NO
+COMERCIAL | PLATA - onias
+TO A A EA HA A AA
+re expediente. NeÍZONA ÍFUERO No e DEP. JUD. es PERSONAL
+
+NOTIFICO a Ud, que en el expediente caratulado FT
+WALTER RICARDO C/ BIERNVERT CLAUDIA CARINA S/ COBRO
+EJECUTIVO (expediente. N* MP - 1493- 2026)""
+
+que tramita por ante este órgano, se ha resuelto: ""Funcionario
+[...]","--- antes
++++ despues
+@@ -4,20 +4,20 @@
+ PODER JUDICIAL DE LA NACION
+ DIRECCIÓN GENERAL DE NOTIFICACIONES
+ 
+-CARATULA DE NOTIFICACION
+-Origen: JUZGADO EN LO CIVIL Y COMERCIAL N*10 - MAR DEL PL
++carátula DE NOTIFICACION
++Origen: juzgado EN LO CIVIL Y COMERCIAL N*10 - MAR DEL PL
+ Destinatario: MERCADO PAGO ASSET MANAGEMENT S.A.
+ Dirección: CASEROS AV. 3039 2
+ Caracter: Común
+-Expediente: MP-1493-2026
++expediente: MP-1493-2026
+ CHIAMINO WALTER RICARDO C/ BIERNVERT CLAUDIA
+ nJo3|z6 ZONA 0034
+ EZ A
+ 
+-INFORME DEL OFICIAL NOTIFICADOR ——— IgM A
++INFORME DEL OFICIAL NOTIFICADOR --- IgM A
+ 
+ CC Fecha de recepción en Ofic../
+-Deleg. o Juzgado de Paz
++Deleg. o juzgado de Paz
+ 
+ PODER JUDICIAL PROVINCIA DE BUENOS
+ AIRES
+@@ -26,7 +26,7 @@
+ CEDULA
+ Organo
+ 
+-Nombre del Organo JUZGADO CIVIL Y COMERCIAL N* 10- MAR DEL
++Nombre del Organo juzgado CIVIL Y COMERCIAL N* 10- MAR DEL
+ 
+ PLATA
+ 
+@@ -44,9 +44,7 @@
+ 
+ TIPO DE DOMICILIO (Indicar por SI - NO según corresponda
+ 
+-Denunciado SI Constituido NO
+-
+-: RECIBIDO
++Denunciado SI Constituido NO: RECIBIDO
+ CARÁCTER (Indicar por SI - NO según Po e
+ 
+ Y/O HABILITACION DE DIA Y NO
+@@ -61,42 +59,41 @@
+ (testar lo que no corresponda)
+ 
+ JS CIVIL Y MAR DEL [NO
+-COMERCIAL | PLATA — onias
++COMERCIAL | PLATA - onias
+ TO A A EA HA A AA
+-o
+-re Expte. NeÍZONA ÍFUERO No e DEP. JUD. es PERSONAL
++re expediente. NeÍZONA ÍFUERO No e DEP. JUD. es PERSONAL
+ 
+ NOTIFICO a Ud, que en el expediente caratulado FT
+ WALTER RICARDO C/ BIERNVERT CLAUDIA CARINA S/ COBRO
+-EJECUTIVO (Expte. N* MP - 1493- 2026)""
++EJECUTIVO (expediente. N* MP - 1493- 2026)""
+ 
+ que tramita por ante este órgano, se ha resuelto: ""Funcionario
+ Firmante 11/02/2026 13:01:47 - TONTO Mariana Lucia -
+ 
+-JUEZ - (...) 5. En atención a lo solicitado, bajo responsabilidad del
++JUEZ - (.) 5. En atención a lo solicitado, bajo responsabilidad del
+ peticionante, trábese embargo sobre las sumas de dinero que tenga
+ el ejecutado en su cuenta de Mercado Pago (Mercado Libre SRL) hasta
+ cubrir las sumas supra indicadas, a cuyo fin Notifíquese. En este
+ sentido, aclárese que: a) de contar la demandada con una o varias
+ cuentas bancarias asociadas a la billetera virtual, previo a trabar el
+ embargo sobre esta última deberá Mercado Pago (Mercado Libre SRL)
+-comunicar al Juzgado los datos de las mismas a los fines de que la
++comunicar al juzgado los datos de las mismas a los fines de que la
+ medida cautelar se haga efectiva sobre las cuentas bancarias en
+-cuestión con orden desde este Juzgado. b) caso contrario -esto es, de
++cuestión con orden desde este juzgado. b) caso contrario -esto es, de
+[...] diff truncado"
+522288,Embargo - usuario,0.9233984085386889,legible,7517,7485,0.0042570174271650925,"TITZIZO, 9:95 | TEXTO Y DATOS DE LA NOTIFICACIÓN - SUPREMA CORTE DE JUSTICIA - NOTIFICACIONES ELEGTRÓNICAS
+TEXTO Y DATOS DE LA NOTIFICACIÓN
+
+BURRONI Edgar Jose - 20129293641 Qhnotificaciones.scba.gov.ar
+TRIBUNAL DEL TRABAJO N* 3 - BRAGADO
+
+— E TILIO GONZALO MATIAS C/ GIL GUSTAVO MANUEL S/ EJECUCION D
+20280 | A
+otififación: OFICIO RECIBIDO
+
+20129293641 Gnotificaciones.scba.gov.ar
+13/2/2026 E
+10/2/2026 13:41:04
+Firma válida
+
+0.
+
+q
+
+Bragado 05 de febrero de 2026.-
+
+AL HEÑOR|GERENTE
+MERCADO] PAGO
+
+Avenida pseros n"" 3039, Piso 2?
+Ciudad A ¡prema de Buenos Aires (C1264AKK)
+AD)
+
+Tego e "" do de da: a Ud. el presente con relación a los autos caratuladp
+
+GONZALO) MATIASC/ GIL GUSTAVO MANUEL S/ EJECUCIÓN DE CONVENIO"" Expté.| NP 20280
+enltrámite[ por ante el Tribunal del Trabajo n* 3 de Bragado, Departamento Judicial d cedes
+(B], Secrétaría Única, a efectos de que proceda a si ha tomado razón de edida
+calitelar didenada con fecha 04/09/25 en los autos del rubro, la cual ha sido recepciohada el día
+28/10/25. El auto que ordenara dicha medida dice: ""/Igado, en la fecha indicada en lajaofista cia
+de la firma digital.- AUTOS Y VISTOS: ... Como se pide en la presentación] |de fecha
+28/08/28 ||detretase embargo sobre las sumas depositadas y/o futuras a depopilarise Al
+cualquierlcontepto que posea el demandado en MERCADO PAGO, figurando el mismó foma GIL
+GUSTAVO (CUIT N"" 23-20026643-9), con domicilio en calle Pellegrini N* 1880, de la cividad de
+Bragado | Pcla de Es As. y/o con el nombre de fan
+[...]","TITZIZO, 9:95 | TEXTO Y DATOS DE LA NOTIFICACIÓN - SUPREMA CORTE DE JUSTICIA - NOTIFICACIONES ELEGTRÓNICAS
+TEXTO Y DATOS DE LA NOTIFICACIÓN
+
+BURRONI Edgar Jose - 20129293641 Qhnotificaciones.scba.gov.ar
+TRIBUNAL DEL TRABAJO N* 3 - BRAGADO
+
+- E TILIO GONZALO MATIAS C/ GIL GUSTAVO MANUEL S/ EJECUCION D
+20280 | A
+otififación: OFICIO RECIBIDO
+
+20129293641 Gnotificaciones.scba.gov.ar
+13/2/2026 E
+10/2/2026 13:41:04
+Firma válida
+
+0.
+
+Bragado 05 de febrero de 2026.-
+
+AL HEÑOR|GERENTE
+MERCADO] PAGO
+
+Avenida pseros n"" 3039, Piso 2?
+Ciudad A ¡prema de Buenos Aires (C1264AKK)
+AD)
+
+Tego e "" do de da: a Ud. el presente con relación a los autos caratuladp
+
+GONZALO) MATIASC/ GIL GUSTAVO MANUEL S/ EJECUCIÓN DE CONVENIO"" Expté.| NP 20280
+enltrámite[por ante el Tribunal del Trabajo n* 3 de Bragado, Departamento Judicial d cedes
+(B], Secrétaría Única, a efectos de que proceda a si ha tomado razón de edida
+calitelar didenada con fecha 04/09/25 en los autos del rubro, la cual ha sido recepciohada el día
+28/10/25. El auto que ordenara dicha medida dice: ""/Igado, en la fecha indicada en lajaofista cia
+de la firma digital.- autos Y VISTOS: Como se pide en la presentación] |de fecha
+28/08/28 ||detretase embargo sobre las sumas depositadas y/o futuras a depopilarise Al
+cualquierlcontepto que posea el demandado en MERCADO PAGO, figurando el mismó foma GIL
+GUSTAVO (CUIT N"" 23-20026643-9), con domicilio en calle Pellegrini N* 1880, de la cividad de
+Bragado | Pcla de Es As. y/o con el nombre de fantasía de
+[...]","--- antes
++++ despues
+@@ -4,7 +4,7 @@
+ BURRONI Edgar Jose - 20129293641 Qhnotificaciones.scba.gov.ar
+ TRIBUNAL DEL TRABAJO N* 3 - BRAGADO
+ 
+-— E TILIO GONZALO MATIAS C/ GIL GUSTAVO MANUEL S/ EJECUCION D
++- E TILIO GONZALO MATIAS C/ GIL GUSTAVO MANUEL S/ EJECUCION D
+ 20280 | A
+ otififación: OFICIO RECIBIDO
+ 
+@@ -14,8 +14,6 @@
+ Firma válida
+ 
+ 0.
+-
+-q
+ 
+ Bragado 05 de febrero de 2026.-
+ 
+@@ -29,11 +27,11 @@
+ Tego e "" do de da: a Ud. el presente con relación a los autos caratuladp
+ 
+ GONZALO) MATIASC/ GIL GUSTAVO MANUEL S/ EJECUCIÓN DE CONVENIO"" Expté.| NP 20280
+-enltrámite[ por ante el Tribunal del Trabajo n* 3 de Bragado, Departamento Judicial d cedes
++enltrámite[por ante el Tribunal del Trabajo n* 3 de Bragado, Departamento Judicial d cedes
+ (B], Secrétaría Única, a efectos de que proceda a si ha tomado razón de edida
+ calitelar didenada con fecha 04/09/25 en los autos del rubro, la cual ha sido recepciohada el día
+ 28/10/25. El auto que ordenara dicha medida dice: ""/Igado, en la fecha indicada en lajaofista cia
+-de la firma digital.- AUTOS Y VISTOS: ... Como se pide en la presentación] |de fecha
++de la firma digital.- autos Y VISTOS: Como se pide en la presentación] |de fecha
+ 28/08/28 ||detretase embargo sobre las sumas depositadas y/o futuras a depopilarise Al
+ cualquierlcontepto que posea el demandado en MERCADO PAGO, figurando el mismó foma GIL
+ GUSTAVO (CUIT N"" 23-20026643-9), con domicilio en calle Pellegrini N* 1880, de la cividad de
+@@ -57,11 +55,9 @@
+ 
+ Bragado [Pola de Bs As. yo con el nombre de fantasía de su comercio denominado ""La
+ Nueva Bragado Panadería"" (conf. art. 49, 63 y cc. de la Ley 15057, 500, 529 y cc. del |CPCC),-
+-Ménto del Juicio 5 JUS (valor del JUS al día de la fecha $ 42.219- ).- Asus efectos Jíbrese oficio
+-a MER 0 PAGO, a la dirección de correo electrónico notificacionesCHmercadolibra. ! ,|, para
++Ménto del Juicio 5 JUS (valor del JUS al día de la fecha $ 42.219-).- Asus efectos Jíbrese oficio
++a MER 0 PAGO, a la dirección de correo electrónico notificacionesCHmercadolibra.!,|, para.
+ 
+-.
+-
+-qué procege al transferir a una cuenta a abrirse en los presentes autos, a la orden de V.$. -Banco
+-de lla Provihcia de B.A.-, l
++qué procege al transferir a una cuenta a abrirse en los presentes autos, a la orden de V.$. -banco
++de lla Provihcia de B.A.-, las sumas arri
+ [...]"
+536721,Embargo - usuario,0.9032237639755604,legible,5285,5261,0.004541154210028382,"""TEXTO Y DATOS DE LA NOTIFICACIÓN
+
+Usuario conectado: SANCHEZ Sebastian Roberto - 202243582030 notificaciones.scba.gov.ar
+Organismo: JUZGADO EN LO CIVIL Y COMERCIAL N? 4 - SAN NICOLAS
+Carátula: _ NALDO LOMBARDI S.A. C/ MEDINA MIGUEL MARCELO S/CO!
+Número de causa: SN-12278-2018
+Tipo de notificación: 'OFICIO ELECTRONICO ——
+Destinatarios: 20224358203Qnotificaciones.scba.gov.ar
+Fecha notificación: 4/3/2026 13:15:28 : | 0 MAR 15
+Alta o disponibilidad 4/3/2026 13:15:32 | ¡o A
+Firma digital: Firma válida TOIBIDO
+ta :
+
+1
+j E CCAA
+Firmado y Notificado por: MUCILLI Luciano Eduardo. AUXILIAR LETRADO —- Centificádo Corrécto. Fec
+
+04/03/2026 13:15:31
+
+Firmado por: MUCILLI Luciano Eduardo. AUXILIAR LETRADO -- Certificado Correcto. Fecha de Firma:
+04/03/2026 13:15:30 SANCHEZ Sebastian Roberto. -— Certificado Correcto. Fecha de Firma:
+24/02/2026 09:58:02
+OFICIO JUDICIAL
+
+San Nicolás, de de 2026
+
+MERCADO PAGO S.A.
+
+Avenida Caseros 3039, Piso 2
+Ciudad Autónoma de Buenos Aires
+Tengo el agrado de dirigirme a Ud. en virtud de lo ordenado en los autos ""NALDO LOMBARDI S.A. C/ MEDINA
+MIGUEL MARCELO S/ COBRO EJECUTIVO"" (Expte. SN - 12278 - 2018), en trámite en el Juzgado de 1""
+Instancia en lo Civil y Comercial N* 4, Secretaría Única, del Departamento Judicial de San Nicolás, sito en calle
+Guardias Nacionales n* 47, PA, San Nicolás, Pcia. de Bs. AS., a los efectos de que se sirva tomar nota del
+EMBARGO EJECUTORIO que se ha decretado en autos, sobre los fondos y/o sumas de dinero, presentes y/o
+futuras
+[...]","""TEXTO Y DATOS DE LA NOTIFICACIÓN
+
+Usuario conectado: SANCHEZ Sebastian Roberto - 202243582030 notificaciones.scba.gov.ar
+Organismo: juzgado EN LO CIVIL Y COMERCIAL N? 4 - SAN NICOLAS
+carátula: _ NALDO LOMBARDI S.A. C/ MEDINA MIGUEL MARCELO S/CO!
+Número de causa: SN-12278-2018
+Tipo de notificación: 'OFICIO ELECTRONICO --
+Destinatarios: 20224358203Qnotificaciones.scba.gov.ar
+Fecha notificación: 4/3/2026 13:15:28: | 0 MAR 15
+Alta o disponibilidad 4/3/2026 13:15:32 | ¡o A
+Firma digital: Firma válida TOIBIDO
+ta:
+
+1
+j E CCAA
+Firmado y Notificado por: MUCILLI Luciano Eduardo. AUXILIAR LETRADO -- Centificádo Corrécto. Fec
+
+04/03/2026 13:15:31
+
+Firmado por: MUCILLI Luciano Eduardo. AUXILIAR LETRADO -- Certificado Correcto. Fecha de Firma:
+04/03/2026 13:15:30 SANCHEZ Sebastian Roberto. -- Certificado Correcto. Fecha de Firma:
+24/02/2026 09:58:02
+OFICIO JUDICIAL
+
+San Nicolás, de de 2026
+
+MERCADO PAGO S.A.
+
+Avenida Caseros 3039, Piso 2
+Ciudad Autónoma de Buenos Aires
+Tengo el agrado de dirigirme a Ud. en virtud de lo ordenado en los autos ""NALDO LOMBARDI S.A. C/ MEDINA
+MIGUEL MARCELO S/ COBRO EJECUTIVO"" (expediente. SN - 12278 - 2018), en trámite en el juzgado de 1""
+Instancia en lo Civil y Comercial N* 4, secretaría Única, del Departamento Judicial de San Nicolás, sito en calle
+Guardias Nacionales n* 47, PA, San Nicolás, Pcia. de Bs. AS., a los efectos de que se sirva tomar nota del
+embargo EJECUTORIO que se ha decretado en autos, sobre los fondos y/o sumas de dinero, presentes y/o
+futu
+[...]","--- antes
++++ despues
+@@ -1,24 +1,24 @@
+ ""TEXTO Y DATOS DE LA NOTIFICACIÓN
+ 
+ Usuario conectado: SANCHEZ Sebastian Roberto - 202243582030 notificaciones.scba.gov.ar
+-Organismo: JUZGADO EN LO CIVIL Y COMERCIAL N? 4 - SAN NICOLAS
+-Carátula: _ NALDO LOMBARDI S.A. C/ MEDINA MIGUEL MARCELO S/CO!
++Organismo: juzgado EN LO CIVIL Y COMERCIAL N? 4 - SAN NICOLAS
++carátula: _ NALDO LOMBARDI S.A. C/ MEDINA MIGUEL MARCELO S/CO!
+ Número de causa: SN-12278-2018
+-Tipo de notificación: 'OFICIO ELECTRONICO ——
++Tipo de notificación: 'OFICIO ELECTRONICO --
+ Destinatarios: 20224358203Qnotificaciones.scba.gov.ar
+-Fecha notificación: 4/3/2026 13:15:28 : | 0 MAR 15
++Fecha notificación: 4/3/2026 13:15:28: | 0 MAR 15
+ Alta o disponibilidad 4/3/2026 13:15:32 | ¡o A
+ Firma digital: Firma válida TOIBIDO
+-ta :
++ta:
+ 
+ 1
+ j E CCAA
+-Firmado y Notificado por: MUCILLI Luciano Eduardo. AUXILIAR LETRADO —- Centificádo Corrécto. Fec
++Firmado y Notificado por: MUCILLI Luciano Eduardo. AUXILIAR LETRADO -- Centificádo Corrécto. Fec
+ 
+ 04/03/2026 13:15:31
+ 
+ Firmado por: MUCILLI Luciano Eduardo. AUXILIAR LETRADO -- Certificado Correcto. Fecha de Firma:
+-04/03/2026 13:15:30 SANCHEZ Sebastian Roberto. -— Certificado Correcto. Fecha de Firma:
++04/03/2026 13:15:30 SANCHEZ Sebastian Roberto. -- Certificado Correcto. Fecha de Firma:
+ 24/02/2026 09:58:02
+ OFICIO JUDICIAL
+ 
+@@ -29,16 +29,16 @@
+ Avenida Caseros 3039, Piso 2
+ Ciudad Autónoma de Buenos Aires
+ Tengo el agrado de dirigirme a Ud. en virtud de lo ordenado en los autos ""NALDO LOMBARDI S.A. C/ MEDINA
+-MIGUEL MARCELO S/ COBRO EJECUTIVO"" (Expte. SN - 12278 - 2018), en trámite en el Juzgado de 1""
+-Instancia en lo Civil y Comercial N* 4, Secretaría Única, del Departamento Judicial de San Nicolás, sito en calle
++MIGUEL MARCELO S/ COBRO EJECUTIVO"" (expediente. SN - 12278 - 2018), en trámite en el juzgado de 1""
++Instancia en lo Civil y Comercial N* 4, secretaría Única, del Departamento Judicial de San Nicolás, sito en calle
+ Guardias Nacionales n* 47, PA, San Nicolás, Pcia. de Bs. AS., a los efectos de que se sirva tomar nota del
+-EMBARGO EJECUTORIO que se ha decretado en autos, sobre los fondos y/o sumas de dinero, presentes y/o
++embargo EJECUTORIO que se ha decretado en autos, sobre los fondos y/o sumas de dinero, presentes y/o
+ futuras, que el demandado MIGUEL MARCELO MEDINA, DNI 16269506 - CUIL/CUIT: 20162695082, tenga
+-depositadas y/o a percibir en la billetera virtual ""MERCADO PAGO S.A."", hasta cubrir la suma de PESOS
++depositadas y/o a percibir en la billetera virtual ""MERCADO PAGO S.A."", hasta cubrir la suma de pesos
+ DOSCIENTOS MIL ($ 200.000), que se estima suficiente a los fines del presente juicio, debiendo subsistir el
+ embargo decretado hasta cubrir totalmente tal importe. Las sumas embargadas deberán ser depositadas en la
+ cuenta judicial N* 556134/6 - SUC 6598 - CBU: 0140482527659855613465 - CUIT: 30-70721665-0, abierta en el
+-Banco de la Provincia de Buenos Aires, Sucursal Tribunales de San Nicolás, a nombre de estos autos y orden del
++banco de la Provincia de Buenos Aires, Sucursal Tribunales de San Nicolás, a nombre de estos autos y orden del
+ proveyente.-
+ 
+ Como recaudo, transcribo a continuación la providencia que ordena la medida y autoriza el presente: ""San
+@@ -46,8 +46,8 @@
+ atención a lo pedido, con el objeto de cumplir con la cautelar ordenada oportunamente en fecha 03/11/2020,
+ decrétase embargo ejecutorio sobre las cuentas y/o fondos y/o sumas de dinero, presentes y/o futuras, que el
+ demandado MIGUEL MARCELO MEDINA, DNI 16269506 - CUIL/CUIT: 20162695062, posea en la billetera virtual
+-MERCADO PAGO S.A., hasta cubrir la suma de PESOS DOSCIENTOS MIL ($ 200.000), que se estima suficiente
++MERCADO PAGO S.A., hasta cubrir la suma de pesos DOSCIENTOS MIL ($ 200.000), que se estima suficiente
+ a los fines del presente juicio, debiendo subsistir ej embargo decretado hasta cubrir totalmente tal importe. Para
+ su efectivización, líbrese oficio electrónico de estilo, Hágase saber que las cantidades embargadas deberán ser
+-depositadas
++deposita
+ [...]"
+504422,Embargo - usuario,0.9221500040587524,legible,3288,3282,0.0018248175182481751,"|
+29/12/25, «qm
+
+TEXTO
+
+Usuario cone
+Organ smo:
+
+Carátula:
+Número de c:
+Tipo del notifi
+Destinatarios
+Fecha notific
+
+| TEXTO Y DATOS DE LA NOTIFICACIÓN - SUPREMA CORTE DE JUSTICIA - NOTIFICACIONES ELscr RÓNICAS
+DATOS DE LA NOTIFICACIÓN |
+
+ol do: NOVELLO Sergio Omar - 201803911198 notificaciones.scba.gov.ar |
+| TRIBUNAL DEL TRABAJO N* 1 - FLORENCIO VARELA A
+CARDOZO FLORENCIA AYLEN C/ OVIEDO LAURA DANIELA Y OTRO/A s/ DESPIL
+sa: | 6125
+
+ción: OFICIO ELECTRONICO
+
+20180391119Qnotificaciones.scba.gov.ar
+ión: 30/12/2025 18 ENE 2
+ilidad 29/12/2025 08:49:11
+
++
+
+le]
+
+cajas de a
+Laura Dan
+en vuestra
+de | CAPI
+1.000.000,
+ley 15.057,
+Buehos Alle
+01400397
+Asimismo,
+
+mismo el
+a: https://ni
+Asimismo,
+enviar sus
+
+losaires.gov.ar.-
+
+Alta o dispon
+Firmaldigital: Firma válida RECIBIDO
+Firmado y No icado por: OCHANDIO Manuela Maria. JUEZ — Certificado Cb o"" ER EOS
+08:49:11
+Firmadb por: OCHANDIO Manuela Maria. JUEZ — Certificado Correcto, Fecha de Firma: 29/12/2025
+08:49:10 NOVELLO Sergio Omar. — Certificado Correcto, Fecha de Firma: 24/12 un
+| | 18:10:24
+A: MIER
+| OFICIO
+Florencio Varela, de diciembre de 2025
+SEÑOR REPRESENTANTE LEGAL DE MERCADO LIBRE S.R.L.
+| | Tengo el agrado de diri gir el presente oficio en los autos
+caratulados|""CARDOZO FLORENCIA AYLEN c/OVIEDO LAURA DANIELA y Otra ¿Do SPIDO""
+(Exp. 6125) que tramitan por el Tribunal del Trabajo N* 1 de Florencio Varela, sito enla talle Manuel
+Quintana 323 de Florencio Varela (1888), presidencia a mi cargo, secretaría Única; ía fIn de que
+por
+[...]","29/12/25, ""qm
+
+TEXTO
+
+Usuario cone
+Organ smo:
+
+carátula:
+Número de c:
+Tipo del notifi
+Destinatarios
+Fecha notific
+
+| TEXTO Y DATOS DE LA NOTIFICACIÓN - SUPREMA CORTE DE JUSTICIA - NOTIFICACIONES ELscr RÓNICAS
+DATOS DE LA NOTIFICACIÓN |
+
+ol do: NOVELLO Sergio Omar - 201803911198 notificaciones.scba.gov.ar |
+| TRIBUNAL DEL TRABAJO N* 1 - FLORENCIO VARELA A
+CARDOZO FLORENCIA AYLEN C/ OVIEDO LAURA DANIELA Y OTRO/A s/ DESPIL
+sa: | 6125
+
+ción: OFICIO ELECTRONICO
+
+20180391119Qnotificaciones.scba.gov.ar
+ión: 30/12/2025 18 ENE 2
+ilidad 29/12/2025 08:49:11
+
+le]
+
+cajas de a
+Laura Dan
+en vuestra
+de | CAPI
+1.000.000,
+ley 15.057,
+Buehos Alle
+01400397
+Asimismo,
+
+mismo el
+a: https://ni
+Asimismo,
+enviar sus
+
+losaires.gov.ar.-
+
+Alta o dispon
+Firmaldigital: Firma válida RECIBIDO
+Firmado y No icado por: OCHANDIO Manuela Maria. JUEZ - Certificado Cb o"" ER EOS
+08:49:11
+Firmadb por: OCHANDIO Manuela Maria. JUEZ - Certificado Correcto, Fecha de Firma: 29/12/2025
+08:49:10 NOVELLO Sergio Omar. - Certificado Correcto, Fecha de Firma: 24/12 un
+| | 18:10:24
+A: MIER
+| OFICIO
+Florencio Varela, de diciembre de 2025
+SEÑOR REPRESENTANTE LEGAL DE MERCADO LIBRE S.R.L.
+| | Tengo el agrado de diri gir el presente oficio en los autos
+caratulados|""CARDOZO FLORENCIA AYLEN c/OVIEDO LAURA DANIELA y Otra ¿Do SPIDO""
+(expediente. 6125) que tramitan por el Tribunal del Trabajo N* 1 de Florencio Varela, sito enla talle Manuel
+Quintana 323 de Florencio Varela (1888), presidencia a mi cargo, secretaría Única; ía fIn de que
+p
+[...]","--- antes
++++ despues
+@@ -1,12 +1,11 @@
+-|
+-29/12/25, «qm
++29/12/25, ""qm
+ 
+ TEXTO
+ 
+ Usuario cone
+ Organ smo:
+ 
+-Carátula:
++carátula:
+ Número de c:
+ Tipo del notifi
+ Destinatarios
+@@ -25,8 +24,6 @@
+ 20180391119Qnotificaciones.scba.gov.ar
+ ión: 30/12/2025 18 ENE 2
+ ilidad 29/12/2025 08:49:11
+-
+-+
+ 
+ le]
+ 
+@@ -49,10 +46,10 @@
+ 
+ Alta o dispon
+ Firmaldigital: Firma válida RECIBIDO
+-Firmado y No icado por: OCHANDIO Manuela Maria. JUEZ — Certificado Cb o"" ER EOS
++Firmado y No icado por: OCHANDIO Manuela Maria. JUEZ - Certificado Cb o"" ER EOS
+ 08:49:11
+-Firmadb por: OCHANDIO Manuela Maria. JUEZ — Certificado Correcto, Fecha de Firma: 29/12/2025
+-08:49:10 NOVELLO Sergio Omar. — Certificado Correcto, Fecha de Firma: 24/12 un
++Firmadb por: OCHANDIO Manuela Maria. JUEZ - Certificado Correcto, Fecha de Firma: 29/12/2025
++08:49:10 NOVELLO Sergio Omar. - Certificado Correcto, Fecha de Firma: 24/12 un
+ | | 18:10:24
+ A: MIER
+ | OFICIO
+@@ -60,16 +57,15 @@
+ SEÑOR REPRESENTANTE LEGAL DE MERCADO LIBRE S.R.L.
+ | | Tengo el agrado de diri gir el presente oficio en los autos
+ caratulados|""CARDOZO FLORENCIA AYLEN c/OVIEDO LAURA DANIELA y Otra ¿Do SPIDO""
+-(Exp. 6125) que tramitan por el Tribunal del Trabajo N* 1 de Florencio Varela, sito enla talle Manuel
++(expediente. 6125) que tramitan por el Tribunal del Trabajo N* 1 de Florencio Varela, sito enla talle Manuel
+ Quintana 323 de Florencio Varela (1888), presidencia a mi cargo, secretaría Única; ía fIn de que
+ por la vía que corresponda, se sirva trabar embargo sobre fondos existentes en cuentas [corriente,
+ 
+ rros, o cualquier otra imposición bancaria que en el presente o a futuro. la
+ la OVIEDO (DNI: 30.535.333) y Sara Paola POQUIBIQUI (DNI: 95.112.169
+-mpresa hasta cubrir la suma de PESOS DOS MILLONES ($ 2.000.000,00) /en|concepto
+-L' CONCILIADO | con más la suma de ESOS UN IL $
+-) presupuestada para responder a costas y gastos futuros de la ejecución (a
+--2s ) y los transfiera a la sucursal Florencio Varela (5114) del Banco de la Pr
++mpresa hasta cubrir la suma de pesos DOS MILLONES ($ 2.000.000,00) /en|concepto
++L' CONCILIADO | con más la suma de ESOS UN IL $) presupuestada para responder a costas y gastos futuros de la ejecución (a
++-2s) y los transfiera a la sucursal Florencio Varela (5114) del banco de la Pr
+ para ser depositados en la cuenta de autos Nro. 514553/1 y
+ 511451455312 y a la orden de este Tribunal del Trabajo N* 1 de Florénc
+ n el término de 48 horas deberá informar sobre el resultado de la medida or
+@@ -82,9 +78,8 @@
+ LLO y/o quien este designe.
+ Sin otro particular, le saludo muy atte.
+ 
+-|
+ https ¿rifcaciondiscsacoras nterfazBootstrap/textonotfificacionimprimir.aspx?idnat=1359058568fecha=2
+ 
+ Para verificar la notificación, y las copias de traslado si las hubiere, ingrese a:
+-https://notificaciones.scba.gov.ar/verificar.as
++https://notificaciones.scba.gov.ar/verificar.aspx
+ [...]"
+542260,Embargo - usuario,0.9128541751365122,legible,2140,2141,-0.00046728971962616824,"hs
+
+Santa Rosa, 6 de marzo de 2026
+
+MERCADO LIBRE S.R.L. libre
+Avda. Caseros 3039 — 2"" piso 16 MAR 202 6
+
+Ciudad Autónoma de Buenos Aires.-
+RECEPCION
+
+Dirijo a Ud. el presente en los autos caratulados: ""FISCO NACIONAL
+(Administración Federal de Ingresos Públicos) e/ MIRANDA, CARLOS
+ADRIAN s/ EJECUCIÓN FISCAL"", (Expte. FBB 11281/18 — BD N'
+544602/18), en trámite por ante el Juzgado Federal de Primera Instancia,
+Secretaría Tributaria y Previsional, sito en Avenida San Martín 153 (O) de la
+ciudad de Santa Rosa, a fin de que proceda a TOMAR RAZÓN del
+LEVANTAMIENTO de embargo ejecutivo sobre los créditos relacionados a los
+ACTIVOS DIGITALES actuales y futuros que posea el Sr. Carlos Adrián
+Miranda, DNI N* 20.242.247, CUIT 20-20242247-1, por cualquier concepto ante
+esa entidad, en el marco de la presentes actuaciones.-
+
+El presente oficio se libra en uso de las facultades otorgadas en artículo 92,
+párrafos decimocuarto y decimosexto de la Ley N* 11.683 (t.o. en 1998), según la
+Ley N* 27.430, en los términos de la resolución dictada en autos, que se transcribe
+a continuación: ""///ta Rosa, 18 de abril de 2022.- Atento a lo solicitado por la
+
+actora, decretase embargo sobre los activos digitales actuales o futuros de
+
+titularidad del ejecutado en la cuenta que denuncia administrada por la firma
+Mercado Libre S.R.L., hasta cubrir la acreencia reclamada, intereses y costas, a
+sus efectos líbrese oficio directo que se diligenciará mediante las personas
+autorizadas por la AFIP-DGL A tal f
+[...]","Santa Rosa, 6 de marzo de 2026
+
+MERCADO LIBRE S.R.L. libre
+Avda. Caseros 3039 - 2"" piso 16 MAR 202 6
+
+Ciudad Autónoma de Buenos Aires.-
+RECEPCION
+
+Dirijo a Ud. el presente en los autos caratulados: ""FISCO NACIONAL
+(Administración Federal de Ingresos Públicos) e/ MIRANDA, CARLOS
+ADRIAN s/ EJECUCIÓN FISCAL"", (expediente. FBB 11281/18 - BD N'
+544602/18), en trámite por ante el juzgado Federal de Primera Instancia,
+secretaría Tributaria y Previsional, sito en Avenida San Martín 153 (O) de la
+ciudad de Santa Rosa, a fin de que proceda a TOMAR RAZÓN del
+LEVANTAMIENTO de embargo ejecutivo sobre los créditos relacionados a los
+ACTIVOS DIGITALES actuales y futuros que posea el Sr. Carlos Adrián
+Miranda, DNI N* 20.242.247, CUIT 20-20242247-1, por cualquier concepto ante
+esa entidad, en el marco de la presentes actuaciones.-
+
+El presente oficio se libra en uso de las facultades otorgadas en artículo 92,
+párrafos decimocuarto y decimosexto de la Ley N* 11.683 (t.o. en 1998), según la
+Ley N* 27.430, en los términos de la resolución dictada en autos, que se transcribe
+a continuación: ""///ta Rosa, 18 de abril de 2022.- Atento a lo solicitado por la
+
+actora, decretase embargo sobre los activos digitales actuales o futuros de
+
+titularidad del ejecutado en la cuenta que denuncia administrada por la firma
+Mercado Libre S.R.L., hasta cubrir la acreencia reclamada, intereses y costas, a
+sus efectos líbrese oficio directo que se diligenciará mediante las personas
+autorizadas por la AFIP-DGL A tal 
+[...]","--- antes
++++ despues
+@@ -1,18 +1,16 @@
+-hs
+-
+ Santa Rosa, 6 de marzo de 2026
+ 
+ MERCADO LIBRE S.R.L. libre
+-Avda. Caseros 3039 — 2"" piso 16 MAR 202 6
++Avda. Caseros 3039 - 2"" piso 16 MAR 202 6
+ 
+ Ciudad Autónoma de Buenos Aires.-
+ RECEPCION
+ 
+ Dirijo a Ud. el presente en los autos caratulados: ""FISCO NACIONAL
+ (Administración Federal de Ingresos Públicos) e/ MIRANDA, CARLOS
+-ADRIAN s/ EJECUCIÓN FISCAL"", (Expte. FBB 11281/18 — BD N'
+-544602/18), en trámite por ante el Juzgado Federal de Primera Instancia,
+-Secretaría Tributaria y Previsional, sito en Avenida San Martín 153 (O) de la
++ADRIAN s/ EJECUCIÓN FISCAL"", (expediente. FBB 11281/18 - BD N'
++544602/18), en trámite por ante el juzgado Federal de Primera Instancia,
++secretaría Tributaria y Previsional, sito en Avenida San Martín 153 (O) de la
+ ciudad de Santa Rosa, a fin de que proceda a TOMAR RAZÓN del
+ LEVANTAMIENTO de embargo ejecutivo sobre los créditos relacionados a los
+ ACTIVOS DIGITALES actuales y futuros que posea el Sr. Carlos Adrián"
+513487,Embargo - usuario,0.9061959877055746,legible,3771,3736,0.00928135773004508,"i
+212126, 14:22 TEXTO Y DATOS DE LA NOTIFICACIÓN - SUPREMA CORTE DE JUSTICIA - NOTIFICACIONES TRÓNICAS ?
+TEXTO | DATOS DE LA NOTIFICACIÓN s
+Usuario conectado: BARREIRO MERCEDES - 27256702199Qnotificaciones.scba.gov.ar |
+Organismo JUZGADO DE FAMILIA N? 5 - SAN ISIDRO
+Carátula: | BARREIRO MERCEDES C/ PEROSIO AGUSTIN MARIANO S/ COBRC
+HONORARIOS
+Núrpero de fausa: Sl-24778-2020
+Tipo de nofificación: OFICIO ELECTRONICO
+Destinatarib E 27256702199Qnotificaciones.scba.gov.ar
+Fecha notificación: 30/12/2025
+Alta o disp nibilidad 29/12/2025 07:54:32
+ra digital: Firma válida
+Firmado y Notificado por: BACMAN RAVERA Maria Sol. SECRETARIO — Certificado Correcto. F echa de Firma:
+| | 29/12/2025 07:54:32 |
+Firmado por: BACMAN RAVERA Maria Sol. SECRETARIO — Certificado Correcto. K echa de Firma:
+| 29/12/2025 07:54:30 MERCEDES BARREIRO. --- Certificado Correcto! Fecha de Firma:
+26/12/2025 20:31:22
+óY 4
+OFICIO JUDICIAL REITERATORIO
+| 00191938
+| San
+Isidro, e Diciembre de 2025.- 00 E DA.
+A Mercad b Libre SRL : :
+Ss I D
+Tengo el agrado de dirigirme a Uds. en los|aulbs caratulados |
+""BARRE O, MERCEDES C/ PEROSIO AGUSTIN MARIANO S/ Ejecución de Honararios"" (EXPTE. |
+N 24.778/20) que tramitan por ante el Juzgado de Familia N*5, a cargo de la Dral Juana Grillo, |
+Secretaríg Única, con asiento en la Av. Centenario 1860, de la Localidad de San Isidro, Pdo. de San
+sa o, Pala. Ñ Buenos Aires, a los efectos de solicitarle que, por donde corresponda, ge sirvan tomar
+razón del EMBARGO dispuesto en estos autos
+[...]","212126, 14:22 TEXTO Y DATOS DE LA NOTIFICACIÓN - SUPREMA CORTE DE JUSTICIA - NOTIFICACIONES TRÓNICAS?
+TEXTO | DATOS DE LA NOTIFICACIÓN s
+Usuario conectado: BARREIRO MERCEDES - 27256702199Qnotificaciones.scba.gov.ar |
+Organismo juzgado DE FAMILIA N? 5 - SAN ISIDRO
+carátula: | BARREIRO MERCEDES C/ PEROSIO AGUSTIN MARIANO S/ COBRC
+HONORARIOS
+Núrpero de fausa: Sl-24778-2020
+Tipo de nofificación: OFICIO ELECTRONICO
+Destinatarib E 27256702199Qnotificaciones.scba.gov.ar
+Fecha notificación: 30/12/2025
+Alta o disp nibilidad 29/12/2025 07:54:32
+ra digital: Firma válida
+Firmado y Notificado por: BACMAN RAVERA Maria Sol. SECRETARIO - Certificado Correcto. F echa de Firma:
+| | 29/12/2025 07:54:32 |
+Firmado por: BACMAN RAVERA Maria Sol. SECRETARIO - Certificado Correcto. K echa de Firma:
+| 29/12/2025 07:54:30 MERCEDES BARREIRO. --- Certificado Correcto! Fecha de Firma:
+26/12/2025 20:31:22
+óY 4
+OFICIO JUDICIAL REITERATORIO
+| 00191938
+| San
+Isidro, e Diciembre de 2025.- 00 E DA.
+A Mercad b Libre SRL::
+Ss I D
+Tengo el agrado de dirigirme a Uds. en los|aulbs caratulados |
+""BARRE O, MERCEDES C/ PEROSIO AGUSTIN MARIANO S/ Ejecución de Honararios"" (EXPTE. |
+N 24.778/20) que tramitan por ante el juzgado de Familia N*5, a cargo de la Dral Juana Grillo, |
+Secretaríg Única, con asiento en la Av. Centenario 1860, de la Localidad de San Isidro, Pdo. de San
+sa o, Pala. Ñ Buenos Aires, a los efectos de solicitarle que, por donde corresponda, ge sirvan tomar
+razón del embargo dispuesto en estos autos en f
+[...]","--- antes
++++ despues
+@@ -1,9 +1,8 @@
+-i
+-212126, 14:22 TEXTO Y DATOS DE LA NOTIFICACIÓN - SUPREMA CORTE DE JUSTICIA - NOTIFICACIONES TRÓNICAS ?
++212126, 14:22 TEXTO Y DATOS DE LA NOTIFICACIÓN - SUPREMA CORTE DE JUSTICIA - NOTIFICACIONES TRÓNICAS?
+ TEXTO | DATOS DE LA NOTIFICACIÓN s
+ Usuario conectado: BARREIRO MERCEDES - 27256702199Qnotificaciones.scba.gov.ar |
+-Organismo JUZGADO DE FAMILIA N? 5 - SAN ISIDRO
+-Carátula: | BARREIRO MERCEDES C/ PEROSIO AGUSTIN MARIANO S/ COBRC
++Organismo juzgado DE FAMILIA N? 5 - SAN ISIDRO
++carátula: | BARREIRO MERCEDES C/ PEROSIO AGUSTIN MARIANO S/ COBRC
+ HONORARIOS
+ Núrpero de fausa: Sl-24778-2020
+ Tipo de nofificación: OFICIO ELECTRONICO
+@@ -11,9 +10,9 @@
+ Fecha notificación: 30/12/2025
+ Alta o disp nibilidad 29/12/2025 07:54:32
+ ra digital: Firma válida
+-Firmado y Notificado por: BACMAN RAVERA Maria Sol. SECRETARIO — Certificado Correcto. F echa de Firma:
++Firmado y Notificado por: BACMAN RAVERA Maria Sol. SECRETARIO - Certificado Correcto. F echa de Firma:
+ | | 29/12/2025 07:54:32 |
+-Firmado por: BACMAN RAVERA Maria Sol. SECRETARIO — Certificado Correcto. K echa de Firma:
++Firmado por: BACMAN RAVERA Maria Sol. SECRETARIO - Certificado Correcto. K echa de Firma:
+ | 29/12/2025 07:54:30 MERCEDES BARREIRO. --- Certificado Correcto! Fecha de Firma:
+ 26/12/2025 20:31:22
+ óY 4
+@@ -21,24 +20,24 @@
+ | 00191938
+ | San
+ Isidro, e Diciembre de 2025.- 00 E DA.
+-A Mercad b Libre SRL : :
++A Mercad b Libre SRL::
+ Ss I D
+ Tengo el agrado de dirigirme a Uds. en los|aulbs caratulados |
+ ""BARRE O, MERCEDES C/ PEROSIO AGUSTIN MARIANO S/ Ejecución de Honararios"" (EXPTE. |
+-N 24.778/20) que tramitan por ante el Juzgado de Familia N*5, a cargo de la Dral Juana Grillo, |
++N 24.778/20) que tramitan por ante el juzgado de Familia N*5, a cargo de la Dral Juana Grillo, |
+ Secretaríg Única, con asiento en la Av. Centenario 1860, de la Localidad de San Isidro, Pdo. de San
+ sa o, Pala. Ñ Buenos Aires, a los efectos de solicitarle que, por donde corresponda, ge sirvan tomar
+-razón del EMBARGO dispuesto en estos autos en fecha 03/10/2025, por la suma de PEYOS OCHENTA
++razón del embargo dispuesto en estos autos en fecha 03/10/2025, por la suma de PEYOS OCHENTA
+ Y TRES MIL [TRESCIENTOS TREINTA Y UNO CON OCHENTA Y CUATRO CENT. ($83.331,84) |
+-co másla e PESOS CUARENTA Y UN MIL SEISCIENTOS SESENTA Y CINCO 80 NOVENTA Y |
++co másla e pesos CUARENTA Y UN MIL SEISCIENTOS SESENTA Y CINCO 80 NOVENTA Y |
+ DOS CENTAVOS ($41.665,92), que se presupuestan para responder a intereses y [ebstas, sobre todo |
+ ti e de dhentas y/o fondos sean ellos en pesos o en dólares estadounidenses, y spbrk cualquier otro |
+ tipo de depósito que en el presente o en el futuro el demandado AGUSTIN MARIANO PEROSIO (CUIL |
+ 20-16893287-2 / DNI 16.893.287?) tenga a su favor en sus cuentas de MERCADO IIBRE SRL. Dichas |
+-suma deberás deberán ser depositada en una cuenta a nombre de autos identificada|komo CUENTA
+-JUDICIAL EN PESOS N*865.566/6 CBU 0140136927509986556660 y cuyo NY dg CUIT es 30-|
+-70721685-0, la la orden del Juzgado, en el Bco. de la Provincia de Buenos .Aires, sudurgal Tribunales de
+-San Isidíib.--+-------------------
++suma deberás deberán ser depositada en una cuenta a nombre de autos identificada|komo cuenta
++JUDICIAL EN pesos N*865.566/6 CBU 0140136927509986556660 y cuyo NY dg CUIT es 30-|
++70721685-0, la la orden del juzgado, en el Bco. de la Provincia de Buenos.Aires, sudurgal Tribunales de
++San Isidíib.--+ --
+ 
+ importe
+ HEN
+@@ -49,12 +48,12 @@
+ berá
+ 
+ os autos que ordenan el presente dicen: ""San Isidro, 03 de octubre de 2023
+-He la suma de PESOS OCHENTA Y TRES MIL TRESCIENTOS TREIN
+-AY CUATRO CENTAVOS ($83.331,84) , con más la de PESOS CUAR
++He la suma de pesos OCHENTA Y TRES MIL TRESCIENTOS TREIN
++AY CUATRO CENTAVOS ($83.331,84), con más la de pesos CUAR
+ TOS SESENTA Y CINCO CON NOVENTA Y DOS CENTAVOS ($41.
+ 
+ ARIANO PEROSIO (DNI 16.893.287 / CUIL 20-16893287-2) en su cup
+ 
+ ser depositadas en la cuenta abierta a nombre de autos.- Juana Grillo. JU
+-bre de 2025. A los fines
++bre de 2025. A los fines indicados, líbrese ofi
+ [...]"

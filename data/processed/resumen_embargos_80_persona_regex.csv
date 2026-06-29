@@ -1,0 +1,81 @@
+﻿id,clasificacion,nombre,total_entidades,etiquetas_encontradas,chars_texto
+538118,Embargo,Embargo - usuario,17,"CBU, CUIT, DNI, persona",6124
+538084,Embargo,Embargo - usuario,15,"CBU, CUIL, DNI, persona",5876
+495011,Embargo,Embargo - usuario,21,"CBU, CUIL, DNI, persona",5866
+534526,Embargo,Embargo - Empleado,13,"CBU, DNI, persona",5799
+542996,Embargo,Embargo - usuario,12,"CBU, CUIL, DNI, persona",5746
+538081,Embargo,Embargo - usuario,14,"CBU, CUIL, DNI, persona",5697
+524057,Embargo,Embargo - usuario,13,"CBU, DNI, persona",5688
+536725,Embargo,Embargo - usuario,16,"CBU, CUIT, DNI, persona",5682
+536741,Embargo,Embargo - usuario,22,"CBU, CUIT, DNI, persona",5445
+524053,Embargo,Embargo - usuario,14,"CBU, CUIT, DNI, persona",5421
+546314,Embargo,Embargo - usuario,9,"CBU, CUIT, DNI, persona",5344
+529383,Embargo,Embargo - usuario,15,"CBU, DNI, persona",5287
+538122,Embargo,Embargo - usuario,15,"CBU, CUIT, DNI, persona",5281
+536721,Embargo,Embargo - usuario,14,"CBU, CUIT, DNI, persona",5261
+516904,Embargo,Embargo - usuario,21,"CBU, persona",4937
+546236,Embargo,Embargo - usuario,22,"CBU, DNI, persona",4919
+546332,Embargo,Embargo - usuario,23,"CBU, DNI, persona",4919
+538119,Embargo,Embargo - usuario,17,"CBU, CUIT, DNI, persona",4858
+501696,Embargo,Embargo - usuario,16,"CBU, CVU, DNI, persona",4814
+536705,Embargo,Embargo - usuario,23,"CBU, DNI, persona",4672
+535845,Embargo,Embargo - usuario,15,"CBU, DNI, persona",4642
+536718,Embargo,Embargo - usuario,13,"CBU, CUIT, CVU, DNI, persona",4512
+536742,Embargo,Embargo - usuario,25,"CBU, CUIT, DNI, persona",4281
+535814,Embargo,Embargo - usuario,13,"CBU, CUIT, DNI, persona",4276
+518796,Embargo,Embargo - usuario,9,"CBU, DNI, persona",4266
+495683,Embargo,Embargo - usuario,10,"CBU, DNI, persona",4252
+516903,Embargo,Embargo - usuario,25,"CBU, CUIT, DNI, persona",4254
+538120,Embargo,Embargo - usuario,12,"CBU, CUIT, DNI, persona",4249
+532501,Embargo,Embargo - usuario,16,"CBU, CUIT, DNI, persona",4214
+503824,Embargo,Embargo - usuario,16,"CBU, CUIL, DNI, persona",4209
+536750,Embargo,Embargo - usuario,13,"CUIL, DNI, persona",6573
+514558,Embargo,Embargo - usuario,13,"CBU, DNI, persona",9367
+494160,Embargo,Embargo - usuario,19,"DNI, persona",6821
+529783,Embargo,Embargo - usuario,23,"CBU, DNI, persona",8658
+525055,Embargo,Embargo - usuario,40,"CBU, DNI, persona",7236
+501211,Embargo,Embargo - usuario,25,persona,6707
+531075,Embargo,Embargo - usuario,19,"CBU, CUIT, DNI, persona",6025
+494151,Embargo,Embargo - usuario,18,"CUIT, DNI, persona",8847
+546334,Embargo,Embargo - usuario,24,"CBU, persona",6953
+547373,Embargo,Embargo - usuario,28,"CUIT, DNI, persona",6728
+507932,Embargo,Embargo - usuario,51,"CBU, DNI, persona",6107
+538090,Embargo,Embargo - usuario,12,"DNI, persona",6908
+531066,Embargo,Embargo - Empleado,15,"CBU, CUIL, persona",6906
+513551,Embargo,Embargo - usuario,13,"CUIL, DNI, persona",6137
+522290,Embargo,Embargo - usuario,9,"CBU, CUIL, persona",7043
+501201,Embargo,Embargo - usuario,20,"CBU, DNI, persona",4139
+538037,Embargo,Embargo - usuario,23,"CUIT, DNI, persona",9308
+538114,Embargo,Embargo - usuario,15,"CBU, CUIT, DNI, persona",4110
+529847,Embargo,Embargo - usuario,29,"CBU, CUIL, DNI, persona",5865
+495014,Embargo,Embargo - usuario,10,"CBU, CUIT, DNI, persona",4062
+543609,Embargo,Embargo - usuario,21,"CBU, DNI, persona",5846
+535837,Embargo,Embargo - usuario,12,"CBU, DNI, persona",4030
+503810,Embargo,Embargo - usuario,9,"CUIT, CVU, DNI, persona",4021
+495686,Embargo,Embargo - usuario,11,"CBU, DNI, persona",3989
+495690,Embargo,Embargo - usuario,12,"CBU, DNI, persona",3974
+536730,Embargo,Embargo - usuario,12,"DNI, persona",5739
+507931,Embargo,Embargo - usuario,43,"CBU, DNI, persona",5741
+536724,Embargo,Embargo - usuario,17,"CBU, CUIT, DNI, persona",3907
+536738,Embargo,Embargo - usuario,19,"CBU, CUIT, DNI, persona",3835
+516901,Embargo,Embargo - usuario,20,"CBU, CUIT, DNI, persona",3822
+547366,Embargo,Embargo - usuario,10,"CBU, CUIT, DNI, persona",3793
+523996,Embargo,Embargo - usuario,18,"CBU, CUIT, DNI, persona",3803
+523977,Embargo,Embargo - usuario,10,"CBU, DNI, persona",3772
+543631,Embargo,Embargo - usuario,16,"CBU, CUIT, DNI, persona",3772
+523990,Embargo,Embargo - usuario,22,"CBU, DNI, persona",3769
+513487,Embargo,Embargo - usuario,12,"CBU, CUIL, DNI, persona",3736
+547376,Embargo,Embargo - usuario,14,"DNI, persona",5478
+524013,Embargo,Embargo - usuario,22,"CBU, CUIT, DNI, persona",3676
+498352,Embargo,Embargo - usuario,16,"CBU, CUIT, DNI, persona",3607
+526651,Embargo,Embargo - usuario,7,"CUIT, DNI, persona",5401
+531094,Embargo,Embargo - usuario,15,"CBU, CUIT, persona",5388
+547369,Embargo,Embargo - usuario,10,"CBU, CUIT, DNI, persona",3494
+536715,Embargo,Embargo - usuario,19,"CBU, DNI, persona",3396
+536707,Embargo,Embargo - usuario,18,"CBU, CUIT, DNI, persona",3361
+547372,Embargo,Embargo - usuario,9,"CBU, CUIT, DNI, persona",3358
+538066,Embargo,Embargo - usuario,12,"DNI, persona",5154
+536739,Embargo,Embargo - usuario,22,"CBU, CUIT, DNI, persona",3336
+546238,Embargo,Embargo - usuario,20,"CBU, CUIT, DNI, persona",3319
+513482,Embargo,Embargo - usuario,9,"CBU, CUIL, DNI, persona",5087
+536728,Embargo,Embargo - usuario,15,"DNI, persona",5083

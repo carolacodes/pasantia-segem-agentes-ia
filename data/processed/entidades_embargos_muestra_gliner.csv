@@ -1,0 +1,82 @@
+﻿id,nombre,clasificacion,gliner_tokens,entidad_texto,entidad_label,score
+544832,Embargo - usuario,Embargo,562,Expediente. Nro. 21903/14,expediente,0.8613292574882507
+544832,Embargo - usuario,Embargo,562,Juzgado Nacional de Primera Instancia del Trabajo Nro. 35,juzgado,0.9273687601089478
+544832,Embargo - usuario,Embargo,562,FAENADORA ARGENTINA S.A.,empresa embargada,0.9297112822532654
+544832,Embargo - usuario,Embargo,562,33-71237566-9,CUIT,0.8849417567253113
+544832,Embargo - usuario,Embargo,562,"$ 31.177,68.-",monto,0.7588303089141846
+544832,Embargo - usuario,Embargo,562,$9.000.-,monto,0.7406700849533081
+544832,Embargo - usuario,Embargo,562,IMÍOreSES Y COSÍAS,monto costas,0.5185555815696716
+544832,Embargo - usuario,Embargo,562,"BANCO DE LA CIUDAD DE
+BUENOS AIRES",banco,0.9355188012123108
+544832,Embargo - usuario,Embargo,562,30-99903208-3,CUIT,0.5271772146224976
+546230,Embargo - usuario,Embargo,1542,JUZGADO CIVIL 7,juzgado,0.5907638072967529
+546230,Embargo - usuario,Embargo,1542,40471/2023,expediente,0.5443668961524963
+546230,Embargo - usuario,Embargo,1542,expte n* 40471/2023,expediente,0.7206875085830688
+546230,Embargo - usuario,Embargo,1542,Juzgado Nacional de Primera Instancia en lo Civil nro 7,juzgado,0.8032383918762207
+546230,Embargo - usuario,Embargo,1542,jncivil7Opjn.gov.ar,email,0.9935558438301086
+546230,Embargo - usuario,Embargo,1542,PESOS UN MILLON QUINIENTOS MIL,monto,0.5700129270553589
+546230,Embargo - usuario,Embargo,1542,$1.500.000,monto,0.6566471457481384
+546230,Embargo - usuario,Embargo,1542,"Banco
+de la Nación Argentina, Sucursal Tribunales",banco,0.9451563954353333
+546230,Embargo - usuario,Embargo,1542,0110025950099897445578,CBU,0.9832953810691833
+546230,Embargo - usuario,Embargo,1542,3 de diciembre de 2025,fecha,0.6879140138626099
+543050,Embargo - usuario,Embargo,1470,JUZGADO DE FAMILIA N? 5 - SAN ISIDRO,juzgado,0.8925309181213379
+543050,Embargo - usuario,Embargo,1470,20261011930Qnotificaciones.scba.gov.ar,destinatario,0.8153716325759888
+543050,Embargo - usuario,Embargo,1470,13/3/2026,fecha,0.8469294905662537
+543050,Embargo - usuario,Embargo,1470,Expte: SI - 38561 - 2022,expediente,0.6824952960014343
+543050,Embargo - usuario,Embargo,1470,"Juzgado de Familia N* 5, Departamento Judicial de San Isidro",juzgado,0.6319020390510559
+543050,Embargo - usuario,Embargo,1470,juzfam5-siOjusbuenosaires.gov.ar,email,0.5072669982910156
+543050,Embargo - usuario,Embargo,1470,0000003100087743731453,CVU,0.7836830615997314
+543050,Embargo - usuario,Embargo,1470,$14.309.175,monto,0.8008592128753662
+543050,Embargo - usuario,Embargo,1470,PESOS CATORCE MILLONES TRESCIENTOS NUEVE MIL CIENTO SETENTA Y CINCO,monto,0.5492206811904907
+543050,Embargo - usuario,Embargo,1470,$7.200.000,monto,0.7953423857688904
+543050,Embargo - usuario,Embargo,1470,PESOS SIETE MILLONES DOCIENTOS MIL,monto,0.5883296132087708
+518820,Embargo - usuario,Embargo,1081,REZZET MA CIELO C/ GIECO ORLANDO MN,caratula,0.8866692185401917
+518820,Embargo - usuario,Embargo,1081,Expte. N* 5013,expediente,0.8828358054161072
+518820,Embargo - usuario,Embargo,1081,Tribunales,juzgado,0.7122654318809509
+518820,Embargo - usuario,Embargo,1081,"Cuenta N* 62-208
+0894723",cuenta judicial,0.7712111473083496
+518820,Embargo - usuario,Embargo,1081,"04.11.2024, 09:32 hs.",fecha,0.8446580171585083
+518820,Embargo - usuario,Embargo,1081,Orlando Jesús,persona embargada,0.5918218493461609
+518820,Embargo - usuario,Embargo,1081,30-70308853-4,CUIT,0.592587947845459
+538081,Embargo - usuario,Embargo,1746,MERCADO PAGO ASSET MANAGEMENT S.A.,destinatario,0.8834102749824524
+538081,Embargo - usuario,Embargo,1746,"JUZGADO CIVIL Y COMERCIAL N* 10- MAR DEL
+
+PLATA",juzgado,0.8419668078422546
+538081,Embargo - usuario,Embargo,1746,MERCADO PAGO ASSET MANAGEMENT S.A.,destinatario,0.8896890878677368
+538081,Embargo - usuario,Embargo,1746,Expte. N* MP - 1493- 2026,expediente,0.7620887160301208
+538081,Embargo - usuario,Embargo,1746,11/02/2026 13:01:47,fecha,0.7602384686470032
+538081,Embargo - usuario,Embargo,1746,Mercado Libre SRL,destinatario,0.5016797184944153
+522288,Embargo - usuario,Embargo,2655,20129293641,CUIT,0.5610784888267517
+522288,Embargo - usuario,Embargo,2655,Expté.| NP 20280,expediente,0.8242533802986145
+522288,Embargo - usuario,Embargo,2655,"Departamento Judicial d cedes
+(B], Secrétaría Única",juzgado,0.8657737374305725
+522288,Embargo - usuario,Embargo,2655,04/09/25,fecha,0.8476630449295044
+522288,Embargo - usuario,Embargo,2655,28/10/25,fecha,0.668658971786499
+522288,Embargo - usuario,Embargo,2655,23-20026643-9,CUIT,0.6508492231369019
+536721,Embargo - usuario,Embargo,1835,JUZGADO EN LO CIVIL Y COMERCIAL N? 4 - SAN NICOLAS,juzgado,0.8543949127197266
+536721,Embargo - usuario,Embargo,1835,20224358203Qnotificaciones.scba.gov.ar,destinatario,0.5219384431838989
+536721,Embargo - usuario,Embargo,1835,Expte. SN - 12278 - 2018,expediente,0.8386085629463196
+536721,Embargo - usuario,Embargo,1835,16269506,DNI,0.5276365876197815
+536721,Embargo - usuario,Embargo,1835,20162695082,CUIT,0.5342544913291931
+504422,Embargo - usuario,Embargo,1060,TRIBUNAL DEL TRABAJO N* 1 - FLORENCIO VARELA,juzgado,0.7950528264045715
+504422,Embargo - usuario,Embargo,1060,CARDOZO FLORENCIA AYLEN,destinatario,0.5402312278747559
+504422,Embargo - usuario,Embargo,1060,30/12/2025 18 ENE 2,fecha,0.5450482368469238
+504422,Embargo - usuario,Embargo,1060,NOVELLO Sergio Omar,destinatario,0.5137643218040466
+504422,Embargo - usuario,Embargo,1060,Exp. 6125,expediente,0.7957727909088135
+504422,Embargo - usuario,Embargo,1060,Tribunal del Trabajo N* 1 de Florencio Varela,juzgado,0.7433120608329773
+542260,Embargo - usuario,Embargo,677,"Juzgado Federal de Primera Instancia,
+Secretaría Tributaria y Previsional",juzgado,0.9669455885887146
+542260,Embargo - usuario,Embargo,677,"Carlos Adrián
+Miranda",persona embargada,0.5531561374664307
+542260,Embargo - usuario,Embargo,677,DNI N* 20.242.247,DNI,0.7879981994628906
+542260,Embargo - usuario,Embargo,677,20-20242247-1,CUIT,0.7751020789146423
+542260,Embargo - usuario,Embargo,677,cuenta que denuncia,cuenta judicial,0.661935031414032
+542260,Embargo - usuario,Embargo,677,intereses y costas,monto costas,0.5085682272911072
+513487,Embargo - usuario,Embargo,1264,JUZGADO DE FAMILIA N? 5 - SAN ISIDRO,juzgado,0.8019284605979919
+513487,Embargo - usuario,Embargo,1264,30/12/2025,fecha,0.6691192388534546
+513487,Embargo - usuario,Embargo,1264,"EXPTE. |
+N 24.778/20",expediente,0.9253780841827393
+513487,Embargo - usuario,Embargo,1264,Juzgado de Familia N*5,juzgado,0.9303093552589417
+513487,Embargo - usuario,Embargo,1264,03/10/2025,fecha,0.8187774419784546
+513487,Embargo - usuario,Embargo,1264,"$83.331,84",monto,0.5222521424293518

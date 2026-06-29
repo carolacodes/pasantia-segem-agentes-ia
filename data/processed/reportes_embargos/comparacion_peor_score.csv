@@ -1,0 +1,1174 @@
+﻿id,nombre,score,estado_ocr,len_antes,len_despues,porcentaje_reduccion,texto_antes,texto_despues,diff
+542136,Embargo - usuario,0.22024548053681525,irrecuperable,285,258,0.09473684210526316,"q a ZA mercad
+A Ó-—
+tArñ20190D 198
+
+POMADA
+
+40 007. vol sh oben Wisnewslal ssobañb"" Wbiscineua y lorinoo lo
+
+Bm 3 me DATE bs D ADA
+
+ln MOO .1 7 alansoro.o
+dm y o PrRMOONS 02 |
+
+r ' As
+1
+4 |
+a
+1
+y
+!
+y €
+S á .
+ÑN
+ba 5 ' |
+Í
+4
+1]
+|
+otr y"" i |
+Sl Na?
+|
+, '
+1. A |
+|
+rra NO] | |
+yiv! 31 | |","q a ZA mercad
+A Ó--
+tArñ20190D 198
+
+POMADA
+
+40 007. vol sh oben Wisnewslal ssobañb"" Wbiscineua y lorinoo lo
+
+Bm 3 me DATE bs D ADA
+
+ln MOO.1 7 alansoro.o
+dm y o PrRMOONS 02 |
+
+r ' As
+1
+4 |
+1
+S á.
+ba 5 ' |
+4
+1]
+otr y"" i |
+Sl Na?
+1. A |
+rra NO] | |
+yiv! 31 | |","--- antes
++++ despues
+@@ -1,5 +1,5 @@
+ q a ZA mercad
+-A Ó-—
++A Ó--
+ tArñ20190D 198
+ 
+ POMADA
+@@ -8,29 +8,19 @@
+ 
+ Bm 3 me DATE bs D ADA
+ 
+-ln MOO .1 7 alansoro.o
++ln MOO.1 7 alansoro.o
+ dm y o PrRMOONS 02 |
+ 
+ r ' As
+ 1
+ 4 |
+-a
+ 1
+-y
+-!
+-y €
+-S á .
+-ÑN
++S á.
+ ba 5 ' |
+-Í
+ 4
+ 1]
+-|
+ otr y"" i |
+ Sl Na?
+-|
+-, '
+ 1. A |
+-|
+ rra NO] | |
+ yiv! 31 | |"
+543655,Embargo - usuario,0.4205999667744918,regular,766,748,0.02349869451697128,"l $21200
+o o "" Ñ
+A 7 El E : 000 or S ms a y pue hee
+AN ES A
+
+) on
+
+citado, atendiendo a que es
+
+le la medida cautelar a:
+
+'atricios, CABA de tal
+""conformidad con
+
+conta
+y Y
+
+Ma ode Ni 1 em! dos) Por » a e dicha ¡as ar
+di al Tribunales, í ertenecie esto N 2 acuerdo a lo so
+% cto la notificaci y considero admisible, ono SN
+OS DF PRO E ll Caseros
+ZÍAN FERRE 4 dél Plata. A
+st arta documento a , ¡ario a cumpl ón.
+por tal So VA PATRICIO GUSTAVO GRO Ñ SS qua Arpa
+( el Ac, 397 ente el Pro de cuil denu En cuencia. y conforme lo
+p0! Co L, do e a me d mi y c 9/2 median a car acu e Art 143 5 D ""DR p
+: MM civil A | VIVIA MIDI ULA
+| MN 14414 MN A
+| | | | ll 14 1] i]
+| 'Ñ | identi HI
+1) HI 11
+/,
+
+nbe 10d a¡qog
+
+in] 1]
+IDO MA ñ SCARIMBOLO |
+| SSI]
+
+jj 12291
+
+de h, h A a :","l $21200
+o o "" Ñ
+A 7 El E: 000 or S ms a y pue hee
+AN ES A) on
+
+citado, atendiendo a que es
+
+le la medida cautelar a:
+
+'atricios, CABA de tal
+""conformidad con
+
+conta
+y Y
+
+Ma ode Ni 1 em! dos) Por "" a e dicha ¡as ar
+di al Tribunales, í ertenecie esto N 2 acuerdo a lo so
+% cto la notificaci y considero admisible, ono SN
+OS DF PRO E ll Caseros
+ZÍAN FERRE 4 dél Plata. A
+st arta documento a, ¡ario a cumpl ón.
+por tal So VA PATRICIO GUSTAVO GRO Ñ SS qua Arpa
+(el Ac, 397 ente el Pro de CUIL denu En cuencia. y conforme lo
+p0! Co L, do e a me d mi y c 9/2 median a car acu e Art 143 5 D ""DR p: MM civil A | VIVIA MIDI ULA
+| MN 14414 MN A
+ll 14 1] i]
+| 'Ñ | identi HI
+1) HI 11
+
+nbe 10d a¡qog
+
+in] 1]
+IDO MA ñ SCARIMBOLO |
+| SSI]
+
+jj 12291
+
+de h, h A a:","--- antes
++++ despues
+@@ -1,9 +1,7 @@
+ l $21200
+ o o "" Ñ
+-A 7 El E : 000 or S ms a y pue hee
+-AN ES A
+-
+-) on
++A 7 El E: 000 or S ms a y pue hee
++AN ES A) on
+ 
+ citado, atendiendo a que es
+ 
+@@ -15,21 +13,19 @@
+ conta
+ y Y
+ 
+-Ma ode Ni 1 em! dos) Por » a e dicha ¡as ar
++Ma ode Ni 1 em! dos) Por "" a e dicha ¡as ar
+ di al Tribunales, í ertenecie esto N 2 acuerdo a lo so
+ % cto la notificaci y considero admisible, ono SN
+ OS DF PRO E ll Caseros
+ ZÍAN FERRE 4 dél Plata. A
+-st arta documento a , ¡ario a cumpl ón.
++st arta documento a, ¡ario a cumpl ón.
+ por tal So VA PATRICIO GUSTAVO GRO Ñ SS qua Arpa
+-( el Ac, 397 ente el Pro de cuil denu En cuencia. y conforme lo
+-p0! Co L, do e a me d mi y c 9/2 median a car acu e Art 143 5 D ""DR p
+-: MM civil A | VIVIA MIDI ULA
++(el Ac, 397 ente el Pro de CUIL denu En cuencia. y conforme lo
++p0! Co L, do e a me d mi y c 9/2 median a car acu e Art 143 5 D ""DR p: MM civil A | VIVIA MIDI ULA
+ | MN 14414 MN A
+-| | | | ll 14 1] i]
++ll 14 1] i]
+ | 'Ñ | identi HI
+ 1) HI 11
+-/,
+ 
+ nbe 10d a¡qog
+ 
+@@ -39,4 +35,4 @@
+ 
+ jj 12291
+ 
+-de h, h A a :
++de h, h A a:"
+515755,Embargo - usuario,0.5305096441284133,regular,749,737,0.01602136181575434,"PSN
+| FS
+El E
+| A o . )
+€ Ai
+o. ""z ULA
+Poder Judicial de la Nación |
+| Juzgado Nacional de 1* Instancia del Trabajo N* 48
+l OFICIO JUDICIAL
+¡ Buenos Aires,03 de no de 2026
+Al Sh Director de Asuntos Legales
+De Mercado Libre S.R.L.
+/ D
+Tengo el agrado de dirigirme a Ud., en los autos caratulados"" LUCERO, MARCELO
+E JUE c/ AURELIANO S.R.L. s/DESPIDO N* 528/2018, que tramitan por a éste
+
+Ciu
+
+debiefido en caso contrario explicar los motivos de su omisión y dar cumplimiento con 1
+judicial, bajo apercibimiento de lo normado por el art. 398 del C.P.C.C.N
+
+Sin otro particular, saludo a Ud. atentamente,
+
+1 19 EE8 900%
+
+RECIBIDO
+
+Signature Not d |
+Digitally signed VIAN,
+MARIEL DOBA!
+
+Date: 2026.02. 1:09:4
+
+|
+141615174
+
+ÁS
+
++131143398/148774610220260;","PSN
+| FS
+El E
+| A o.)
+€ Ai
+o. ""z ULA
+Poder Judicial de la Nación |
+| juzgado Nacional de 1* Instancia del Trabajo N* 48
+l OFICIO JUDICIAL
+¡ Buenos Aires,03 de no de 2026
+Al Sh Director de Asuntos Legales
+De Mercado Libre S.R.L.
+Tengo el agrado de dirigirme a Ud., en los autos caratulados"" LUCERO, MARCELO
+E JUE c/ AURELIANO S.R.L. s/DESPIDO N* 528/2018, que tramitan por a éste
+
+Ciu
+
+debiefido en caso contrario explicar los motivos de su omisión y dar cumplimiento con 1
+judicial, bajo apercibimiento de lo normado por el art. 398 del C.P.C.C.N
+
+Sin otro particular, saludo a Ud. atentamente,
+
+1 19 EE8 900%
+
+RECIBIDO
+
+Signature Not d |
+Digitally signed VIAN,
+MARIEL DOBA!
+
+Date: 2026.02. 1:09:4
+
+141615174
+
++131143398/148774610220260;","--- antes
++++ despues
+@@ -1,16 +1,15 @@
+ PSN
+ | FS
+ El E
+-| A o . )
++| A o.)
+ € Ai
+ o. ""z ULA
+ Poder Judicial de la Nación |
+-| Juzgado Nacional de 1* Instancia del Trabajo N* 48
++| juzgado Nacional de 1* Instancia del Trabajo N* 48
+ l OFICIO JUDICIAL
+ ¡ Buenos Aires,03 de no de 2026
+ Al Sh Director de Asuntos Legales
+ De Mercado Libre S.R.L.
+-/ D
+ Tengo el agrado de dirigirme a Ud., en los autos caratulados"" LUCERO, MARCELO
+ E JUE c/ AURELIANO S.R.L. s/DESPIDO N* 528/2018, que tramitan por a éste
+ 
+@@ -31,9 +30,6 @@
+ 
+ Date: 2026.02. 1:09:4
+ 
+-|
+ 141615174
+ 
+-ÁS
+-
+ +131143398/148774610220260;"
+521002,Embargo - usuario,0.5928195188923303,regular,1212,1193,0.015676567656765675,"OFICIO JUDICIAL
+
+Capital Federal, a losas del mes de Febrer
+
+ente de MERCADO LIBRE SRL
+
+D
+
+tante (conf. art. 61 L.O.), sobre los fondos que la demandada NAZARIA ZAPATOS SA
+0710568975 tenga depositados o que ingresen en el futuro en el BANCO DE LA
+ARGENTINA hasta alcanzar la suma de $ 3.827.748,95 (capital e
+
+rios parte actora) con más la de $ 975.600 que se presupuestan provisoriar
+
+terieses y
+ente para
+48 hs. al
+afló Y como
+judlad 30-
+
+der|a intereses y costas, importes que deberán ser transferidos dentro de las
+
+|
+
+|
+ace saber que respecto al CVU y correo electrónico de registro SE DESQONDCEN
+'AKHARIA
+
+|
+[Víctor
+|
+
+Sin otro particular saludo A; didhnente.
+
+18 668 201
+
+L
+REFIBIDO
+
+tigitally signéd PRENCIA
+ELEN BELHU,
+
+pes +
+
+A
+
+ai obotez miis ato 97
+
+3
+
+SAB REICONIIAA e, 15%
+¿Me
+
+tb pl ARRÚSS co obras o A dro DUE IÓ a He más]
+HE SIGA TAANE rad PRA Siisbipesr sd rasyosl 3d eV pa] h
+GURAIO sebelritizo abidr abi y Judd Poo Se totes A Bci se de
+
+A a O:
+AEBRROAN METAS Y eli:
+
+4 1T0D»> Te co manada AN
+O Eo tE
+A UA dc ati de
+o A E O
+
+vv q ora jml ata ds
+
+a
+8:
+AGO a a co: oras A IT a A at A E]
+AFARAA habits pe nd Reca aa li A a cr ns de io abel:
+AS A RAS
+E e E O AE set
+Si ce pp A o al ari bo IS ent |","OFICIO JUDICIAL
+
+Capital Federal, a losas del mes de Febrer
+
+ente de MERCADO LIBRE SRL
+
+tante (conf. art. 61 L.O.), sobre los fondos que la demandada NAZARIA ZAPATOS SA
+0710568975 tenga depositados o que ingresen en el futuro en el banco DE LA
+ARGENTINA hasta alcanzar la suma de $ 3.827.748,95 (capital e
+
+rios parte actora) con más la de $ 975.600 que se presupuestan provisoriar
+
+terieses y
+ente para
+48 hs. al
+afló Y como
+judlad 30-
+
+der|a intereses y costas, importes que deberán ser transferidos dentro de las
+
+ace saber que respecto al CVU y correo electrónico de registro SE DESQONDCEN
+'AKHARIA
+
+[Víctor
+
+Sin otro particular saludo A; didhnente.
+
+18 668 201
+
+REFIBIDO
+
+tigitally signéd PRENCIA
+ELEN BELHU,
+
+pes +
+
+ai obotez miis ato 97
+
+3
+
+SAB REICONIIAA e, 15%
+¿Me
+
+tb pl ARRÚSS co obras o A dro DUE IÓ a He más]
+HE SIGA TAANE rad PRA Siisbipesr sd rasyosl 3d eV pa] h
+GURAIO sebelritizo abidr abi y Judd Poo Se totes A Bci se de
+
+A a O:
+AEBRROAN METAS Y eli:
+
+4 1T0D""> Te co manada AN
+O Eo tE
+A UA dc ati de
+o A E O
+
+vv q ora jml ata ds
+
+8:
+AGO a a co: oras A IT a A at A E]
+AFARAA habits pe nd Reca aa li A a cr ns de io abel:
+AS A RAS
+E e E O AE set
+Si ce pp A o al ari bo IS ent |","--- antes
++++ despues
+@@ -4,10 +4,8 @@
+ 
+ ente de MERCADO LIBRE SRL
+ 
+-D
+-
+ tante (conf. art. 61 L.O.), sobre los fondos que la demandada NAZARIA ZAPATOS SA
+-0710568975 tenga depositados o que ingresen en el futuro en el BANCO DE LA
++0710568975 tenga depositados o que ingresen en el futuro en el banco DE LA
+ ARGENTINA hasta alcanzar la suma de $ 3.827.748,95 (capital e
+ 
+ rios parte actora) con más la de $ 975.600 que se presupuestan provisoriar
+@@ -20,29 +18,21 @@
+ 
+ der|a intereses y costas, importes que deberán ser transferidos dentro de las
+ 
+-|
+-
+-|
+ ace saber que respecto al CVU y correo electrónico de registro SE DESQONDCEN
+ 'AKHARIA
+ 
+-|
+ [Víctor
+-|
+ 
+ Sin otro particular saludo A; didhnente.
+ 
+ 18 668 201
+ 
+-L
+ REFIBIDO
+ 
+ tigitally signéd PRENCIA
+ ELEN BELHU,
+ 
+ pes +
+-
+-A
+ 
+ ai obotez miis ato 97
+ 
+@@ -58,14 +48,13 @@
+ A a O:
+ AEBRROAN METAS Y eli:
+ 
+-4 1T0D»> Te co manada AN
++4 1T0D""> Te co manada AN
+ O Eo tE
+ A UA dc ati de
+ o A E O
+ 
+ vv q ora jml ata ds
+ 
+-a
+ 8:
+ AGO a a co: oras A IT a A at A E]
+ AFARAA habits pe nd Reca aa li A a cr ns de io abel:"
+520997,Embargo - usuario,0.5972847480362699,regular,861,857,0.004645760743321719,"OFICIO DE EMBARGO PREVENTIVO
+
+Buenos Aires, 29 de Diciembré
+
+RCADO PAGO SERVICIOS
+ROCESAMIENTO SRL
+/ D
+
+lANDADO: COOPERATIVA DE TRABAJO FENIX LIMITADA Y
+
+». Secretaría única, sito en Sarmiento 1118, 7"" piso, de Capital Federal, a fi
+
+A - C.U.LL 20-20937870-2"", en todos los casos por los fondos existentes
+
+ajel resultado de la presente medida.
+Sin otro particular, saludo a Ud. Atte.
+
+1.0 FER 06
+
+RECIBIDO
+
+sa|N%: 38005/2025 - Incidente N* 1 - ACTOR: TREJO, GILDA BE/
+
+IDENTE>, en trámite en el Juzgado Nacional de 1* Instancia del Trabajo N*
+
+enta, ya sea cuenta corrientes, caja de ahorro común, especial y/o en dólares,
+4 y/o créditos de cualquier naturaleza, títulos valores, fondos de inversión en
+
+bnall o extranjera, de las cuales resulte titular el codemandado ""NESTOR MA
+
+3hnco de la Ciudad de Buenos Aires, Sucursal Tribunales, dentro del plazo de|96","OFICIO DE embargo PREVENTIVO
+
+Buenos Aires, 29 de Diciembré
+
+RCADO PAGO SERVICIOS
+ROCESAMIENTO SRL
+
+lANDADO: COOPERATIVA DE TRABAJO FENIX LIMITADA Y
+
+"". secretaría única, sito en Sarmiento 1118, 7"" piso, de Capital Federal, a fi
+
+A - C.U.LL 20-20937870-2"", en todos los casos por los fondos existentes
+
+ajel resultado de la presente medida.
+Sin otro particular, saludo a Ud. Atte.
+
+1.0 FER 06
+
+RECIBIDO
+
+sa|N%: 38005/2025 - Incidente N* 1 - ACTOR: TREJO, GILDA BE/
+
+IDENTE>, en trámite en el juzgado Nacional de 1* Instancia del Trabajo N*
+
+enta, ya sea cuenta corrientes, caja de ahorro común, especial y/o en dólares,
+4 y/o créditos de cualquier naturaleza, títulos valores, fondos de inversión en
+
+bnall o extranjera, de las cuales resulte titular el codemandado ""NESTOR MA
+
+3hnco de la Ciudad de Buenos Aires, Sucursal Tribunales, dentro del plazo de|96","--- antes
++++ despues
+@@ -1,14 +1,13 @@
+-OFICIO DE EMBARGO PREVENTIVO
++OFICIO DE embargo PREVENTIVO
+ 
+ Buenos Aires, 29 de Diciembré
+ 
+ RCADO PAGO SERVICIOS
+ ROCESAMIENTO SRL
+-/ D
+ 
+ lANDADO: COOPERATIVA DE TRABAJO FENIX LIMITADA Y
+ 
+-». Secretaría única, sito en Sarmiento 1118, 7"" piso, de Capital Federal, a fi
++"". secretaría única, sito en Sarmiento 1118, 7"" piso, de Capital Federal, a fi
+ 
+ A - C.U.LL 20-20937870-2"", en todos los casos por los fondos existentes
+ 
+@@ -21,7 +20,7 @@
+ 
+ sa|N%: 38005/2025 - Incidente N* 1 - ACTOR: TREJO, GILDA BE/
+ 
+-IDENTE>, en trámite en el Juzgado Nacional de 1* Instancia del Trabajo N*
++IDENTE>, en trámite en el juzgado Nacional de 1* Instancia del Trabajo N*
+ 
+ enta, ya sea cuenta corrientes, caja de ahorro común, especial y/o en dólares,
+ 4 y/o créditos de cualquier naturaleza, títulos valores, fondos de inversión en"
+547367,Embargo - usuario,0.6198876465072671,regular,706,685,0.029745042492917848,"Sy
+
+CERTIFICA que la presente es copia fel cuyo original
+sido firmado digalmente por: ÉRUNELLO, Analia -
+
+PROSECRETARIO/A LETRADO. FASSETTA,
+
+Di Ignacio - JUE,
+
+Ñ 5
+Ñ 2
+
+. GOACO,
+
+Fi di e,
+EM reto guinana ($
+
+Administración RNTSY
+
+Pp E de Causas
+PODER JUDICIAL DE CORDOBA
+
+EXPEDIENTE SAC: 9517286 - MARGEN COMERCIAL S.A. C/ LUCERO MORENO, RODRIGO DENIS -
+
+EXPED.ELECTRONICO - EJEC.POR COBRO DE LETRAS O PAGARES
+
+CORDOBA, 13/10/2025.
+
+SS
+SK NY Mes
+Y ELOY
+librado
+OFICIO LEY 22.172. 2 0 FA Ron E
+i
+
+o]
+Po
+po
+3
+
+Texto Firmado digitalmente por: .
+BRUNELLO Analia
+PROSECRETARIO/A LETRADO
+Fecha: 2025.10.13
+
+FASSETTA Domingo Ignacio
+JUEZ/A DE ARA. INSTANCIA
+Fecha: 2025.10.13
+
+Expediente SAC 9517286 - Pág. 3 / 3","CERTIFICA que la presente es copia fel cuyo original
+sido firmado digalmente por: ÉRUNELLO, Analia -
+
+PROSECRETARIO/A LETRADO. FASSETTA,
+
+Di Ignacio - JUE,
+
+Ñ 5
+Ñ 2. GOACO,
+
+Fi di e,
+EM reto guinana ($
+
+Administración RNTSY
+
+Pp E de Causas
+PODER JUDICIAL DE CORDOBA
+
+expediente SAC: 9517286 - MARGEN COMERCIAL S.A. C/ LUCERO MORENO, RODRIGO DENIS -
+
+EXPED.ELECTRONICO - EJEC.POR COBRO DE LETRAS O PAGARES
+
+CORDOBA, 13/10/2025.
+
+SK NY Mes
+Y ELOY
+librado
+OFICIO LEY 22.172. 2 0 FA Ron E
+
+3
+
+Texto Firmado digitalmente por:.
+BRUNELLO Analia
+PROSECRETARIO/A LETRADO
+Fecha: 2025.10.13
+
+FASSETTA Domingo Ignacio
+JUEZ/A DE ARA. INSTANCIA
+Fecha: 2025.10.13
+
+expediente SAC 9517286 - Pág. 3 / 3","--- antes
++++ despues
+@@ -1,5 +1,3 @@
+-Sy
+-
+ CERTIFICA que la presente es copia fel cuyo original
+ sido firmado digalmente por: ÉRUNELLO, Analia -
+ 
+@@ -8,9 +6,7 @@
+ Di Ignacio - JUE,
+ 
+ Ñ 5
+-Ñ 2
+-
+-. GOACO,
++Ñ 2. GOACO,
+ 
+ Fi di e,
+ EM reto guinana ($
+@@ -20,25 +16,20 @@
+ Pp E de Causas
+ PODER JUDICIAL DE CORDOBA
+ 
+-EXPEDIENTE SAC: 9517286 - MARGEN COMERCIAL S.A. C/ LUCERO MORENO, RODRIGO DENIS -
++expediente SAC: 9517286 - MARGEN COMERCIAL S.A. C/ LUCERO MORENO, RODRIGO DENIS -
+ 
+ EXPED.ELECTRONICO - EJEC.POR COBRO DE LETRAS O PAGARES
+ 
+ CORDOBA, 13/10/2025.
+ 
+-SS
+ SK NY Mes
+ Y ELOY
+ librado
+ OFICIO LEY 22.172. 2 0 FA Ron E
+-i
+ 
+-o]
+-Po
+-po
+ 3
+ 
+-Texto Firmado digitalmente por: .
++Texto Firmado digitalmente por:.
+ BRUNELLO Analia
+ PROSECRETARIO/A LETRADO
+ Fecha: 2025.10.13
+@@ -47,4 +38,4 @@
+ JUEZ/A DE ARA. INSTANCIA
+ Fecha: 2025.10.13
+ 
+-Expediente SAC 9517286 - Pág. 3 / 3
++expediente SAC 9517286 - Pág. 3 / 3"
+508925,Embargo - usuario,0.6678575114536158,legible,1249,1248,0.0008006405124099279,"OFICIODEEMBARGO.
+
+SR|[GERENTE / TITULAR A CARGO
+
+DE MRCADO LIBRE S.R.L..-
+S ooo e cnn D.-
+
+e|dirijo a Ud. en los autos caratulados: ""ORANGE BLUE IMPO «
+EXPORT|TOOLS S.R.L. C/ MAQUINARIAS BOEDO S.R.K. S/ EJECUTIVO
+(Expte ¡¡Ú 25.442/2025)"", en trámite por ante el Juzgado Nacional de era
+Instantia en lo Comercial N"" 24, a cargo del Dr. Guillermo Mario PESARESI,
+Secretáiría IN? 240, a cargo del suscripto, sito en la calle Marcelo Torcuato de Alvear N*
+11840, Piso 1% de la Ciudad Autónoma de Buenos Aires, con el objeto de T BAR
+EMBAIRGO sobre los fondos depositados en la cuenta denunciada como de tithlatidad
+de la demandada MAQUINARIAS BOEDO S.R.L., CUIT N* 30-71846563+6 Hasta
+
+añ
+
+sumas supra indicadas, trábese embargo sobre los fondos depositados en lá
+denunfiada como de titularidad de la demandada a cuyo fin líbrese oficio a M
+Libre |
+suscrifito digitalmente...Firmado: GUILLERMO MARIO PESARESI. JUEZ"".
+| Queda autorizado ¡a correr con el diligenciamiento del presente e
+donjuñta e indistinta, el Dr. Gustavo Martín GARABATO T* 111 F* 483 CPA
+del D
+
+Flavia [HIRAI T* 119 F* 622 CPACE y/o quienes éstos designen.
+Saluda atte.
+
+¡AGUSTÍN PASSARÓN
+
+SECRETARIO 04 FEB 2016
+
+Signature Not a!
+Digitally signe US
+PASSARON
+
+Date: 2026.02.0488:29:16","OFICIODEEMBARGO.
+
+SR|[GERENTE / TITULAR A CARGO
+
+DE MRCADO LIBRE S.R.L..-
+S ooo e cnn D.-
+
+e|dirijo a Ud. en los autos caratulados: ""ORANGE BLUE IMPO ""
+EXPORT|TOOLS S.R.L. C/ MAQUINARIAS BOEDO S.R.K. S/ EJECUTIVO
+(expediente ¡¡Ú 25.442/2025)"", en trámite por ante el juzgado Nacional de era
+Instantia en lo Comercial N"" 24, a cargo del Dr. Guillermo Mario PESARESI,
+Secretáiría IN? 240, a cargo del suscripto, sito en la calle Marcelo Torcuato de Alvear N*
+11840, Piso 1% de la Ciudad Autónoma de Buenos Aires, con el objeto de T BAR
+EMBAIRGO sobre los fondos depositados en la cuenta denunciada como de tithlatidad
+de la demandada MAQUINARIAS BOEDO S.R.L., CUIT N* 30-71846563+6 Hasta
+
+sumas supra indicadas, trábese embargo sobre los fondos depositados en lá
+denunfiada como de titularidad de la demandada a cuyo fin líbrese oficio a M
+Libre |
+suscrifito digitalmente.Firmado: GUILLERMO MARIO PESARESI. JUEZ"".
+| Queda autorizado ¡a correr con el diligenciamiento del presente e
+donjuñta e indistinta, el Dr. Gustavo Martín GARABATO T* 111 F* 483 CPA
+del D
+
+Flavia [HIRAI T* 119 F* 622 CPACE y/o quienes éstos designen.
+Saluda atte.
+
+¡AGUSTÍN PASSARÓN
+
+SECRETARIO 04 FEB 2016
+
+Signature Not a!
+Digitally signe US
+PASSARON
+
+Date: 2026.02.0488:29:16","--- antes
++++ despues
+@@ -5,21 +5,19 @@
+ DE MRCADO LIBRE S.R.L..-
+ S ooo e cnn D.-
+ 
+-e|dirijo a Ud. en los autos caratulados: ""ORANGE BLUE IMPO «
++e|dirijo a Ud. en los autos caratulados: ""ORANGE BLUE IMPO ""
+ EXPORT|TOOLS S.R.L. C/ MAQUINARIAS BOEDO S.R.K. S/ EJECUTIVO
+-(Expte ¡¡Ú 25.442/2025)"", en trámite por ante el Juzgado Nacional de era
++(expediente ¡¡Ú 25.442/2025)"", en trámite por ante el juzgado Nacional de era
+ Instantia en lo Comercial N"" 24, a cargo del Dr. Guillermo Mario PESARESI,
+ Secretáiría IN? 240, a cargo del suscripto, sito en la calle Marcelo Torcuato de Alvear N*
+ 11840, Piso 1% de la Ciudad Autónoma de Buenos Aires, con el objeto de T BAR
+ EMBAIRGO sobre los fondos depositados en la cuenta denunciada como de tithlatidad
+ de la demandada MAQUINARIAS BOEDO S.R.L., CUIT N* 30-71846563+6 Hasta
+ 
+-añ
+-
+ sumas supra indicadas, trábese embargo sobre los fondos depositados en lá
+ denunfiada como de titularidad de la demandada a cuyo fin líbrese oficio a M
+ Libre |
+-suscrifito digitalmente...Firmado: GUILLERMO MARIO PESARESI. JUEZ"".
++suscrifito digitalmente.Firmado: GUILLERMO MARIO PESARESI. JUEZ"".
+ | Queda autorizado ¡a correr con el diligenciamiento del presente e
+ donjuñta e indistinta, el Dr. Gustavo Martín GARABATO T* 111 F* 483 CPA
+ del D"
+510973,Embargo - usuario,0.6907243967973139,legible,995,990,0.005025125628140704,"A
+MERCADO LIBRE S.R.L.-
+S 1 D
+
+trámite ante el Juzgado Nacional de Primera Instancia del Trabajo N"" 35| á
+cargo, Secretaria Única, a cargo del Dr. Gillette Torrilla, Mariano, sito e
+
+DIARTE MANUEL LEONARDO (DNI N* 94.535.326), hasta cubrir la sumá
+de $9.145.243,94.- (Discriminado: $7.823.134,26 por capital y $1.322.109.8
+honorarios), con más la de $4.500.000.- presupuestados provisoriamentd f
+
+Banco Ciudad de Buenos Aires, Sucursal Tribunales, Cuenta 0006-035
+0008-0 / CBU 02900759- 00294139700081, a la orden de este Juzgado y kt
+pertenecientes a estos autos en el plazo de cinco días. Se le hace sabef |
+
+resultado de la gestión encomendada mediante comunicación a la dirección
+
+email institucional: intrabajo35Wpin.gov.ar.
+
+Ariel Casabal, y las Srtas. Ludmila Rocio Carboneti, Martina lucia Cofrá
+Chiara Vittoria Di Cicco Pompilo y/o Viviana Rampelini, indistintamente,
+
+Saludo a Uds. muy atentamente.
+
+0 5 FEB 2026
+
+RECIBIDO
+
+Fira válid;
+ligitally sionefAb:
+JANDRO]
+lf: 2025.12p>
+
+0 0
+
+o","MERCADO LIBRE S.R.L.-
+S 1 D
+
+trámite ante el juzgado Nacional de Primera Instancia del Trabajo N"" 35| á
+cargo, secretaría Única, a cargo del Dr. Gillette Torrilla, Mariano, sito e
+
+DIARTE MANUEL LEONARDO (DNI N* 94.535.326), hasta cubrir la sumá
+de $9.145.243,94.- (Discriminado: $7.823.134,26 por capital y $1.322.109.8
+honorarios), con más la de $4.500.000.- presupuestados provisoriamentd f
+
+banco Ciudad de Buenos Aires, Sucursal Tribunales, cuenta 0006-035
+0008-0 / CBU 02900759- 00294139700081, a la orden de este juzgado y kt
+pertenecientes a estos autos en el plazo de cinco días. Se le hace sabef |
+
+resultado de la gestión encomendada mediante comunicación a la dirección
+
+email institucional: intrabajo35Wpin.gov.ar.
+
+Ariel Casabal, y las Srtas. Ludmila Rocio Carboneti, Martina lucia Cofrá
+Chiara Vittoria Di Cicco Pompilo y/o Viviana Rampelini, indistintamente,
+
+Saludo a Uds. muy atentamente.
+
+0 5 FEB 2026
+
+RECIBIDO
+
+Fira válid;
+ligitally sionefAb:
+JANDRO]
+lf: 2025.12p>
+
+0 0","--- antes
++++ despues
+@@ -1,16 +1,15 @@
+-A
+ MERCADO LIBRE S.R.L.-
+ S 1 D
+ 
+-trámite ante el Juzgado Nacional de Primera Instancia del Trabajo N"" 35| á
+-cargo, Secretaria Única, a cargo del Dr. Gillette Torrilla, Mariano, sito e
++trámite ante el juzgado Nacional de Primera Instancia del Trabajo N"" 35| á
++cargo, secretaría Única, a cargo del Dr. Gillette Torrilla, Mariano, sito e
+ 
+ DIARTE MANUEL LEONARDO (DNI N* 94.535.326), hasta cubrir la sumá
+ de $9.145.243,94.- (Discriminado: $7.823.134,26 por capital y $1.322.109.8
+ honorarios), con más la de $4.500.000.- presupuestados provisoriamentd f
+ 
+-Banco Ciudad de Buenos Aires, Sucursal Tribunales, Cuenta 0006-035
+-0008-0 / CBU 02900759- 00294139700081, a la orden de este Juzgado y kt
++banco Ciudad de Buenos Aires, Sucursal Tribunales, cuenta 0006-035
++0008-0 / CBU 02900759- 00294139700081, a la orden de este juzgado y kt
+ pertenecientes a estos autos en el plazo de cinco días. Se le hace sabef |
+ 
+ resultado de la gestión encomendada mediante comunicación a la dirección
+@@ -32,5 +31,3 @@
+ lf: 2025.12p>
+ 
+ 0 0
+-
+-o"
+526706,Embargo - usuario,0.6929068882153209,legible,627,623,0.006379585326953748,"OFICIO DE LEVANTAMIENTO DE EMBARGO
+
+Caba, de Febrero di
+
+ctor de Mercado Libre SRL
+
+¡
+
+el agrado de dirigirme a Ud en el marco de los autos caratulados ""FERNANDEZ, JORGE
+
+L c/ COOPERATIVA DE TRABAJO LOGI MAC LTDA s/DESPIDO"" (EXPTE 25.714/2024)"",
+
+e ante el Juzgado Nacional del Trabajo Nro 20, sito en la calle Diagonal Roque Saenz Pe
+, Caba, a cargo de la Dra. Becchi, Maria Romina, Secretaría a mi cargo del Dr. Oppe
+
+da:
+
+Dr. Ni EL
+
+15 FEB 2006
+
+los fines de hacerle saber que se ha resuelto levantar el embargo deducido sobre bienes
+de la DEMANDADA COOPERATIVA DE TRABAJO LOG MAC LTDA, CUIT 30-7177763
+
+Saludo a Ud muy Atte","OFICIO DE LEVANTAMIENTO DE embargo
+
+Caba, de Febrero di
+
+ctor de Mercado Libre SRL
+
+el agrado de dirigirme a Ud en el marco de los autos caratulados ""FERNANDEZ, JORGE
+
+L c/ COOPERATIVA DE TRABAJO LOGI MAC LTDA s/DESPIDO"" (EXPTE 25.714/2024)"",
+
+e ante el juzgado Nacional del Trabajo Nro 20, sito en la calle Diagonal Roque Saenz Pe, Caba, a cargo de la Dra. Becchi, Maria Romina, secretaría a mi cargo del Dr. Oppe
+
+da:
+
+Dr. Ni EL
+
+15 FEB 2006
+
+los fines de hacerle saber que se ha resuelto levantar el embargo deducido sobre bienes
+de la DEMANDADA COOPERATIVA DE TRABAJO LOG MAC LTDA, CUIT 30-7177763
+
+Saludo a Ud muy Atte","--- antes
++++ despues
+@@ -1,17 +1,14 @@
+-OFICIO DE LEVANTAMIENTO DE EMBARGO
++OFICIO DE LEVANTAMIENTO DE embargo
+ 
+ Caba, de Febrero di
+ 
+ ctor de Mercado Libre SRL
+ 
+-¡
+-
+ el agrado de dirigirme a Ud en el marco de los autos caratulados ""FERNANDEZ, JORGE
+ 
+ L c/ COOPERATIVA DE TRABAJO LOGI MAC LTDA s/DESPIDO"" (EXPTE 25.714/2024)"",
+ 
+-e ante el Juzgado Nacional del Trabajo Nro 20, sito en la calle Diagonal Roque Saenz Pe
+-, Caba, a cargo de la Dra. Becchi, Maria Romina, Secretaría a mi cargo del Dr. Oppe
++e ante el juzgado Nacional del Trabajo Nro 20, sito en la calle Diagonal Roque Saenz Pe, Caba, a cargo de la Dra. Becchi, Maria Romina, secretaría a mi cargo del Dr. Oppe
+ 
+ da:
+ "
+518801,Embargo - usuario,0.6993207859143867,legible,881,881,0.0,"OFICIO JUDICIAL
+
+Buenos Aires,
+
+A MERCADO LIBRE SRL (MERCADO PAGO)
+
+s D
+
+KINGVOX INDUSTRIAL Y COMERCIAL S.R.L.
+
+S.R.L. S/ ORDINARIO"" Expte. N* 12167/25, que tramitp
+
+ante el Juzgado Nacional de Primera Instancia en lo Comercial
+
+cargo de la Sra. Juez María Virginia Villaroe
+
+cargo del Dr. Diego Ruiz, en los que se
+
+levant.
+
+sobre la dem
+
+dispositiva dice: ""Buenos Aires,
+
+presente el pago total denunciado respecto del reclamo de autds
+
+accesorios. Consecuentemente, ténganse por
+actuaciones. 2. Levántense las medidas trabadas
+
+líbrese
+
+DIEGO RICARDO RUIZ
+SECRETARIO
+
+18 FEB 206
+
+RECIBIDO
+
+de febrero de
+
+1, Secretaría Nrd.
+amiento de la medida cautelar de embar
+andada GARAGE UNO SRL CUIT 30-71540PP
+11 de febrero de 2026. 1.18
+concluidas las prp$e
+
+el despacho del caso «Firmado: MARÍA VIRGINIA VILLARR
+
+E
+
+04489456444+4202602 1802
+
+C/ GARAG!
+
+ha ordendad
+
+enfs. 50 a (
+
+ON
+
+2","OFICIO JUDICIAL
+
+Buenos Aires,
+
+A MERCADO LIBRE SRL (MERCADO PAGO)
+
+s D
+
+KINGVOX INDUSTRIAL Y COMERCIAL S.R.L.
+
+S.R.L. S/ ORDINARIO"" expediente. N* 12167/25, que tramitp
+
+ante el juzgado Nacional de Primera Instancia en lo Comercial
+
+cargo de la Sra. Juez María Virginia Villaroe
+
+cargo del Dr. Diego Ruiz, en los que se
+
+levant.
+
+sobre la dem
+
+dispositiva dice: ""Buenos Aires,
+
+presente el pago total denunciado respecto del reclamo de autds
+
+accesorios. Consecuentemente, ténganse por
+actuaciones. 2. Levántense las medidas trabadas
+
+líbrese
+
+DIEGO RICARDO RUIZ
+SECRETARIO
+
+18 FEB 206
+
+RECIBIDO
+
+de febrero de
+
+1, secretaría Nrd.
+amiento de la medida cautelar de embar
+andada GARAGE UNO SRL CUIT 30-71540PP
+11 de febrero de 2026. 1.18
+concluidas las prp$e
+
+el despacho del caso ""Firmado: MARÍA VIRGINIA VILLARR
+
+04489456444+4202602 1802
+
+C/ GARAG!
+
+ha ordendad
+
+enfs. 50 a (ON
+
+2","--- antes
++++ despues
+@@ -8,9 +8,9 @@
+ 
+ KINGVOX INDUSTRIAL Y COMERCIAL S.R.L.
+ 
+-S.R.L. S/ ORDINARIO"" Expte. N* 12167/25, que tramitp
++S.R.L. S/ ORDINARIO"" expediente. N* 12167/25, que tramitp
+ 
+-ante el Juzgado Nacional de Primera Instancia en lo Comercial
++ante el juzgado Nacional de Primera Instancia en lo Comercial
+ 
+ cargo de la Sra. Juez María Virginia Villaroe
+ 
+@@ -38,15 +38,13 @@
+ 
+ de febrero de
+ 
+-1, Secretaría Nrd.
++1, secretaría Nrd.
+ amiento de la medida cautelar de embar
+ andada GARAGE UNO SRL CUIT 30-71540PP
+ 11 de febrero de 2026. 1.18
+ concluidas las prp$e
+ 
+-el despacho del caso «Firmado: MARÍA VIRGINIA VILLARR
+-
+-E
++el despacho del caso ""Firmado: MARÍA VIRGINIA VILLARR
+ 
+ 04489456444+4202602 1802
+ 
+@@ -54,8 +52,6 @@
+ 
+ ha ordendad
+ 
+-enfs. 50 a (
+-
+-ON
++enfs. 50 a (ON
+ 
+ 2"

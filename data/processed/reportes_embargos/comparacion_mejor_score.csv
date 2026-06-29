@@ -1,0 +1,1412 @@
+﻿id,nombre,score,estado_ocr,len_antes,len_despues,porcentaje_reduccion,texto_antes,texto_despues,diff
+542270,Embargo - usuario,0.9687254901960783,legible,2703,2698,0.001849796522382538,"e
+
+Poder Judicial de la Nación
+
+JUZGADO NACIONAL DE 1RA INSTANCIA DEL
+TRABAJO NRO. 17
+
+OFICIO
+
+Buenos Aires, 6 de Marzo de 2026
+Al Repr Legal de Mercado Libre SRL
+Ss/D
+
+Tengo el agrado de dirigirme a Usted en los autos caratulados ""DI SCIASCIO,
+ADRIAN CARLOS OSCAR C/ PILTEX SOCIEDAD DE HECHO.
+DEMATIAS HORACIO BERTOLDI Y SANTIAGO AGUSTIN BERTOLDI
+YOTROS S/ Despido"", Expte. Nro. 23.206/2.015, en trámite por ante el Juzgado
+
+Nacional de Primera Instancia del Trabajo Número 17, a cargo de la Dra. Liliana
+
+Rodríguez Fernández, Secretaría única, a cargo de la Dra. Liliana Alicia
+
+Fernández, de Capital Federal, con sede en Avda. Roque Saenz Peña 760, Piso
+9"", Capital Federal, a efectos de hacerle saber que se ha resuelto TRABAR
+EMBARGO, hasta cubrir la suma de $ 1.088.972,12, con más la de $ 100.000.-,
+
+que se presuponen provisionalmente para responder a intereses y costas, sobre
+las sumas que el demandado Santiago Agustin Bertoldi, DNI 24.977.621, posea
+en la billetera Mercado Pago, y/o las que a través de esa billetera, hayan sido
+invertidas en el Fondo Común de Inversión Mercado Fondo, cuya custodia esta a
+cargo del Banco Industrial.
+
+Se le hace saber que: 1"") Debe informar el saldo que registren las mencionadas
+
+cuentas al momento de la presentación del oficio ordenado y al firmarse la copia
+de recepción; 2?) Mantener la medida dispuesta hasta tanto se cumplimente en su
+totalidad el embargo por las sumas consignadas aún que se registre saldo deudor
+
+en dichas cuentas; 3%) Transf
+[...]","Poder Judicial de la Nación
+
+juzgado NACIONAL DE 1RA INSTANCIA DEL
+TRABAJO NRO. 17
+
+OFICIO
+
+Buenos Aires, 6 de Marzo de 2026
+Al Repr Legal de Mercado Libre SRL
+Ss/D
+
+Tengo el agrado de dirigirme a Usted en los autos caratulados ""DI SCIASCIO,
+ADRIAN CARLOS OSCAR C/ PILTEX SOCIEDAD DE HECHO.
+DEMATIAS HORACIO BERTOLDI Y SANTIAGO AGUSTIN BERTOLDI
+YOTROS S/ Despido"", expediente. Nro. 23.206/2.015, en trámite por ante el juzgado
+
+Nacional de Primera Instancia del Trabajo Número 17, a cargo de la Dra. Liliana
+
+Rodríguez Fernández, secretaría única, a cargo de la Dra. Liliana Alicia
+
+Fernández, de Capital Federal, con sede en Avda. Roque Saenz Peña 760, Piso
+9"", Capital Federal, a efectos de hacerle saber que se ha resuelto TRABAR
+embargo, hasta cubrir la suma de $ 1.088.972,12, con más la de $ 100.000.-,
+
+que se presuponen provisionalmente para responder a intereses y costas, sobre
+las sumas que el demandado Santiago Agustin Bertoldi, DNI 24.977.621, posea
+en la billetera Mercado Pago, y/o las que a través de esa billetera, hayan sido
+invertidas en el Fondo Común de Inversión Mercado Fondo, cuya custodia esta a
+cargo del banco Industrial.
+
+Se le hace saber que: 1"") Debe informar el saldo que registren las mencionadas
+
+cuentas al momento de la presentación del oficio ordenado y al firmarse la copia
+de recepción; 2?) Mantener la medida dispuesta hasta tanto se cumplimente en su
+totalidad el embargo por las sumas consignadas aún que se registre saldo deudor
+
+en dichas cuentas; 3%) Tran
+[...]","--- antes
++++ despues
+@@ -1,8 +1,6 @@
+-e
+-
+ Poder Judicial de la Nación
+ 
+-JUZGADO NACIONAL DE 1RA INSTANCIA DEL
++juzgado NACIONAL DE 1RA INSTANCIA DEL
+ TRABAJO NRO. 17
+ 
+ OFICIO
+@@ -14,21 +12,21 @@
+ Tengo el agrado de dirigirme a Usted en los autos caratulados ""DI SCIASCIO,
+ ADRIAN CARLOS OSCAR C/ PILTEX SOCIEDAD DE HECHO.
+ DEMATIAS HORACIO BERTOLDI Y SANTIAGO AGUSTIN BERTOLDI
+-YOTROS S/ Despido"", Expte. Nro. 23.206/2.015, en trámite por ante el Juzgado
++YOTROS S/ Despido"", expediente. Nro. 23.206/2.015, en trámite por ante el juzgado
+ 
+ Nacional de Primera Instancia del Trabajo Número 17, a cargo de la Dra. Liliana
+ 
+-Rodríguez Fernández, Secretaría única, a cargo de la Dra. Liliana Alicia
++Rodríguez Fernández, secretaría única, a cargo de la Dra. Liliana Alicia
+ 
+ Fernández, de Capital Federal, con sede en Avda. Roque Saenz Peña 760, Piso
+ 9"", Capital Federal, a efectos de hacerle saber que se ha resuelto TRABAR
+-EMBARGO, hasta cubrir la suma de $ 1.088.972,12, con más la de $ 100.000.-,
++embargo, hasta cubrir la suma de $ 1.088.972,12, con más la de $ 100.000.-,
+ 
+ que se presuponen provisionalmente para responder a intereses y costas, sobre
+ las sumas que el demandado Santiago Agustin Bertoldi, DNI 24.977.621, posea
+ en la billetera Mercado Pago, y/o las que a través de esa billetera, hayan sido
+ invertidas en el Fondo Común de Inversión Mercado Fondo, cuya custodia esta a
+-cargo del Banco Industrial.
++cargo del banco Industrial.
+ 
+ Se le hace saber que: 1"") Debe informar el saldo que registren las mencionadas
+ 
+@@ -37,10 +35,10 @@
+ totalidad el embargo por las sumas consignadas aún que se registre saldo deudor
+ 
+ en dichas cuentas; 3%) Transferir las sumas embargadas dentro de las setenta y
+-dos horas a la orden del Juzgado en la cuenta de autos del Banco de la Ciudad de
++dos horas a la orden del juzgado en la cuenta de autos del banco de la Ciudad de
+ 
+ Buenos Aires, Sucursal Tribunales (CBU CBU 02900759-00276151500407,
+-CUIT del Banco Ciudad: 30-99903208-3); 4) Informar al Juzgado el resultado de
++CUIT del banco Ciudad: 30-99903208-3); 4) Informar al juzgado el resultado de
+ 
+ la diligencia dentro del plazo de cinco días de recibido el requerimiento.
+ 
+@@ -59,11 +57,9 @@
+ 
+ 126874336492174899420260306075839073
+ 
+-S
+-
+ Poder Judicial de la Nación
+ 
+-JUZGADO NACIONAL DE IRA INSTANCIA DEL
++juzgado NACIONAL DE IRA INSTANCIA DEL
+ TRABAJO NRO. 17
+ 
+ conducta asumida a la luz de lo normado en el art. 239 del Código Penal Se
+@@ -78,5 +74,3 @@
+ Digitally sign: JANA,
+ cells
+ Dale: 2026.03,04/ 16:56:56 ART
+-
+-AL"
+536703,Embargo - usuario,0.9624894424494279,legible,4423,4418,0.0011304544426859599,"(Ue
+
+413/26, 09-18 TEXTO Y DATOS DE LA NOTIFICACIÓN - SUPREMA CORTE DE JUSTICIA- NOTIFICACIONES ELECTRÓNICAS
+Usuario conectado: DOS SANTOS CARLOS ROBERTO - 23137661349Q notificaciones.scba.govar
+Organismo: TRIBUNAL DEL TRABAJO N? 5 - QUILMES
+Carátula: DEFINA STELLA MARIS C/ ARAUJO ARAUJO LAZARO EDUARDO S/ DESPIDO
+Número de causa: 18645
+Tipo de notificación: OFICIO REQUIRIENDO
+Destinatarios: 23137661349 notificaciones.scba.govar
+Fecha notificación: 27/2/2026 08:27:57
+Alta o disponibilidad 27/2/202608:28:06 10 AR 2008
+Firma digital: Firma válida
+Firmado y Notificado por: ZACARIAS Andrea Marcela. JUEZ — Certifigado
+
+08:28:05
+Elrmado por: ZACARIAS Andrea Marcela. JUEZ — Certificado Correcto. Fecha de Firma: 27/02/2026
+
+08:28:04 DOS SANTOS Carlos Roberto. — Certificado Correcto. Fecha de Firma:
+25/02/2026 13:55:01
+
+OFICIO DE EMBARGO
+
+AMERCADO PAGO
+SID.-
+
+Tengo el agrado de dirigirme a Usted en los autos caratulados "":DEFINA STELLA MARIS C/
+ARAUJO ARAUJO LAZARO EDUARDO S/ DESPIDO"" - N* Causa: 18645, que tramita ante el
+Tribunal de Trabajo N* 5 del Departamento Judicial de Quilmes, a cargo del Dr. Mario Daniel
+Stolarczyk, Secretaria a cargo de la Dra. María Fernanda Sartori, sito en calle Alvear nro. 838
+
+pertenecientes a estos autos. Hágase saber a la entidad requerida que al momento de diligenciarse
+el oficio, el Banco oficiado deberá informar a los autorizados al diligenciamiento el saldo de la
+cuenta embargada, y asimismo, deberá comunicar a éste Tribunal el resultado de la medi
+[...]","(Ue
+
+413/26, 09-18 TEXTO Y DATOS DE LA NOTIFICACIÓN - SUPREMA CORTE DE JUSTICIA- NOTIFICACIONES ELECTRÓNICAS
+Usuario conectado: DOS SANTOS CARLOS ROBERTO - 23137661349Q notificaciones.scba.govar
+Organismo: TRIBUNAL DEL TRABAJO N? 5 - QUILMES
+carátula: DEFINA STELLA MARIS C/ ARAUJO ARAUJO LAZARO EDUARDO S/ DESPIDO
+Número de causa: 18645
+Tipo de notificación: OFICIO REQUIRIENDO
+Destinatarios: 23137661349 notificaciones.scba.govar
+Fecha notificación: 27/2/2026 08:27:57
+Alta o disponibilidad 27/2/202608:28:06 10 AR 2008
+Firma digital: Firma válida
+Firmado y Notificado por: ZACARIAS Andrea Marcela. JUEZ - Certifigado
+
+08:28:05
+Elrmado por: ZACARIAS Andrea Marcela. JUEZ - Certificado Correcto. Fecha de Firma: 27/02/2026
+
+08:28:04 DOS SANTOS Carlos Roberto. - Certificado Correcto. Fecha de Firma:
+25/02/2026 13:55:01
+
+OFICIO DE embargo
+
+AMERCADO PAGO
+SID.-
+
+Tengo el agrado de dirigirme a Usted en los autos caratulados "":DEFINA STELLA MARIS C/
+ARAUJO ARAUJO LAZARO EDUARDO S/ DESPIDO"" - N* Causa: 18645, que tramita ante el
+Tribunal de Trabajo N* 5 del Departamento Judicial de Quilmes, a cargo del Dr. Mario Daniel
+Stolarczyk, secretaría a cargo de la Dra. María Fernanda Sartori, sito en calle Alvear nro. 838
+
+pertenecientes a estos autos. Hágase saber a la entidad requerida que al momento de diligenciarse
+el oficio, el banco oficiado deberá informar a los autorizados al diligenciamiento el saldo de la
+cuenta embargada, y asimismo, deberá comunicar a éste Tribunal el resultado de la medi
+[...]","--- antes
++++ despues
+@@ -3,22 +3,22 @@
+ 413/26, 09-18 TEXTO Y DATOS DE LA NOTIFICACIÓN - SUPREMA CORTE DE JUSTICIA- NOTIFICACIONES ELECTRÓNICAS
+ Usuario conectado: DOS SANTOS CARLOS ROBERTO - 23137661349Q notificaciones.scba.govar
+ Organismo: TRIBUNAL DEL TRABAJO N? 5 - QUILMES
+-Carátula: DEFINA STELLA MARIS C/ ARAUJO ARAUJO LAZARO EDUARDO S/ DESPIDO
++carátula: DEFINA STELLA MARIS C/ ARAUJO ARAUJO LAZARO EDUARDO S/ DESPIDO
+ Número de causa: 18645
+ Tipo de notificación: OFICIO REQUIRIENDO
+ Destinatarios: 23137661349 notificaciones.scba.govar
+ Fecha notificación: 27/2/2026 08:27:57
+ Alta o disponibilidad 27/2/202608:28:06 10 AR 2008
+ Firma digital: Firma válida
+-Firmado y Notificado por: ZACARIAS Andrea Marcela. JUEZ — Certifigado
++Firmado y Notificado por: ZACARIAS Andrea Marcela. JUEZ - Certifigado
+ 
+ 08:28:05
+-Elrmado por: ZACARIAS Andrea Marcela. JUEZ — Certificado Correcto. Fecha de Firma: 27/02/2026
++Elrmado por: ZACARIAS Andrea Marcela. JUEZ - Certificado Correcto. Fecha de Firma: 27/02/2026
+ 
+-08:28:04 DOS SANTOS Carlos Roberto. — Certificado Correcto. Fecha de Firma:
++08:28:04 DOS SANTOS Carlos Roberto. - Certificado Correcto. Fecha de Firma:
+ 25/02/2026 13:55:01
+ 
+-OFICIO DE EMBARGO
++OFICIO DE embargo
+ 
+ AMERCADO PAGO
+ SID.-
+@@ -26,30 +26,30 @@
+ Tengo el agrado de dirigirme a Usted en los autos caratulados "":DEFINA STELLA MARIS C/
+ ARAUJO ARAUJO LAZARO EDUARDO S/ DESPIDO"" - N* Causa: 18645, que tramita ante el
+ Tribunal de Trabajo N* 5 del Departamento Judicial de Quilmes, a cargo del Dr. Mario Daniel
+-Stolarczyk, Secretaria a cargo de la Dra. María Fernanda Sartori, sito en calle Alvear nro. 838
++Stolarczyk, secretaría a cargo de la Dra. María Fernanda Sartori, sito en calle Alvear nro. 838
+ 
+ pertenecientes a estos autos. Hágase saber a la entidad requerida que al momento de diligenciarse
+-el oficio, el Banco oficiado deberá informar a los autorizados al diligenciamiento el saldo de la
++el oficio, el banco oficiado deberá informar a los autorizados al diligenciamiento el saldo de la
+ cuenta embargada, y asimismo, deberá comunicar a éste Tribunal el resultado de la medida
+ ordenada en el término perentorio de tres días, bajo apercibimiento de ley.
+ 
+ Asimismo, informe a los autorizados al diligenciamiento y al Tribunal el saldo de la cuenta
+ embargada.
+ 
+-El auto que lo ordena, en su parte pertinente, dice: ""Quilmes, 23 de febrero de 2026. (...)
++El auto que lo ordena, en su parte pertinente, dice: ""Quilmes, 23 de febrero de 2026. (.)
+ 
+ Atento al estado del proceso y lo solicitado en el escrito en despacho, intímase a la parte
+-demandada ARAUJO ARAUJO LAZARO EDUARDO al pago de la suma de PESOS DIECISEIS
++demandada ARAUJO ARAUJO LAZARO EDUARDO al pago de la suma de pesos DIECISEIS
+ MILLONES TRESCIENTOS MIL CON 0/100 ($ 16.300.000) en concepto de capital ($13.000.000) y
+ honorarios mas aportes ($3.300.000) adeudados y decrétase embargo hasta cubrir dicho importe
+-con más la de PESOS OCHO MILLONES CON 0/100 ($ 8.000.000) que se fijan para intereses y
++con más la de pesos OCHO MILLONES CON 0/100 ($ 8.000.000) que se fijan para intereses y
+ costas de la ejecución. Cítase a la ejecutada, para que dentro del término de cinco días oponga la
+ excepción prevista por el art 60 de la ley 15.057, si la tuviere, bajo apercibimiento de mandar levar
+-adelante la ejecución. Librese el oficio solicitado al Banco MERCADOPAGO LLC - CUIT 30-
++adelante la ejecución. Librese el oficio solicitado al banco MERCADOPAGO LLC - CUIT 30-
+ 71756882-2 a efectos de que se trabe embargo sobre las sumas habidas actuales o futuras en las
+ cuentas bancarias o cualquier otra imposición bancaria que la demandada ARAUJO ARAUJO
+ LAZARO EDUARDO posea en esa entidad hasta cubrir los importes ut supra indicados, los que
+-deberán ser depositados en el Banco de la Pcia. de Bs. As., Sucursal 5087, de Quilmes, a la orden
++deberán ser depositados en el banco de la Pcia. de Bs. As., Sucursal 5087, de Quilmes, a la orden
+ de este Tribunal y como pertenecientes a estos autos. Hágase saber a la entidad requerida que
+-al momento de diligenciarse el o
++al momento de diligenciarse el ofi
+ [...]"
+542162,Embargo - usuario,0.9618144368475945,legible,3410,3407,0.0008797653958944282,"2)
+e)
+
+JUZGADO NACIONAL DE IRA INSTANCIA DEL TRABAJO
+NRO. 72
+
+Poder Judicial de la Nación
+
+Da
+y 1 a MAR 20%
+""RECEPCION OFICIO.
+
+Buenos Aires, 10 de marzO de 2026.
+AL SEÑOR GERENTE
+MERCADO PAGO SERVICIOS
+DE PROCESAMIENTOS SRL.
+s/D.-
+Tengo el agrado de dirigirme a Ud. en autos ""MINISTERIO DE TRABAJO
+
+A ES
+a MET
+
+EMPLEO Y SEGURIDAD SocIiAL c/ GAMBOA, ALEJANDRO
+ARGENTINO s/[EJECUCION FISCAL"", Expediente N? 43569/2025, que
+tramitan pot ante este Juzgado Nacional de Primera Instancia del Trabajo N""
+
+MSardo Lopez
+oc""
+
+Sá 18120771
+LA: Justicia ""AD-H
+
+712, a mi cargo, Secretaria Única a cargó de la Dr. Martin Cartechini, sito en
+Tte. Gral. Perón 990, Piso 2"", Capital Federal, en los que Se ha decretado
+embargo, contra los fondos que posea GAMBOA ALEJANDRO
+ARGENTINO — CUIT 20-14195259-6, hasta cubrir la suma de $ 423.661,50
+(Pesos cuatrocientos veintitrés mil seiscientos sesenta y UNO con 50/100)
+correspondientes 2 capital e intereses, COn más la suma de $ 500.000.- (Pesos
+quinientos mil) que provisoriamente se presupuestan para responder A
+intereses Y costas, comunicando al Juzgado la efectivización de la medida
+ordenada dentro de los cinco días de producida. En caso de que existan en la
+institución bancaria bienes, cuentas, depósitos U otros eréditos cualquiera sea
+su naturaleza- de la persona embargada, insuficientes al momento de recibirse
+el oficio, O bien sumas pendientes de pago a la misma, O qUe se harán
+exigibles en lo sucesivo, deberá mantenerse la medida hasta que se complet
+[...]","2)
+
+juzgado NACIONAL DE IRA INSTANCIA DEL TRABAJO
+NRO. 72
+
+Poder Judicial de la Nación
+
+y 1 a MAR 20%
+""RECEPCION OFICIO.
+
+Buenos Aires, 10 de marzO de 2026.
+AL SEÑOR GERENTE
+MERCADO PAGO SERVICIOS
+DE PROCESAMIENTOS SRL.
+s/D.-
+Tengo el agrado de dirigirme a Ud. en autos ""MINISTERIO DE TRABAJO
+
+A ES
+a MET
+
+EMPLEO Y SEGURIDAD SocIiAL c/ GAMBOA, ALEJANDRO
+ARGENTINO s/[EJECUCION FISCAL"", expediente nro.? 43569/2025, que
+tramitan pot ante este juzgado Nacional de Primera Instancia del Trabajo N""
+
+MSardo Lopez
+oc""
+
+Sá 18120771
+LA: Justicia ""AD-H
+
+712, a mi cargo, secretaría Única a cargó de la Dr. Martin Cartechini, sito en
+Tte. Gral. Perón 990, Piso 2"", Capital Federal, en los que Se ha decretado
+embargo, contra los fondos que posea GAMBOA ALEJANDRO
+ARGENTINO - CUIT 20-14195259-6, hasta cubrir la suma de $ 423.661,50
+(pesos cuatrocientos veintitrés mil seiscientos sesenta y UNO con 50/100)
+correspondientes 2 capital e intereses, COn más la suma de $ 500.000.- (pesos
+quinientos mil) que provisoriamente se presupuestan para responder A
+intereses Y costas, comunicando al juzgado la efectivización de la medida
+ordenada dentro de los cinco días de producida. En caso de que existan en la
+institución bancaria bienes, cuentas, depósitos U otros eréditos cualquiera sea
+su naturaleza- de la persona embargada, insuficientes al momento de recibirse
+el oficio, O bien sumas pendientes de pago a la misma, O qUe se harán
+exigibles en lo sucesivo, deberá mantenerse la medida hasta que se complete
+e
+[...]","--- antes
++++ despues
+@@ -1,12 +1,10 @@
+ 2)
+-e)
+ 
+-JUZGADO NACIONAL DE IRA INSTANCIA DEL TRABAJO
++juzgado NACIONAL DE IRA INSTANCIA DEL TRABAJO
+ NRO. 72
+ 
+ Poder Judicial de la Nación
+ 
+-Da
+ y 1 a MAR 20%
+ ""RECEPCION OFICIO.
+ 
+@@ -21,8 +19,8 @@
+ a MET
+ 
+ EMPLEO Y SEGURIDAD SocIiAL c/ GAMBOA, ALEJANDRO
+-ARGENTINO s/[EJECUCION FISCAL"", Expediente N? 43569/2025, que
+-tramitan pot ante este Juzgado Nacional de Primera Instancia del Trabajo N""
++ARGENTINO s/[EJECUCION FISCAL"", expediente nro.? 43569/2025, que
++tramitan pot ante este juzgado Nacional de Primera Instancia del Trabajo N""
+ 
+ MSardo Lopez
+ oc""
+@@ -30,20 +28,20 @@
+ Sá 18120771
+ LA: Justicia ""AD-H
+ 
+-712, a mi cargo, Secretaria Única a cargó de la Dr. Martin Cartechini, sito en
++712, a mi cargo, secretaría Única a cargó de la Dr. Martin Cartechini, sito en
+ Tte. Gral. Perón 990, Piso 2"", Capital Federal, en los que Se ha decretado
+ embargo, contra los fondos que posea GAMBOA ALEJANDRO
+-ARGENTINO — CUIT 20-14195259-6, hasta cubrir la suma de $ 423.661,50
+-(Pesos cuatrocientos veintitrés mil seiscientos sesenta y UNO con 50/100)
+-correspondientes 2 capital e intereses, COn más la suma de $ 500.000.- (Pesos
++ARGENTINO - CUIT 20-14195259-6, hasta cubrir la suma de $ 423.661,50
++(pesos cuatrocientos veintitrés mil seiscientos sesenta y UNO con 50/100)
++correspondientes 2 capital e intereses, COn más la suma de $ 500.000.- (pesos
+ quinientos mil) que provisoriamente se presupuestan para responder A
+-intereses Y costas, comunicando al Juzgado la efectivización de la medida
++intereses Y costas, comunicando al juzgado la efectivización de la medida
+ ordenada dentro de los cinco días de producida. En caso de que existan en la
+ institución bancaria bienes, cuentas, depósitos U otros eréditos cualquiera sea
+ su naturaleza- de la persona embargada, insuficientes al momento de recibirse
+ el oficio, O bien sumas pendientes de pago a la misma, O qUe se harán
+ exigibles en lo sucesivo, deberá mantenerse la medida hasta que se complete
+-el embargo de las cantidades fijadas, COn comunicación al Juzgado dentro de
++el embargo de las cantidades fijadas, COn comunicación al juzgado dentro de
+ los cinco días de la primera afectación, así como dentro de los cinco días de
+ 
+ cada una de las oportunidades en que se afecten bienes con respecto a este
+@@ -52,10 +50,10 @@
+ 
+ Poder Judicial de la Nación
+ 
+-JUZGADO NACIONAL DE 1RA INSTANCIA DEL TRABAJO
++juzgado NACIONAL DE 1RA INSTANCIA DEL TRABAJO
+ NRO. 72
+ 
+-embargo, importes que deberán ser transferidos al Banco de la Ciudad de
++embargo, importes que deberán ser transferidos al banco de la Ciudad de
+ Buenos Aires, Sucursal Tribunales, Libro 1512 Folio 364 DV. 9, C.B.U.
+ 02900759-00331151203643, CUIT Bco. Ciudad 30-99903208- 3 como
+ pertenecientes a esta causa y a la orden del suscripto. Todo ello, bajo
+@@ -76,5 +74,5 @@
+ que pudieran existir en una cuenta bancaria fueran provenientes del pago de |
+ jubilaciones, serán inembargables (art. 14 inc. c, ley 24.241).
+ 
+-Se hace saber que en caso de 
++Se hace saber que en caso de inc
+ [...]"
+497180,Embargo - usuario,0.9578481553632532,legible,5063,5054,0.0017776022121271974,"0
+
+Poder Judicial de la Nación
+
+JUZGADO CIVIL 45
+
+91273/2013
+
+Incidente N* 1 - ACTOR: BASSO, ALEJANDRA ELENA
+s/BENEFICIO DE LITIGAR SIN GASTOS
+
+OFICIO JUDICIAL
+Buenos Aires, de octubre de 2025
+A Mercado Libre S.R.L.
+Ss 1 D
+
+Tengo el agrado de dirigirme a Usted en los autos caratulados
+""BASSO, ALEJANDRA ELENA C/ LIDERAR COMPAÑIA
+GENERAL DE SEGUROS S.A. Y OTROS S/ BENEFICIO DE
+LITIGAR SIN GASTOS"" (91.273/13/1), de trámite por ante este
+Juzgado Nacional de Primera Instancia en lo Civil Número 45, a cargo
+como juez subrogante del Dr. Javier Santamaría, Secretaría Unica, a
+cargo del Dr. Mario Peredo, sito en la Avenida de los Inmigrantes
+1950, piso 4, de la Ciudad Autónoma de Buenos Aires, a efectos de
+solicitarle tenga a bien informar si se ha dado cumplimiento con el
+embargo ordenado el 20/05/25, a fin de trabar embargo hasta cubrir la
+suma de $500.831,10 (pesos quinientos mil ochocientos treinta y uno
+con diez centavos) con más la de $500.000 (pesos quinientos mil) que
+provisoriamente se presupuesta para responder a intereses y costas,
+sobre los fondos pertenecientes a LIDERAR COMPAÑÍA
+GENERAL DE SEGUROS SA (CUIT 30500059490) en MERCADO
+LIBRE S.R.L. (CUIT 30703088534) mediante su aplicación, billetera
+virtual y/o plataforma MERCADO PAGO; los que deberán ser
+transferidos al Banco de la Nación Argentina -sucursal Tribunales a la
+cuenta a la orden del Juzgado CUIT 51300140450 y como
+pertenecientes a estas actuaciones (Cuenta Nro. 9956597993, CBU
+0110025950099565979936). La provide
+[...]","0
+
+Poder Judicial de la Nación
+
+juzgado CIVIL 45
+
+91273/2013
+
+Incidente N* 1 - ACTOR: BASSO, ALEJANDRA ELENA
+s/BENEFICIO DE LITIGAR SIN GASTOS
+
+OFICIO JUDICIAL
+Buenos Aires, de octubre de 2025
+A Mercado Libre S.R.L.
+Ss 1 D
+
+Tengo el agrado de dirigirme a Usted en los autos caratulados
+""BASSO, ALEJANDRA ELENA C/ LIDERAR COMPAÑIA
+GENERAL DE SEGUROS S.A. Y OTROS S/ BENEFICIO DE
+LITIGAR SIN GASTOS"" (91.273/13/1), de trámite por ante este
+juzgado Nacional de Primera Instancia en lo Civil Número 45, a cargo
+como juez subrogante del Dr. Javier Santamaría, secretaría Unica, a
+cargo del Dr. Mario Peredo, sito en la Avenida de los Inmigrantes
+1950, piso 4, de la Ciudad Autónoma de Buenos Aires, a efectos de
+solicitarle tenga a bien informar si se ha dado cumplimiento con el
+embargo ordenado el 20/05/25, a fin de trabar embargo hasta cubrir la
+suma de $500.831,10 (pesos quinientos mil ochocientos treinta y uno
+con diez centavos) con más la de $500.000 (pesos quinientos mil) que
+provisoriamente se presupuesta para responder a intereses y costas,
+sobre los fondos pertenecientes a LIDERAR COMPAÑÍA
+GENERAL DE SEGUROS SA (CUIT 30500059490) en MERCADO
+LIBRE S.R.L. (CUIT 30703088534) mediante su aplicación, billetera
+virtual y/o plataforma MERCADO PAGO; los que deberán ser
+transferidos al banco de la Nación Argentina -sucursal Tribunales a la
+cuenta a la orden del juzgado CUIT 51300140450 y como
+pertenecientes a estas actuaciones (cuenta Nro. 9956597993, CBU
+0110025950099565979936). La provide
+[...]","--- antes
++++ despues
+@@ -2,7 +2,7 @@
+ 
+ Poder Judicial de la Nación
+ 
+-JUZGADO CIVIL 45
++juzgado CIVIL 45
+ 
+ 91273/2013
+ 
+@@ -18,8 +18,8 @@
+ ""BASSO, ALEJANDRA ELENA C/ LIDERAR COMPAÑIA
+ GENERAL DE SEGUROS S.A. Y OTROS S/ BENEFICIO DE
+ LITIGAR SIN GASTOS"" (91.273/13/1), de trámite por ante este
+-Juzgado Nacional de Primera Instancia en lo Civil Número 45, a cargo
+-como juez subrogante del Dr. Javier Santamaría, Secretaría Unica, a
++juzgado Nacional de Primera Instancia en lo Civil Número 45, a cargo
++como juez subrogante del Dr. Javier Santamaría, secretaría Unica, a
+ cargo del Dr. Mario Peredo, sito en la Avenida de los Inmigrantes
+ 1950, piso 4, de la Ciudad Autónoma de Buenos Aires, a efectos de
+ solicitarle tenga a bien informar si se ha dado cumplimiento con el
+@@ -31,13 +31,13 @@
+ GENERAL DE SEGUROS SA (CUIT 30500059490) en MERCADO
+ LIBRE S.R.L. (CUIT 30703088534) mediante su aplicación, billetera
+ virtual y/o plataforma MERCADO PAGO; los que deberán ser
+-transferidos al Banco de la Nación Argentina -sucursal Tribunales a la
+-cuenta a la orden del Juzgado CUIT 51300140450 y como
+-pertenecientes a estas actuaciones (Cuenta Nro. 9956597993, CBU
++transferidos al banco de la Nación Argentina -sucursal Tribunales a la
++cuenta a la orden del juzgado CUIT 51300140450 y como
++pertenecientes a estas actuaciones (cuenta Nro. 9956597993, CBU
+ 0110025950099565979936). La providencia que ordena el presente
+ dispone: ""Buenos Aires, 20 de mayo de 2025.- MSG Agréguense las
+-constancias acompañadas. ...En atención a lo solicitado, los
+-honorarios regulados por el Superior el 3/04/25 , hasta cubrir la suma
++constancias acompañadas.En atención a lo solicitado, los
++honorarios regulados por el Superior el 3/04/25, hasta cubrir la suma
+ de $500.831,10 con más la de $500.000 que provisoriamente se
+ presupuesta para responder a intereses y costas, trábese embargo sobre
+ 
+@@ -49,7 +49,7 @@
+ SEGUROS SA (CUIT 30500059490) en MERCADO LIBRE S.R.L.
+ (CUIT 30703088534) mediante su aplicación, billetera virtual y/o
+ plataforma MERCADO PAGO, los que deberán ser transferidos a la
+-cuenta abierta a nombre de autos en el Banco de la Nación Argentina
++cuenta abierta a nombre de autos en el banco de la Nación Argentina
+ (sucursal Tribunales) cuyos datos surgen del saldo que antecede. Se
+ deja constancia de que el CUIT del juzgado es 51300140450.- A
+ dicho fin, líbrese oficio electrónico.- Hágase saber respecto del oficio
+@@ -61,5 +61,5 @@
+ electrónica inserta en el documento deberá accederse al expediente a
+ través de https://scw.pjn.gov.ar/scw/home.seam, identificar el archivo
+ correspondiente e incorporarlo en el sistema provisto en
+-https://validafirma.pjn.gov.ar/, el cual, com
++https://validafirma.pjn.gov.ar/, el cual, como se 
+ [...]"
+536743,Embargo - usuario,0.9577974973200009,legible,2959,2946,0.004393376140588037,"Poder Judicial de la Nación
+
+JUZGADO COMERCIAL 12
+
+OFICIO
+EMBARGO DE CUENTAS
+
+Buenos Aires , 17 de diciembre de 2025
+
+Al Señor Gerente de Mercado Pago
+Asset Management S.A.
+
+CUIT 33-71862856-9 .
+
+(Mercado Fondos)
+
+Sa ace
+
+Tengo el agrado de dirigirme a Usted en los autos
+caratulados: ""AVERBUCH Sebastián Mariano C/ LUJAN Silvana
+Graciela S/ Ejecutivo"" (Expte. NO 38343/2014 ) , en trámite
+por ante el Juzgado Nacional de 10 Instancia en lo Comercial
+NO 12, Secretaría 120, con sede en Marcelo T. de Alvear
+1840, P.B., Capital Federal a efectos de solicitarle que se
+sirva disponer lo necesario para trabar embargo sobre las
+cuentas de las que es titular en esa entidad quién más abajo
+se individualiza como embargado y por el monto que también
+se indica. - Dicha medida fue ordenada sobre los fondos
+presentes y futuros que tenga invertidos en cuotas partes del
+Fondo común de inversión Mercado Fondos administrado por
+Mercado Pago Asset Management S.A , el demandado en
+
+autos SILVANA GRACIELA LUJAN, con DNI 21874026 a su
+
+AE
+
+Poder Judicial de la Nación
+JUZGADO COMERCIAL 12
+
+nombre y fueran suceptibles de ser embargadas .- El
+embargo deberá trabarse hasta cubrir las sumas de $ 8.729
+
+,11 con más
+
+la suma de $ 10.000,00 estimado provisoriamente para
+
+intereses y costas. -
+
+Las sumas retenidas, deberán ser depositadas en la cuenta
+judicial Lo 785, F0 176, DV 2 , con CBU: 02900759
+-00226078501762, especialmente abierta al efecto en las
+actuaciones citadas y a la orden del Juez interviniente
+[...]","Poder Judicial de la Nación
+
+juzgado COMERCIAL 12
+
+OFICIO
+embargo DE CUENTAS
+
+Buenos Aires, 17 de diciembre de 2025
+
+Al Señor Gerente de Mercado Pago
+Asset Management S.A.
+
+CUIT 33-71862856-9.
+
+(Mercado Fondos)
+
+Sa ace
+
+Tengo el agrado de dirigirme a Usted en los autos
+caratulados: ""AVERBUCH Sebastián Mariano C/ LUJAN Silvana
+Graciela S/ Ejecutivo"" (expediente. NO 38343/2014), en trámite
+por ante el juzgado Nacional de 10 Instancia en lo Comercial
+NO 12, secretaría 120, con sede en Marcelo T. de Alvear
+1840, P.B., Capital Federal a efectos de solicitarle que se
+sirva disponer lo necesario para trabar embargo sobre las
+cuentas de las que es titular en esa entidad quién más abajo
+se individualiza como embargado y por el monto que también
+se indica. - Dicha medida fue ordenada sobre los fondos
+presentes y futuros que tenga invertidos en cuotas partes del
+Fondo común de inversión Mercado Fondos administrado por
+Mercado Pago Asset Management S.A, el demandado en
+
+autos SILVANA GRACIELA LUJAN, con DNI 21874026 a su
+
+Poder Judicial de la Nación
+juzgado COMERCIAL 12
+
+nombre y fueran suceptibles de ser embargadas.- El
+embargo deberá trabarse hasta cubrir las sumas de $ 8.729,11 con más
+
+la suma de $ 10.000,00 estimado provisoriamente para
+
+intereses y costas. -
+
+Las sumas retenidas, deberán ser depositadas en la cuenta
+judicial Lo 785, F0 176, DV 2, con CBU: 02900759
+-00226078501762, especialmente abierta al efecto en las
+actuaciones citadas y a la orden del Juez interviniente, en el
+
+[...]","--- antes
++++ despues
+@@ -1,16 +1,16 @@
+ Poder Judicial de la Nación
+ 
+-JUZGADO COMERCIAL 12
++juzgado COMERCIAL 12
+ 
+ OFICIO
+-EMBARGO DE CUENTAS
++embargo DE CUENTAS
+ 
+-Buenos Aires , 17 de diciembre de 2025
++Buenos Aires, 17 de diciembre de 2025
+ 
+ Al Señor Gerente de Mercado Pago
+ Asset Management S.A.
+ 
+-CUIT 33-71862856-9 .
++CUIT 33-71862856-9.
+ 
+ (Mercado Fondos)
+ 
+@@ -18,9 +18,9 @@
+ 
+ Tengo el agrado de dirigirme a Usted en los autos
+ caratulados: ""AVERBUCH Sebastián Mariano C/ LUJAN Silvana
+-Graciela S/ Ejecutivo"" (Expte. NO 38343/2014 ) , en trámite
+-por ante el Juzgado Nacional de 10 Instancia en lo Comercial
+-NO 12, Secretaría 120, con sede en Marcelo T. de Alvear
++Graciela S/ Ejecutivo"" (expediente. NO 38343/2014), en trámite
++por ante el juzgado Nacional de 10 Instancia en lo Comercial
++NO 12, secretaría 120, con sede en Marcelo T. de Alvear
+ 1840, P.B., Capital Federal a efectos de solicitarle que se
+ sirva disponer lo necesario para trabar embargo sobre las
+ cuentas de las que es titular en esa entidad quién más abajo
+@@ -28,37 +28,33 @@
+ se indica. - Dicha medida fue ordenada sobre los fondos
+ presentes y futuros que tenga invertidos en cuotas partes del
+ Fondo común de inversión Mercado Fondos administrado por
+-Mercado Pago Asset Management S.A , el demandado en
++Mercado Pago Asset Management S.A, el demandado en
+ 
+ autos SILVANA GRACIELA LUJAN, con DNI 21874026 a su
+ 
+-AE
++Poder Judicial de la Nación
++juzgado COMERCIAL 12
+ 
+-Poder Judicial de la Nación
+-JUZGADO COMERCIAL 12
+-
+-nombre y fueran suceptibles de ser embargadas .- El
+-embargo deberá trabarse hasta cubrir las sumas de $ 8.729
+-
+-,11 con más
++nombre y fueran suceptibles de ser embargadas.- El
++embargo deberá trabarse hasta cubrir las sumas de $ 8.729,11 con más
+ 
+ la suma de $ 10.000,00 estimado provisoriamente para
+ 
+ intereses y costas. -
+ 
+ Las sumas retenidas, deberán ser depositadas en la cuenta
+-judicial Lo 785, F0 176, DV 2 , con CBU: 02900759
++judicial Lo 785, F0 176, DV 2, con CBU: 02900759
+ -00226078501762, especialmente abierta al efecto en las
+ actuaciones citadas y a la orden del Juez interviniente, en el
+-Banco de la Ciudad de Buenos Aires, Sucursal Tribunales,
++banco de la Ciudad de Buenos Aires, Sucursal Tribunales,
+ CUIT NO 30-99903208-3.-
+ 
+-Se encuentran autorizados a diligenciar el presente : Dres.
++Se encuentran autorizados a diligenciar el presente: Dres.
+ Leonardo Javier Ferreiro, Miguel Angel Moreno, Pedro Cruz
+ Santos Fontanet; Federico G. Garcia Cabello, Sebastián
+ Fernandez, Micaela Mighetti, Luis Agustín Bernardini, Pablo
+ González, Marcelo Finvarb y/o el Sr. Ricardo Grosso, y/o el
+-Sr. Lucas Rene Lee, y/o la Srta. Daniela Robasio , todos con
++Sr. Lucas Rene Lee, y/o la Srta. Daniela Robasio, todos con
+[...] diff truncado"
+547399,Embargo - usuario,0.9573113633640276,legible,2533,2523,0.0039478878799842085,"20 MAR 2026
+
+gr
+RE ERAS duniciaL REITERATORIO.-
+
+Buenos Aires/, PA marzo de 2026.-
+
+A Mercado Pago.
+S_ // | D.-
+
+Tengo el agrado de dirigirme a Ud. en relación a los autos caratulados
+""BCRA (RESOL 124/25) C/ LO SASSO, HERNAN ARIEL S/ PROCESO DE
+EJECUCION TRIBUTARIA"" (Expte. N* 35.818/25), en trámite por ante el Juzgado
+Federal de Ejecuciones Fiscales Tributarias N? 6, a cargo del Dr. Guillermo Mario Galli,
+Secretaria N? 21 a cargo del Dr. Raúl A. Vitón, con asiento en la calle Paraguay 923/25,
+Piso 10? de la Ciudad Autónoma de Buenos Aires, a fin de reiterar lo solicitado mediante el
+oficio diligenciado en vuestra entidad el día 09/12/25, conforme la copia que se adjunta. En
+función de ello, se reitera la solicitud de proceder a embargar los fondos y valores de
+titularidad del Sr. HERNAN ARIEL LO SASSO (DNI 35.498.720/ CUIL 20-35498720-
+2) que tenga depositados en vuestra Institución hasta cubrir la suma de $8.925.000 (pesos
+ocho millones novecientos veinticinco mil) con más la suma de $2.678.000 (pesos dos
+millones seiscientos setenta y ocho mil) que se presupuestan provisoriamente para
+responder a intereses y costas. Los autos que ordenan el presente, en su parte pertinente
+dicen: ""Buenos Aires, 05 de noviembre de 2025. En atención a lo peticionado, decretase
+embargo, bajo responsabilidad de la parte actora, sobre los fondos que la demandada 2
+posea ante la plataforma de gestión electrónica o digital MERCADO PAGO); hasta cubrir la
+suma de pesos ocho millones novecientos vei
+[...]","20 MAR 2026
+
+RE ERAS duniciaL REITERATORIO.-
+
+Buenos Aires/, PA marzo de 2026.-
+
+A Mercado Pago.
+S_ // | D.-
+
+Tengo el agrado de dirigirme a Ud. en relación a los autos caratulados
+""BCRA (RESOL 124/25) C/ LO SASSO, HERNAN ARIEL S/ PROCESO DE
+EJECUCION TRIBUTARIA"" (expediente. N* 35.818/25), en trámite por ante el juzgado
+Federal de Ejecuciones Fiscales Tributarias N? 6, a cargo del Dr. Guillermo Mario Galli,
+secretaría N? 21 a cargo del Dr. Raúl A. Vitón, con asiento en la calle Paraguay 923/25,
+Piso 10? de la Ciudad Autónoma de Buenos Aires, a fin de reiterar lo solicitado mediante el
+oficio diligenciado en vuestra entidad el día 09/12/25, conforme la copia que se adjunta. En
+función de ello, se reitera la solicitud de proceder a embargar los fondos y valores de
+titularidad del Sr. HERNAN ARIEL LO SASSO (DNI 35.498.720/ CUIL 20-35498720-
+2) que tenga depositados en vuestra Institución hasta cubrir la suma de $8.925.000 (pesos
+ocho millones novecientos veinticinco mil) con más la suma de $2.678.000 (pesos dos
+millones seiscientos setenta y ocho mil) que se presupuestan provisoriamente para
+responder a intereses y costas. Los autos que ordenan el presente, en su parte pertinente
+dicen: ""Buenos Aires, 05 de noviembre de 2025. En atención a lo peticionado, decretase
+embargo, bajo responsabilidad de la parte actora, sobre los fondos que la demandada 2
+posea ante la plataforma de gestión electrónica o digital MERCADO PAGO); hasta cubrir la
+suma de pesos ocho millones novecientos v
+[...]","--- antes
++++ despues
+@@ -1,6 +1,5 @@
+ 20 MAR 2026
+ 
+-gr
+ RE ERAS duniciaL REITERATORIO.-
+ 
+ Buenos Aires/, PA marzo de 2026.-
+@@ -10,9 +9,9 @@
+ 
+ Tengo el agrado de dirigirme a Ud. en relación a los autos caratulados
+ ""BCRA (RESOL 124/25) C/ LO SASSO, HERNAN ARIEL S/ PROCESO DE
+-EJECUCION TRIBUTARIA"" (Expte. N* 35.818/25), en trámite por ante el Juzgado
++EJECUCION TRIBUTARIA"" (expediente. N* 35.818/25), en trámite por ante el juzgado
+ Federal de Ejecuciones Fiscales Tributarias N? 6, a cargo del Dr. Guillermo Mario Galli,
+-Secretaria N? 21 a cargo del Dr. Raúl A. Vitón, con asiento en la calle Paraguay 923/25,
++secretaría N? 21 a cargo del Dr. Raúl A. Vitón, con asiento en la calle Paraguay 923/25,
+ Piso 10? de la Ciudad Autónoma de Buenos Aires, a fin de reiterar lo solicitado mediante el
+ oficio diligenciado en vuestra entidad el día 09/12/25, conforme la copia que se adjunta. En
+ función de ello, se reitera la solicitud de proceder a embargar los fondos y valores de
+@@ -40,10 +39,3 @@
+ efectivización de la medida.
+ 
+ Saludo a Ud. muy atentamente.
+-
+-ñ
+-
+-e
+->.
+-
+-E"
+526652,Embargo - usuario,0.9570260857857711,legible,4715,4691,0.005090137857900318,"26 FER 2006
+
+RECIDEA
+
+S
+
+Poder Judicial de la Nación
+JUZGADO CIVIL 45
+
+91273/2013
+
+Incidente N* 1 - ACTOR: BASSO, ALEJANDRA ELENA
+s/BENEFICIO DE LITIGAR SIN GASTOS
+
+OFICIO JUDICIAL
+Buenos Aires, de octubre de 2025
+A Mercado Libre S.R.L.
+Ss / D
+
+Tengo el agrado de dirigirme a Usted en los autos caratuladds
+""BASSO, ALEJANDRA ELENA C/ LIDERAR COMPAÑI
+GENERAL DE SEGUROS S.A. Y OTROS S/ BENEFICIO
+LITIGAR SIN GASTOS"" (91.273/13/1), de trámite por ante es
+Juzgado Nacional de Primera Instancia en lo Civil Número 45, a car;
+como juez subrogante del Dr. Javier Santamaría, Secretaría Unica, la
+
+suma de $500.831,10 (pesos quinientos mil ochocientos treinta y uno
+con diez centavos) con más la de $500.000 (pesos quinientos mil) q e
+provisoriamente se presupuesta para responder a intereses y cost. ]
+sobre los fondos pertenecientes 2 LIDERAR COMPAÑÍA
+GENERAL DE SEGUROS SA (CUIT 30500059490) en MERCA
+LIBRE S.R.L. (CUIT 30703088534) mediante su aplicación, billetera
+virtual y/o plataforma MERCADO PAGO; los que deberán
+transferidos al Banco de la Nación Argentina -sucursal Tribunales al la
+cuenta a la orden del Juzgado CUIT 51300140450 y como
+pertenecientes a estas actuaciones (Cuenta Nro. 9956597993, CHBU
+0110025950099565979936). La providencia que ordena el presenté
+dispone: ""Buenos Aires, 20 de mayo de 2025.- MSG Agréguense
+constancias acompañadas. ...En atención a lo solicitado,
+
+honorarios regulados por el Superior el 3/04/25 , hasta cubrir la su
+de $500.831,10 con más la de $500.000 que p
+[...]","26 FER 2006
+
+RECIDEA
+
+Poder Judicial de la Nación
+juzgado CIVIL 45
+
+91273/2013
+
+Incidente N* 1 - ACTOR: BASSO, ALEJANDRA ELENA
+s/BENEFICIO DE LITIGAR SIN GASTOS
+
+OFICIO JUDICIAL
+Buenos Aires, de octubre de 2025
+A Mercado Libre S.R.L.
+Ss / D
+
+Tengo el agrado de dirigirme a Usted en los autos caratuladds
+""BASSO, ALEJANDRA ELENA C/ LIDERAR COMPAÑI
+GENERAL DE SEGUROS S.A. Y OTROS S/ BENEFICIO
+LITIGAR SIN GASTOS"" (91.273/13/1), de trámite por ante es
+juzgado Nacional de Primera Instancia en lo Civil Número 45, a car;
+como juez subrogante del Dr. Javier Santamaría, secretaría Unica, la
+
+suma de $500.831,10 (pesos quinientos mil ochocientos treinta y uno
+con diez centavos) con más la de $500.000 (pesos quinientos mil) q e
+provisoriamente se presupuesta para responder a intereses y cost.]
+sobre los fondos pertenecientes 2 LIDERAR COMPAÑÍA
+GENERAL DE SEGUROS SA (CUIT 30500059490) en MERCA
+LIBRE S.R.L. (CUIT 30703088534) mediante su aplicación, billetera
+virtual y/o plataforma MERCADO PAGO; los que deberán
+transferidos al banco de la Nación Argentina -sucursal Tribunales al la
+cuenta a la orden del juzgado CUIT 51300140450 y como
+pertenecientes a estas actuaciones (cuenta Nro. 9956597993, CHBU
+0110025950099565979936). La providencia que ordena el presenté
+dispone: ""Buenos Aires, 20 de mayo de 2025.- MSG Agréguense
+constancias acompañadas.En atención a lo solicitado,
+
+honorarios regulados por el Superior el 3/04/25, hasta cubrir la su
+de $500.831,10 con más la de $500.000 que provisoria
+[...]","--- antes
++++ despues
+@@ -2,10 +2,8 @@
+ 
+ RECIDEA
+ 
+-S
+-
+ Poder Judicial de la Nación
+-JUZGADO CIVIL 45
++juzgado CIVIL 45
+ 
+ 91273/2013
+ 
+@@ -21,30 +19,28 @@
+ ""BASSO, ALEJANDRA ELENA C/ LIDERAR COMPAÑI
+ GENERAL DE SEGUROS S.A. Y OTROS S/ BENEFICIO
+ LITIGAR SIN GASTOS"" (91.273/13/1), de trámite por ante es
+-Juzgado Nacional de Primera Instancia en lo Civil Número 45, a car;
+-como juez subrogante del Dr. Javier Santamaría, Secretaría Unica, la
++juzgado Nacional de Primera Instancia en lo Civil Número 45, a car;
++como juez subrogante del Dr. Javier Santamaría, secretaría Unica, la
+ 
+ suma de $500.831,10 (pesos quinientos mil ochocientos treinta y uno
+ con diez centavos) con más la de $500.000 (pesos quinientos mil) q e
+-provisoriamente se presupuesta para responder a intereses y cost. ]
++provisoriamente se presupuesta para responder a intereses y cost.]
+ sobre los fondos pertenecientes 2 LIDERAR COMPAÑÍA
+ GENERAL DE SEGUROS SA (CUIT 30500059490) en MERCA
+ LIBRE S.R.L. (CUIT 30703088534) mediante su aplicación, billetera
+ virtual y/o plataforma MERCADO PAGO; los que deberán
+-transferidos al Banco de la Nación Argentina -sucursal Tribunales al la
+-cuenta a la orden del Juzgado CUIT 51300140450 y como
+-pertenecientes a estas actuaciones (Cuenta Nro. 9956597993, CHBU
++transferidos al banco de la Nación Argentina -sucursal Tribunales al la
++cuenta a la orden del juzgado CUIT 51300140450 y como
++pertenecientes a estas actuaciones (cuenta Nro. 9956597993, CHBU
+ 0110025950099565979936). La providencia que ordena el presenté
+ dispone: ""Buenos Aires, 20 de mayo de 2025.- MSG Agréguense
+-constancias acompañadas. ...En atención a lo solicitado,
++constancias acompañadas.En atención a lo solicitado,
+ 
+-honorarios regulados por el Superior el 3/04/25 , hasta cubrir la su
++honorarios regulados por el Superior el 3/04/25, hasta cubrir la su
+ de $500.831,10 con más la de $500.000 que provisoriamente be
+ presupuesta para responder a intereses y costas, trábese embargo sobfe
+ 
+ +15964756474033933202510010841
+-
+-my
+ 
+ 0
+ 
+@@ -52,7 +48,7 @@
+ SEGUROS SA (CUIT 30500059490) en MERCADO LIBRE S.R.L.
+ (CUIT 30703088534) mediante su aplicación, billetera virtual y/o
+ plataforma MERCADO PAGO, los que deberán ser transferidos a la
+-cuenta abierta a nombre de autos en el Banco de la Nación Argentina
++cuenta abierta a nombre de autos en el banco de la Nación Argentina
+ (sucursal Tribunales) cuyos datos surgen del saldo que antecede. Se
+ deja constancia de que el CUIT del juzgado es 51300140450.- A
+ dicho fin, líbrese oficio electrónico.- Hágase saber respecto del oficio
+@@ -69,5 +65,5 @@
+ preexistente. No podrá requerirse su expedición en formato papel.-
+ Luego de ser suscripto electrónicamente por los funcionarios
+ correspondientes, podrá ser descargado en forma directa en formato
+-PDF del
++PDF del sistema info
+ [...]"
+536750,Embargo - usuario,0.9565219310418,legible,6571,6573,-0.00030436767615279255,"OFICIO JUDICIAL
+
+Al Señor Gerente General
+Mercado Pago Servicios de Procesamiento SRL
+
+encina Y OS D
+
+Tengo el agrado de dirigirme a Ud., en mi carácter de letrado
+patrocinante de la parte actora en autos caratulados ""Incidente N* 1 - ACTOR:
+BOTTI, FEDERICO MARIO s/EJECUCION DE HONORARIOS -
+INCIDENTE FAMILIA"" Expte., N? 99.950/2023/1. que tramitan por ante el
+Juzgado Civil N? 8, con sede en Lavalle N? 1.220. 3? Piso. de la Ciudad Autónoma
+de Buenos Aires. a cargo de la Sra., Juez, Dra., CORDOBA, Lucila Ines,
+Secretaría Única a cargo del Sr., Secretario Dr., DARAY, Gaston, a fin de
+solicitarle tenga a bien disponer las medidas que resulten adecuadas en orden a la
+traba del embargo ejecutorio por la suma de UN MILLON NOVECIENTOS
+'VEINTIUN MIL QUINIENTOS VEINTICUATRO PESOS ARGENTINOS
+($1.921.524,00). equivalentes a VEINTIDOS (22) UMAS de conformidad con la
+Resolución SGA 36/26, con mas la de QUINIENTOS SETENTA Y SEIS MIL
+CUATROCIENTOS CINCUENTA Y SIETE PESOS ARGENTINOS
+($576.457.00). que se presupuesta en forma provisoria para responder a intereses y
+costas y actualización de UMA, sobre toda suma de dinero perteneciente a BOTTI.
+FEDERICO MARIO, titular del DNI 29.987.246. CUIT/CUIL 20299872468. que
+se encuentre depositada o ingrese en el futuro a su cuenta. Sumas estas que. deberán
+
+ser puestas a disposición en la cuenta bancaria cuyos datos a continuación se
+
+denuncian.
+
+CUENTA BANCARIA
+
+Entidad Bancaria: Banco de la Nación Argentina
+Juzgado de Apertura: JUZG NAC CIV 8 SEC UNIC
+[...]","OFICIO JUDICIAL
+
+Al Señor Gerente General
+Mercado Pago Servicios de Procesamiento SRL
+
+encina Y OS D
+
+Tengo el agrado de dirigirme a Ud., en mi carácter de letrado
+patrocinante de la parte actora en autos caratulados ""Incidente N* 1 - ACTOR:
+BOTTI, FEDERICO MARIO s/EJECUCION DE HONORARIOS -
+INCIDENTE FAMILIA"" expediente., N? 99.950/2023/1. que tramitan por ante el
+juzgado Civil N? 8, con sede en Lavalle N? 1.220. 3? Piso. de la Ciudad Autónoma
+de Buenos Aires. a cargo de la Sra., Juez, Dra., CORDOBA, Lucila Ines,
+secretaría Única a cargo del Sr., Secretario Dr., DARAY, Gaston, a fin de
+solicitarle tenga a bien disponer las medidas que resulten adecuadas en orden a la
+traba del embargo ejecutorio por la suma de UN MILLON NOVECIENTOS
+'VEINTIUN MIL QUINIENTOS VEINTICUATRO pesos ARGENTINOS
+($1.921.524,00). equivalentes a VEINTIDOS (22) UMAS de conformidad con la
+Resolución SGA 36/26, con mas la de QUINIENTOS SETENTA Y SEIS MIL
+CUATROCIENTOS CINCUENTA Y SIETE pesos ARGENTINOS
+($576.457.00). que se presupuesta en forma provisoria para responder a intereses y
+costas y actualización de UMA, sobre toda suma de dinero perteneciente a BOTTI.
+FEDERICO MARIO, titular del DNI 29.987.246. CUIT/CUIL 20299872468. que
+se encuentre depositada o ingrese en el futuro a su cuenta. Sumas estas que. deberán
+
+ser puestas a disposición en la cuenta bancaria cuyos datos a continuación se
+
+denuncian.
+
+cuenta BANCARIA
+
+Entidad Bancaria: banco de la Nación Argentina
+juzgado de Apertura: JUZG NAC CIV 8 SEC
+[...]","--- antes
++++ despues
+@@ -8,16 +8,16 @@
+ Tengo el agrado de dirigirme a Ud., en mi carácter de letrado
+ patrocinante de la parte actora en autos caratulados ""Incidente N* 1 - ACTOR:
+ BOTTI, FEDERICO MARIO s/EJECUCION DE HONORARIOS -
+-INCIDENTE FAMILIA"" Expte., N? 99.950/2023/1. que tramitan por ante el
+-Juzgado Civil N? 8, con sede en Lavalle N? 1.220. 3? Piso. de la Ciudad Autónoma
++INCIDENTE FAMILIA"" expediente., N? 99.950/2023/1. que tramitan por ante el
++juzgado Civil N? 8, con sede en Lavalle N? 1.220. 3? Piso. de la Ciudad Autónoma
+ de Buenos Aires. a cargo de la Sra., Juez, Dra., CORDOBA, Lucila Ines,
+-Secretaría Única a cargo del Sr., Secretario Dr., DARAY, Gaston, a fin de
++secretaría Única a cargo del Sr., Secretario Dr., DARAY, Gaston, a fin de
+ solicitarle tenga a bien disponer las medidas que resulten adecuadas en orden a la
+ traba del embargo ejecutorio por la suma de UN MILLON NOVECIENTOS
+-'VEINTIUN MIL QUINIENTOS VEINTICUATRO PESOS ARGENTINOS
++'VEINTIUN MIL QUINIENTOS VEINTICUATRO pesos ARGENTINOS
+ ($1.921.524,00). equivalentes a VEINTIDOS (22) UMAS de conformidad con la
+ Resolución SGA 36/26, con mas la de QUINIENTOS SETENTA Y SEIS MIL
+-CUATROCIENTOS CINCUENTA Y SIETE PESOS ARGENTINOS
++CUATROCIENTOS CINCUENTA Y SIETE pesos ARGENTINOS
+ ($576.457.00). que se presupuesta en forma provisoria para responder a intereses y
+ costas y actualización de UMA, sobre toda suma de dinero perteneciente a BOTTI.
+ FEDERICO MARIO, titular del DNI 29.987.246. CUIT/CUIL 20299872468. que
+@@ -27,10 +27,10 @@
+ 
+ denuncian.
+ 
+-CUENTA BANCARIA
++cuenta BANCARIA
+ 
+-Entidad Bancaria: Banco de la Nación Argentina
+-Juzgado de Apertura: JUZG NAC CIV 8 SEC UNICA.
++Entidad Bancaria: banco de la Nación Argentina
++juzgado de Apertura: JUZG NAC CIV 8 SEC UNICA.
+ 
+ Sucursal Cta.: 0089 - TRIBUNALES
+ 
+@@ -40,22 +40,22 @@
+ 
+ 15
+ 
+-Producto: CTA. CTE. JUDICIALES PESOS
+-N? de Cuenta: 9997035658
++Producto: CTA. CTE. JUDICIALES pesos
++N? de cuenta: 9997035658
+ 
+ Denominación: INC 1 - ACTOR BOTTI FEDERICO MARIO
+ S/EJECUCION DE HONORARIOS - INCIDENTE FAMILIA - 21976489
+ 
+ C.B.U.: 0110025950099970356584
+ 
+-Titular/es Causa Expediente N* Expediente: INCIDENTE N' 1
++Titular/es Causa expediente nro.* expediente: INCIDENTE N' 1
+ - ACTOR: BOTTI, FEDERICO MARIO S/EJECUCION DE HONORARIOS -
+ INCIDENTE FAMILIA
+ 
+ El auto que ordena la presente. obrante a fs., 7 del referido
+ expediente, dispone Buenos Aires, de febrero de 2026.- LMG Con las copias que
+ anteceden tiénese por promovida la ejecución de honorarios del Dr. Sergio
+-«Hejandro FERNANDEZ. En consecuencia, atento lo solicitado y lo dispuesto por
++""Hejandro FERNANDEZ. En consecuencia, atento lo solicitado y lo dispuesto por
+ el art. 500, 502 y conc. del Código Procesal. por la suma correspondiente a 22
+ UMAS, lo que equivalen a la fecha conforme Res 36/26 a la de pesos un millón
+ novecientos veinte uno mil quinientos veinticuatro (S 1.921.524.-) con más la de
+@@ -65,6 +65,6 @@
+ de Mercado Libre - Mercado Pago Servicios de procesamiento SRL, siempre que
+ la misma se encuentre a nombre de Sr. Federico Mario BOTTI (CUIT/CUIL
+ 20299872468), a cuyo fin librese oficio, haciéndose constar que deberá depositarse
+-la suma indicada en el Banco de la Nación Argentina. Suc. Tribunales a la orden
+-del Juzgado y 
++la suma indicada en el banco de la Nación Argentina. Suc. Tribunales a la orden
++del ju
+ [...]"
+529783,Embargo - usuario,0.956249973097799,legible,8689,8658,0.0035677293129243873,"0 MAR 2016
+
+DNDErinin""
+
+OFICIO JUDICIAL.
+Ciudad de Buenos Aires, de febrero de 2026.
+AL SR. GERENTE DE MERCADO LIBRE S.R.L.
+
+Ss 1 D
+
+Tengo el agrado de dirigirme a Usted, con relación a los autos
+caratulados: ""CASAS, JONATHAN EDUARDO C/ ESCUDO SEGUROS S.A. Y
+OTRO S/ Daños y Perjuicios"" (26.999/18), de trámite por ante el Juzgado
+Nacional de 1* Instancia en lo Civil N* 30, a cargo de la Dra. María Constanza,
+Caeiro, Secretaría Única, a cargo de la Dra. Paula, Pechersky, con sede en Av.
+de los Inmigrantes 1950 E.P., Capital Federal, a efectos de solicitarle tenga a
+bien trabar embargo ejecutorio hasta alcanzar la suma de PESOS
+SEISCIENTOS OCHENTA MIL QUINIENTOS SETENTA CON SESENTA Y DOS
+CENTAVOS ($680.570,62) -de los que corresponde la suma de $562.455,06 a
+honorarios (5,09 UMA de primera instancia y 1,53 UMA de alzada, total 6,62 y
+$118.115,56 de IVA-, con más la suma de PESOS OCHOCIENTOS MIL
+($800.000) que se presupuestan para responder provisoriamente por intereses y
+costas, sobre los fondos depositados por ALFREDO ANTONIO ARIAS, DNI
+Poder Judicial de la Nación JUZGADO CIVIL 30 10.700.496 en MERCADO
+PAGO, administrada por MERCADO LIBRE S.R.L. Las sumas embargadas
+deberán ser transferidas en la cuenta de autos existente en el Banco de la
+Nación Argentina, Suc. Tribunales (Sucursal: 89 Producto: 99 Cuenta:
+9974081733 CBU: 0110025950099740817334). Se deja constancia que en el
+caso de tratarse de una cuenta sueldo la medida deberá efectivizarse en el
+porcentaje de ley.
+
+La provi
+[...]","0 MAR 2016
+
+DNDErinin""
+
+OFICIO JUDICIAL.
+Ciudad de Buenos Aires, de febrero de 2026.
+AL SR. GERENTE DE MERCADO LIBRE S.R.L.
+
+Ss 1 D
+
+Tengo el agrado de dirigirme a Usted, con relación a los autos
+caratulados: ""CASAS, JONATHAN EDUARDO C/ ESCUDO SEGUROS S.A. Y
+OTRO S/ Daños y Perjuicios"" (26.999/18), de trámite por ante el juzgado
+Nacional de 1* Instancia en lo Civil N* 30, a cargo de la Dra. María Constanza,
+Caeiro, secretaría Única, a cargo de la Dra. Paula, Pechersky, con sede en Av.
+de los Inmigrantes 1950 E.P., Capital Federal, a efectos de solicitarle tenga a
+bien trabar embargo ejecutorio hasta alcanzar la suma de pesos
+SEISCIENTOS OCHENTA MIL QUINIENTOS SETENTA CON SESENTA Y DOS
+CENTAVOS ($680.570,62) -de los que corresponde la suma de $562.455,06 a
+honorarios (5,09 UMA de primera instancia y 1,53 UMA de alzada, total 6,62 y
+$118.115,56 de IVA-, con más la suma de pesos OCHOCIENTOS MIL
+($800.000) que se presupuestan para responder provisoriamente por intereses y
+costas, sobre los fondos depositados por ALFREDO ANTONIO ARIAS, DNI
+Poder Judicial de la Nación juzgado CIVIL 30 10.700.496 en MERCADO
+PAGO, administrada por MERCADO LIBRE S.R.L. Las sumas embargadas
+deberán ser transferidas en la cuenta de autos existente en el banco de la
+Nación Argentina, Suc. Tribunales (Sucursal: 89 Producto: 99 cuenta:
+9974081733 CBU: 0110025950099740817334). Se deja constancia que en el
+caso de tratarse de una cuenta sueldo la medida deberá efectivizarse en el
+porcentaje de ley.
+
+La provi
+[...]","--- antes
++++ despues
+@@ -10,21 +10,21 @@
+ 
+ Tengo el agrado de dirigirme a Usted, con relación a los autos
+ caratulados: ""CASAS, JONATHAN EDUARDO C/ ESCUDO SEGUROS S.A. Y
+-OTRO S/ Daños y Perjuicios"" (26.999/18), de trámite por ante el Juzgado
++OTRO S/ Daños y Perjuicios"" (26.999/18), de trámite por ante el juzgado
+ Nacional de 1* Instancia en lo Civil N* 30, a cargo de la Dra. María Constanza,
+-Caeiro, Secretaría Única, a cargo de la Dra. Paula, Pechersky, con sede en Av.
++Caeiro, secretaría Única, a cargo de la Dra. Paula, Pechersky, con sede en Av.
+ de los Inmigrantes 1950 E.P., Capital Federal, a efectos de solicitarle tenga a
+-bien trabar embargo ejecutorio hasta alcanzar la suma de PESOS
++bien trabar embargo ejecutorio hasta alcanzar la suma de pesos
+ SEISCIENTOS OCHENTA MIL QUINIENTOS SETENTA CON SESENTA Y DOS
+ CENTAVOS ($680.570,62) -de los que corresponde la suma de $562.455,06 a
+ honorarios (5,09 UMA de primera instancia y 1,53 UMA de alzada, total 6,62 y
+-$118.115,56 de IVA-, con más la suma de PESOS OCHOCIENTOS MIL
++$118.115,56 de IVA-, con más la suma de pesos OCHOCIENTOS MIL
+ ($800.000) que se presupuestan para responder provisoriamente por intereses y
+ costas, sobre los fondos depositados por ALFREDO ANTONIO ARIAS, DNI
+-Poder Judicial de la Nación JUZGADO CIVIL 30 10.700.496 en MERCADO
++Poder Judicial de la Nación juzgado CIVIL 30 10.700.496 en MERCADO
+ PAGO, administrada por MERCADO LIBRE S.R.L. Las sumas embargadas
+-deberán ser transferidas en la cuenta de autos existente en el Banco de la
+-Nación Argentina, Suc. Tribunales (Sucursal: 89 Producto: 99 Cuenta:
++deberán ser transferidas en la cuenta de autos existente en el banco de la
++Nación Argentina, Suc. Tribunales (Sucursal: 89 Producto: 99 cuenta:
+ 9974081733 CBU: 0110025950099740817334). Se deja constancia que en el
+ caso de tratarse de una cuenta sueldo la medida deberá efectivizarse en el
+ porcentaje de ley.
+@@ -36,8 +36,8 @@
+ 10/5/2024, de la liquidación practicada, traslado. Notifíquese. Il.- Por promovida
+ la ejecución de sentencia. Atento lo peticionado, la sentencia dictada el 7/2/2022,
+ modificada parcialmente por ta Cámara de Apelaciones el 10/5/2024, trábese
+-embargo hasta cubrir la suma de PESOS DOSCIENTOS CUARENTA Y TRES
+-MIL SETECIENTOS CUARENTA ($243.740), con más la suma de PESOS UN
++embargo hasta cubrir la suma de pesos DOSCIENTOS CUARENTA Y TRES
++MIL SETECIENTOS CUARENTA ($243.740), con más la suma de pesos UN
+ MILLÓN QUINIENTOS MIL ($1.500.000) que se presupuestan para responder
+ provisoriamente por intereses y costas, sobre los fondos depositados por
+ ALFREDO ANTONIO ARIAS, DNI 10.700.496 en TARJETA NARANJA -"
+507213,Embargo - usuario,0.9556653656415974,legible,3336,3324,0.0035971223021582736,"8
+
+3
+SN
+
+Marangón, con asiento en Av. De Los Inmigrantes 1950, Pis
+
+de esta Capital Federal, a fin de que informe dentro del fp
+
+caso las razones que obstan su cumplimiento bajo aperc
+imponer una multa por cada día de retardo en caso de incú
+injustificado (art. 398 CPCC).
+
+informe el estado de la manda en cuestión o, en su caso! la
+
+que obstan su cumplimiento, y con transcripción de lo dispu
+art. 398 del Código Procesal, haciéndole saber quel de
+
+contestado en el plazo de diez días, bajo apercibimiento
+
+Poder Judicial de la Nación (5h Fa
+24 500 40 JUZGADO CIVIL 13 [elo
+NULA
+N
+RECIBIDO Que El
+Buenos Aires,2e de septiembre de 2025
+'o de Mercado Libre SRL
+Tengo el agrado de dirigirme a Ud. en los autos
+aratulados: ""VAZQUEZ VERA, HUGO ALBERTO c/ BORDON
+BERDEJO, CESAR GUILLERMO JOB S/DAÑOS Y
+PERJUICIOS(ACC.TRAN. C/LES. O MUERTE)"" Exipte. N*
+19673/2022 en trámite ante el Juzgado Nacional de Primera |Instancia
+
+en lo Civil N*13, a cargo del Dr. Jorge Ignacio Sobrino Reig,
+Secretaría única, interinamente a mi cargo, Dr. Milton Darío /
+9 Quinto,
+lazo de 10
+días, el estado de embargo ordenado el 9 de Junio de 2( 25, o en su
+
+la
+
+El auto que ordena la medida en su parte pert ii dice:
+
+iento de
+limiento
+
+""Buenos Aires, 26 de agosto de 2025.- 1.- En atención a lo|solicitado,
+tiempo transcurrido y dado que de la compulsa de auto np|surge que
+Mercado Pago de Mercado Libre SRL haya dado cumplimiento con
+
+el embargo ordenado el 9 de junio de 2025, líbrese ofidio |a fin que
+
+razones
+
+esto en e
+[...]","8
+
+3
+
+Marangón, con asiento en Av. De Los Inmigrantes 1950, Pis
+
+de esta Capital Federal, a fin de que informe dentro del fp
+
+caso las razones que obstan su cumplimiento bajo aperc
+imponer una multa por cada día de retardo en caso de incú
+injustificado (art. 398 CPCC).
+
+informe el estado de la manda en cuestión o, en su caso! la
+
+que obstan su cumplimiento, y con transcripción de lo dispu
+art. 398 del Código Procesal, haciéndole saber quel de
+
+contestado en el plazo de diez días, bajo apercibimiento
+
+Poder Judicial de la Nación (5h Fa
+24 500 40 juzgado CIVIL 13 [elo
+NULA
+RECIBIDO Que El
+Buenos Aires,2e de septiembre de 2025
+'o de Mercado Libre SRL
+Tengo el agrado de dirigirme a Ud. en los autos
+aratulados: ""VAZQUEZ VERA, HUGO ALBERTO c/ BORDON
+BERDEJO, CESAR GUILLERMO JOB S/DAÑOS Y
+PERJUICIOS(ACC.TRAN. C/LES. O MUERTE)"" Exipte. N*
+19673/2022 en trámite ante el juzgado Nacional de Primera |Instancia
+
+en lo Civil N*13, a cargo del Dr. Jorge Ignacio Sobrino Reig,
+secretaría única, interinamente a mi cargo, Dr. Milton Darío /
+9 Quinto,
+lazo de 10
+días, el estado de embargo ordenado el 9 de Junio de 2(25, o en su
+
+El auto que ordena la medida en su parte pert ii dice:
+
+iento de
+limiento
+
+""Buenos Aires, 26 de agosto de 2025.- 1.- En atención a lo|solicitado,
+tiempo transcurrido y dado que de la compulsa de auto np|surge que
+Mercado Pago de Mercado Libre SRL haya dado cumplimiento con
+
+el embargo ordenado el 9 de junio de 2025, líbrese ofidio |a fin que
+
+razones
+
+esto en el
+berá ser
+[...]","--- antes
++++ despues
+@@ -1,7 +1,6 @@
+ 8
+ 
+ 3
+-SN
+ 
+ Marangón, con asiento en Av. De Los Inmigrantes 1950, Pis
+ 
+@@ -19,9 +18,8 @@
+ contestado en el plazo de diez días, bajo apercibimiento
+ 
+ Poder Judicial de la Nación (5h Fa
+-24 500 40 JUZGADO CIVIL 13 [elo
++24 500 40 juzgado CIVIL 13 [elo
+ NULA
+-N
+ RECIBIDO Que El
+ Buenos Aires,2e de septiembre de 2025
+ 'o de Mercado Libre SRL
+@@ -29,15 +27,13 @@
+ aratulados: ""VAZQUEZ VERA, HUGO ALBERTO c/ BORDON
+ BERDEJO, CESAR GUILLERMO JOB S/DAÑOS Y
+ PERJUICIOS(ACC.TRAN. C/LES. O MUERTE)"" Exipte. N*
+-19673/2022 en trámite ante el Juzgado Nacional de Primera |Instancia
++19673/2022 en trámite ante el juzgado Nacional de Primera |Instancia
+ 
+ en lo Civil N*13, a cargo del Dr. Jorge Ignacio Sobrino Reig,
+-Secretaría única, interinamente a mi cargo, Dr. Milton Darío /
++secretaría única, interinamente a mi cargo, Dr. Milton Darío /
+ 9 Quinto,
+ lazo de 10
+-días, el estado de embargo ordenado el 9 de Junio de 2( 25, o en su
+-
+-la
++días, el estado de embargo ordenado el 9 de Junio de 2(25, o en su
+ 
+ El auto que ordena la medida en su parte pert ii dice:
+ 
+@@ -58,7 +54,7 @@
+ de imponer
+ 
+ una multa por cada día de retardo en caso de inc mp
+-injustificado (art. 398 CPCC) (...) El oficio en cuestión será
++injustificado (art. 398 CPCC) (.) El oficio en cuestión será
+ 
+ copia digitalizada a las presentes actuaciones; que
+ diligenciamiento de dicha pieza en cabeza de los interestd
+@@ -69,7 +65,7 @@
+ 
+ impreso
+ 
+-por Secretaría y una vez suscripto por el Actuario, se lindorporará
++por secretaría y una vez suscripto por el Actuario, se lindorporará
+ 
+ ando el
+ 
+@@ -96,5 +92,5 @@
+ transferencia de dominio en el Registro de la Propiedad, los oficios
+ que se libren a Obras Sanitarias de la Nación (e.1.) al ente prestador
+ de ese servicio y al Gobierno de la Ciudad de Buenos Aires o
+-Municipio de que se trate, contendrán el apercibimiento 
++Municipio de que se trate, contendrán el apercibimiento de que, si n
+ [...]"

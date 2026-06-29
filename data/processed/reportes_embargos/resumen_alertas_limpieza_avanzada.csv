@@ -1,0 +1,9 @@
+﻿metrica,cantidad
+desaparece_posible_dni,0
+desaparece_posible_cuil_cuit,0
+desaparece_posible_cbu_cvu,0
+desaparece_posible_monto,1
+desaparece_posible_expediente,2
+reduccion_texto_mayor_35,0
+reduccion_palabras_mayor_35,0
+alerta_posible_perdida_datos_total,3

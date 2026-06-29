@@ -1,0 +1,1987 @@
+﻿id,nombre,score,estado_ocr,len_antes,len_despues,porcentaje_reduccion,texto_antes,texto_despues,diff
+542136,Embargo - usuario,0.22024548053681525,irrecuperable,285,258,0.09473684210526316,"q a ZA mercad
+A Ó-—
+tArñ20190D 198
+
+POMADA
+
+40 007. vol sh oben Wisnewslal ssobañb"" Wbiscineua y lorinoo lo
+
+Bm 3 me DATE bs D ADA
+
+ln MOO .1 7 alansoro.o
+dm y o PrRMOONS 02 |
+
+r ' As
+1
+4 |
+a
+1
+y
+!
+y €
+S á .
+ÑN
+ba 5 ' |
+Í
+4
+1]
+|
+otr y"" i |
+Sl Na?
+|
+, '
+1. A |
+|
+rra NO] | |
+yiv! 31 | |","q a ZA mercad
+A Ó--
+tArñ20190D 198
+
+POMADA
+
+40 007. vol sh oben Wisnewslal ssobañb"" Wbiscineua y lorinoo lo
+
+Bm 3 me DATE bs D ADA
+
+ln MOO.1 7 alansoro.o
+dm y o PrRMOONS 02 |
+
+r ' As
+1
+4 |
+1
+S á.
+ba 5 ' |
+4
+1]
+otr y"" i |
+Sl Na?
+1. A |
+rra NO] | |
+yiv! 31 | |","--- antes
++++ despues
+@@ -1,5 +1,5 @@
+ q a ZA mercad
+-A Ó-—
++A Ó--
+ tArñ20190D 198
+ 
+ POMADA
+@@ -8,29 +8,19 @@
+ 
+ Bm 3 me DATE bs D ADA
+ 
+-ln MOO .1 7 alansoro.o
++ln MOO.1 7 alansoro.o
+ dm y o PrRMOONS 02 |
+ 
+ r ' As
+ 1
+ 4 |
+-a
+ 1
+-y
+-!
+-y €
+-S á .
+-ÑN
++S á.
+ ba 5 ' |
+-Í
+ 4
+ 1]
+-|
+ otr y"" i |
+ Sl Na?
+-|
+-, '
+ 1. A |
+-|
+ rra NO] | |
+ yiv! 31 | |"
+513484,Embargo - usuario,0.8525664037438263,legible,2114,1987,0.06007568590350047,"]
+
+bdhos transfirió a otro expediente N? 2936//2021-
+
+CEDYLA
+
+ideo
+
+'
+
+[0 PODER JUDICIAL DE LA NACION
+[|
+TRIB
+
+DE NOPAFICACIO
+NAL: Juzgado Nacional de Primera Instancia en lo Comercial, 30, des Con
+1546, Piso 6"", Ciudad de Buenos Aires // S/N NS
+
+|
+a
+
+A
+
+a
+
+/e10131100
+
+OO ÍZb......
+
+FECHA! DE RECEPCION EN NOTIFICACIONES. .+
+
+Sello de ml ero
+si: RCADO PAGO
+piurcrio: Avda. Caseros 3039, Piso 2, Ciudad de Buenos Aires.
+[ DENUNCIADO |
+Ch IN le A, OOO O >
+or A A A Ie AMA A AY.
+
+que en el expediente caratulado: ""TRANS£
+PRIVADAS SRL. C/ GODOY, Agustin Leonardo S/ EJECU
+a ita ante este Tribunal se ha dictado la siguiente RESOLUC
+
+ires, Diciembre 19 de 2025.- ...Atento a lo solicitado y que la cd
+Nlercado Pago de pg. 152/153 no se ajusta al requerimiento de pg.
+b explicó los motivos por los cuales el 15/09/2025 trabó embargo, FS
+cuando había
+anotado el 27/ 11/2024 ), se intima a Nlfx ado Pago
+lara [que dentro del plazo de cinco días brinde las explicaciones del [ca50, bajo
+apper ibimiento de aplicar sanciones conminatorias de $ 5.000 diarios (arts. 37
+AÍPCON y 304 CPCCN). Notifíquese (art. 135 inc. 6? CPCCN). Hág A elconstar en
+
+A cédula que el Oficial Notificador deberá entenderse pesogtií te con el
+
+la |
+epoca gado de cumplir el requerimiento o, en Su caso, con la persona] dE más alto
+ngo de la dependencia, a quien deberá individualizar... Fdo. Sebastian
+
+ez Cannavó - Juez"".
+
+saber a Vd.
+D'"" que se
+
+ON: ""///nos
+estación de
+) (es decir,
+vo fondos
+
+embargo
+
+Mterior de este expediente,
+[...]","bdhos transfirió a otro expediente nro.? 2936//2021-
+
+CEDYLA
+
+ideo
+
+[0 PODER JUDICIAL DE LA NACION
+TRIB
+
+DE NOPAFICACIO
+NAL: juzgado Nacional de Primera Instancia en lo Comercial, 30, des Con
+1546, Piso 6"", Ciudad de Buenos Aires // S/N NS
+
+/e10131100
+
+OO ÍZb.
+
+FECHA! DE RECEPCION EN NOTIFICACIONES..+
+
+Sello de ml ero
+si: RCADO PAGO
+piurcrio: Avda. Caseros 3039, Piso 2, Ciudad de Buenos Aires.
+[DENUNCIADO |
+Ch IN le A, OOO O >
+or A A A Ie AMA A AY.
+
+que en el expediente caratulado: ""TRANS£
+PRIVADAS SRL. C/ GODOY, Agustin Leonardo S/ EJECU
+a ita ante este Tribunal se ha dictado la siguiente RESOLUC
+
+ires, Diciembre 19 de 2025.-.Atento a lo solicitado y que la cd
+Nlercado Pago de pg. 152/153 no se ajusta al requerimiento de pg.
+b explicó los motivos por los cuales el 15/09/2025 trabó embargo, FS
+cuando había
+anotado el 27/ 11/2024), se intima a Nlfx ado Pago
+lara [que dentro del plazo de cinco días brinde las explicaciones del [ca50, bajo
+apper ibimiento de aplicar sanciones conminatorias de $ 5.000 diarios (arts. 37
+AÍPCON y 304 CPCCN). Notifíquese (art. 135 inc. 6? CPCCN). Hág A elconstar en
+
+A cédula que el Oficial Notificador deberá entenderse pesogtií te con el
+
+la |
+epoca gado de cumplir el requerimiento o, en Su caso, con la persona] dE más alto
+ngo de la dependencia, a quien deberá individualizar. Fdo. Sebastian
+
+ez Cannavó - Juez"".
+
+saber a Vd.
+D'"" que se
+
+ON: ""///nos
+estación de) (es decir,
+vo fondos
+
+embargo
+
+Mterior de este expediente,
+
+Queda Usted notificado.
+
+Auen
+[...]","--- antes
++++ despues
+@@ -1,38 +1,26 @@
+-]
+-
+-bdhos transfirió a otro expediente N? 2936//2021-
++bdhos transfirió a otro expediente nro.? 2936//2021-
+ 
+ CEDYLA
+ 
+ ideo
+ 
+-'
+-
+ [0 PODER JUDICIAL DE LA NACION
+-[|
+ TRIB
+ 
+ DE NOPAFICACIO
+-NAL: Juzgado Nacional de Primera Instancia en lo Comercial, 30, des Con
++NAL: juzgado Nacional de Primera Instancia en lo Comercial, 30, des Con
+ 1546, Piso 6"", Ciudad de Buenos Aires // S/N NS
+-
+-|
+-a
+-
+-A
+-
+-a
+ 
+ /e10131100
+ 
+-OO ÍZb......
++OO ÍZb.
+ 
+-FECHA! DE RECEPCION EN NOTIFICACIONES. .+
++FECHA! DE RECEPCION EN NOTIFICACIONES..+
+ 
+ Sello de ml ero
+ si: RCADO PAGO
+ piurcrio: Avda. Caseros 3039, Piso 2, Ciudad de Buenos Aires.
+-[ DENUNCIADO |
++[DENUNCIADO |
+ Ch IN le A, OOO O >
+ or A A A Ie AMA A AY.
+ 
+@@ -40,11 +28,11 @@
+ PRIVADAS SRL. C/ GODOY, Agustin Leonardo S/ EJECU
+ a ita ante este Tribunal se ha dictado la siguiente RESOLUC
+ 
+-ires, Diciembre 19 de 2025.- ...Atento a lo solicitado y que la cd
++ires, Diciembre 19 de 2025.-.Atento a lo solicitado y que la cd
+ Nlercado Pago de pg. 152/153 no se ajusta al requerimiento de pg.
+ b explicó los motivos por los cuales el 15/09/2025 trabó embargo, FS
+ cuando había
+-anotado el 27/ 11/2024 ), se intima a Nlfx ado Pago
++anotado el 27/ 11/2024), se intima a Nlfx ado Pago
+ lara [que dentro del plazo de cinco días brinde las explicaciones del [ca50, bajo
+ apper ibimiento de aplicar sanciones conminatorias de $ 5.000 diarios (arts. 37
+ AÍPCON y 304 CPCCN). Notifíquese (art. 135 inc. 6? CPCCN). Hág A elconstar en
+@@ -53,7 +41,7 @@
+ 
+ la |
+ epoca gado de cumplir el requerimiento o, en Su caso, con la persona] dE más alto
+-ngo de la dependencia, a quien deberá individualizar... Fdo. Sebastian
++ngo de la dependencia, a quien deberá individualizar. Fdo. Sebastian
+ 
+ ez Cannavó - Juez"".
+ 
+@@ -61,15 +49,12 @@
+ D'"" que se
+ 
+ ON: ""///nos
+-estación de
+-) (es decir,
++estación de) (es decir,
+ vo fondos
+ 
+ embargo
+ 
+[...] diff truncado"
+520982,Embargo - usuario,0.8812236206306908,legible,2510,2375,0.053784860557768925,"TRIBUNAL: ] a
+
+Peña 1211
+
+FECHA (DE RE
+
+Sr: MERCADO |
+
+DOMICILIO:
+
+CARACTER: .
+
+OBSER ACTONE
+
+47
+s.oH. ||
+
+Rez:
+
+expediente
+que tiamita
+
+Intímage a Ñ
+
+ordenafla, co;
+$10.00P por
+
+Procesál y 80
+
+oportuha recé
+S
+Qu
+
+Ñ
+
+dá
+
+Os Aires, DE febrero DEL 2026
+
+Haratulado: ""PROMOTORA FIDUCIARIA S.A. C/ LOZANO, Rocio Evelyn
+
+pro Libre para que dentro del quinto día proceda a cumplir la medi
+
+JR junta copia
+
+PODER JUDICIAL DE LA NACION
+CEDULA
+
+DE NOTIFICACION
+
+gado Nacional de 1* Instancia en lo Comerci NIT
+
+. y Capital Federal (1035)
+
+PCION EN NOTIFICACIONES...» .......... .....
+
+TBRE
+Miaclos 3039, Piso 2 Ciudad Autónoma de Buenos Aires
+
+DENUNCIADO
+ESPECIALES..... cI0000000 POLI ROC co Odo 0009009950950
+/24 106 co 1 1 SI NO NO
+p=.No. Zona Fuero Juz. Sec. Copias Pers. Obs.
+E EAS: SU
+N
+LJ
+
+go| saber a Ud. en mi carácter de letrado de la parte ACTO,
+or ante este Tribunal se ha dictado la siguiente RESOLUCION:- B
+
+e requerimiento cursado y acreditado en autos, bajo apercibimiento de apl
+da día de retardo en concepto de sanciones conminatorias progresivas (;
+
+ión. - Alberto Alemán Juez
+
++ notificado.
+
+NOA
+pla he
+
+20 FEB 20%
+
+RECIBIDO
+
+del Código Civil y Comercial de la Nación). Notifíquese con copia de
+
+El T Negativa
+
+que en el
+
+3/ Ejecutivo""
+
+s Aires- PC
+
+del Código
+nstancia de
+
+SEÑOR JUEZ:
+
+CADO REQUIRIENDO LA PRESENCIA DE .....o.ooooooommo oo». INTERESADO. .......... Yi
+RESPONDIENDOSE A MIS LLAMADOS UNA PERSONA QUE DIJO SER
+
+0 ooo 000 apa A OOOoO Y QUE AQUEL. ...ooooooooooo.-
+
+CIENDOLE EN
+[...]","TRIBUNAL:] a
+
+Peña 1211
+
+FECHA (DE RE
+
+Sr: MERCADO |
+
+DOMICILIO:
+
+CARACTER:.
+
+OBSER ACTONE
+
+47
+s.oH. ||
+
+Rez:
+
+expediente
+que tiamita
+
+Intímage a Ñ
+
+ordenafla, co;
+$10.00P por
+
+Procesál y 80
+
+oportuha recé
+
+Os Aires, DE febrero DEL 2026
+
+Haratulado: ""PROMOTORA FIDUCIARIA S.A. C/ LOZANO, Rocio Evelyn
+
+pro Libre para que dentro del quinto día proceda a cumplir la medi
+
+JR junta copia
+
+PODER JUDICIAL DE LA NACION
+CEDULA
+
+DE NOTIFICACION
+
+gado Nacional de 1* Instancia en lo Comerci NIT. y Capital Federal (1035)
+
+PCION EN NOTIFICACIONES.""..
+
+TBRE
+Miaclos 3039, Piso 2 Ciudad Autónoma de Buenos Aires
+
+DENUNCIADO
+ESPECIALES. cI000 POLI ROC co Odo 0009009950950
+/24 106 co 1 1 SI NO NO
+p=.No. Zona Fuero Juz. Sec. Copias Pers. Obs.
+E EAS: SU
+
+go| saber a Ud. en mi carácter de letrado de la parte ACTO,
+or ante este Tribunal se ha dictado la siguiente RESOLUCION:- B
+
+e requerimiento cursado y acreditado en autos, bajo apercibimiento de apl
+da día de retardo en concepto de sanciones conminatorias progresivas (;
+
+ión. - Alberto Alemán Juez
+
++ notificado.
+
+NOA
+pla he
+
+20 FEB 20%
+
+RECIBIDO
+
+del Código Civil y Comercial de la Nación). Notifíquese con copia de
+
+El T Negativa
+
+que en el
+
+3/ Ejecutivo""
+
+s Aires- PC
+
+del Código
+nstancia de
+
+SEÑOR JUEZ:
+
+CADO REQUIRIENDO LA PRESENCIA DE.o.ooommo oo"". INTERESADO. Yi
+RESPONDIENDOSE A MIS LLAMADOS UNA PERSONA QUE DIJO SER
+
+0 ooo 000 apa A OOOoO Y QUE AQUEL.ooo.-
+
+CIENDOLE ENTREGA DE."".-DUPLICADO.-.""DE IGUAL TENOR A LA
+PRESENTE...ooo oo. ""COPIA.o. ""PRE
+[...]","--- antes
++++ despues
+@@ -1,4 +1,4 @@
+-TRIBUNAL: ] a
++TRIBUNAL:] a
+ 
+ Peña 1211
+ 
+@@ -8,7 +8,7 @@
+ 
+ DOMICILIO:
+ 
+-CARACTER: .
++CARACTER:.
+ 
+ OBSER ACTONE
+ 
+@@ -28,12 +28,6 @@
+ Procesál y 80
+ 
+ oportuha recé
+-S
+-Qu
+-
+-Ñ
+-
+-dá
+ 
+ Os Aires, DE febrero DEL 2026
+ 
+@@ -48,22 +42,18 @@
+ 
+ DE NOTIFICACION
+ 
+-gado Nacional de 1* Instancia en lo Comerci NIT
++gado Nacional de 1* Instancia en lo Comerci NIT. y Capital Federal (1035)
+ 
+-. y Capital Federal (1035)
+-
+-PCION EN NOTIFICACIONES...» .......... .....
++PCION EN NOTIFICACIONES.""..
+ 
+ TBRE
+ Miaclos 3039, Piso 2 Ciudad Autónoma de Buenos Aires
+ 
+ DENUNCIADO
+-ESPECIALES..... cI0000000 POLI ROC co Odo 0009009950950
++ESPECIALES. cI000 POLI ROC co Odo 0009009950950
+ /24 106 co 1 1 SI NO NO
+ p=.No. Zona Fuero Juz. Sec. Copias Pers. Obs.
+ E EAS: SU
+-N
+-LJ
+ 
+ go| saber a Ud. en mi carácter de letrado de la parte ACTO,
+ or ante este Tribunal se ha dictado la siguiente RESOLUCION:- B
+@@ -97,17 +87,17 @@
+ 
+ SEÑOR JUEZ:
+ 
+-CADO REQUIRIENDO LA PRESENCIA DE .....o.ooooooommo oo». INTERESADO. .......... Yi
++CADO REQUIRIENDO LA PRESENCIA DE.o.ooommo oo"". INTERESADO. Yi
+ RESPONDIENDOSE A MIS LLAMADOS UNA PERSONA QUE DIJO SER
+ 
+-0 ooo 000 apa A OOOoO Y QUE AQUEL. ...ooooooooooo.-
++0 ooo 000 apa A OOOoO Y QUE AQUEL.ooo.-
+ 
+-CIENDOLE ENTREGA DE...............«.-DUPLICADO.......-.«DE IGUAL TENOR A LA
+-PRESENTE... ..oooooooo oo. «COPIA....o....... «PREVIA LECTURA ..o.oooooooomo.ooo""
++CIENDOLE ENTREGA DE."".-DUPLICADO.-.""DE IGUAL TENOR A LA
++PRESENTE...ooo oo. ""COPIA.o. ""PREVIA LECTURA..o.ooomo.ooo""
+ 
+-Aeocccorar oro o.» . «RECIBIENDOSE DE ELLO. .....+..«PIRMO
++Aeocccorar oro o."". ""RECIBIENDOSE DE ELLO.+..""PIRMO
+ 
+-Porron oo oo roo»...
++Porron oo oo roo"".
+ 
+ mail
+ 
+[...] diff truncado"
+507218,Embargo - usuario,0.8805652539304798,legible,1911,1827,0.04395604395604396,"| 0 21 FEB 2008
+l
+
+Poder Judicial de la Nación
+
+JUZGADO CIVIL 109
+
+OFICIO
+
+Buenos Aires, 2, de.
+
+parte actora, en tramite ante el JUZGADO DE PRIMERA INTANCIA EN LO
+cargp del la Dra. Puebla, María Belén, secretaria única, a cargo del Dr. Iriarte, Alejandro
+calléi Talcahuano 490, Piso 4, de la Ciudad Autónoma de Buenos Aires, a fin de que t
+e los fondos -presentes y futuros- de la ejecutada NATALIA PAOLA GIOR
+3 )9.604, CUIT 27-30509604-6, en su cuenta de Mercado Pago, por la suma de $1.740.000
+UN MILLON SETECIENTOS CUARENTA MIL), con mas la suma de $800.000 (PESOS
+OCIENTOS), que se presupuestan provisoriamente para responder a intereses J
+
+01 10025950099941346415).
+
+Ieridas al Banco de la Nación Argentina -sucursal tribunales- a la orden del juz|
+eflecientes a estas actuaciones (nro. 9994134641 - CBU 01 10025950099941346415).
+
+ASTIAN COCUZZA La Señorita ASHLEY CRISTINA DONOSO JIMÉN
+
+istihtamente. —
+
+Tengo el agrado de dirigirme a usted en los autos caratulados ""COC
+TIAN e/ GIORELLO, NATALIA PAOLA s/EJECUCION"" (Expte. 12817/2(
+
+A, JUAN
+
+Se informa cuenta judicial para deposito de fondos: Banco Nación de la Nac
+10089 Tribunales, a la orden del Juzgado y para la cuenta de autos (Cuenta Nro. D
+
+4| de ($800.000 que se presupuestan provisoriamente para responder a intereses y do
+4reo isobre los fondos -presentes y futuros- que pudiere tener la ejecutada NATAI
+
+[E]
+El
+E
+o
+S
+Z
+>
+id
+[==]
+NO
+3
+E
+Q
+S
+5
+N
+0
+UY
+S
+un
+a]
+E]
+[3
+F
+e
+o
+S
+12]
+E
+2
+3
+lS
+a
+o
+<
+E
+5
+jo)
+ja)
+
+brese oficio a la citada e
+[...]","| 0 21 FEB 2008
+
+Poder Judicial de la Nación
+
+juzgado CIVIL 109
+
+OFICIO
+
+Buenos Aires, 2, de.
+
+parte actora, en tramite ante el juzgado DE PRIMERA INTANCIA EN LO
+cargp del la Dra. Puebla, María Belén, secretaría única, a cargo del Dr. Iriarte, Alejandro
+calléi Talcahuano 490, Piso 4, de la Ciudad Autónoma de Buenos Aires, a fin de que t
+e los fondos -presentes y futuros- de la ejecutada NATALIA PAOLA GIOR
+3)9.604, CUIT 27-30509604-6, en su cuenta de Mercado Pago, por la suma de $1.740.000
+UN MILLON SETECIENTOS CUARENTA MIL), con mas la suma de $800.000 (pesos
+OCIENTOS), que se presupuestan provisoriamente para responder a intereses J
+
+01 10025950099941346415).
+
+Ieridas al banco de la Nación Argentina -sucursal tribunales- a la orden del juz|
+eflecientes a estas actuaciones (nro. 9994134641 - CBU 01 10025950099941346415).
+
+ASTIAN COCUZZA La Señorita ASHLEY CRISTINA DONOSO JIMÉN
+
+istihtamente. -
+
+Tengo el agrado de dirigirme a usted en los autos caratulados ""COC
+TIAN e/ GIORELLO, NATALIA PAOLA s/EJECUCION"" (expediente. 12817/2(A, JUAN
+
+Se informa cuenta judicial para deposito de fondos: banco Nación de la Nac
+10089 Tribunales, a la orden del juzgado y para la cuenta de autos (cuenta Nro. D
+
+4| de ($800.000 que se presupuestan provisoriamente para responder a intereses y do
+4reo isobre los fondos -presentes y futuros- que pudiere tener la ejecutada NATAI
+
+3
+5
+0
+[3
+12]
+2
+3
+5
+jo)
+ja)
+
+brese oficio a la citada entidad, haciéndole saber que las sumas embargadas
+
+Sg encuentra autoriz
+[...]","--- antes
++++ despues
+@@ -1,78 +1,46 @@
+ | 0 21 FEB 2008
+-l
+ 
+ Poder Judicial de la Nación
+ 
+-JUZGADO CIVIL 109
++juzgado CIVIL 109
+ 
+ OFICIO
+ 
+ Buenos Aires, 2, de.
+ 
+-parte actora, en tramite ante el JUZGADO DE PRIMERA INTANCIA EN LO
+-cargp del la Dra. Puebla, María Belén, secretaria única, a cargo del Dr. Iriarte, Alejandro
++parte actora, en tramite ante el juzgado DE PRIMERA INTANCIA EN LO
++cargp del la Dra. Puebla, María Belén, secretaría única, a cargo del Dr. Iriarte, Alejandro
+ calléi Talcahuano 490, Piso 4, de la Ciudad Autónoma de Buenos Aires, a fin de que t
+ e los fondos -presentes y futuros- de la ejecutada NATALIA PAOLA GIOR
+-3 )9.604, CUIT 27-30509604-6, en su cuenta de Mercado Pago, por la suma de $1.740.000
+-UN MILLON SETECIENTOS CUARENTA MIL), con mas la suma de $800.000 (PESOS
++3)9.604, CUIT 27-30509604-6, en su cuenta de Mercado Pago, por la suma de $1.740.000
++UN MILLON SETECIENTOS CUARENTA MIL), con mas la suma de $800.000 (pesos
+ OCIENTOS), que se presupuestan provisoriamente para responder a intereses J
+ 
+ 01 10025950099941346415).
+ 
+-Ieridas al Banco de la Nación Argentina -sucursal tribunales- a la orden del juz|
++Ieridas al banco de la Nación Argentina -sucursal tribunales- a la orden del juz|
+ eflecientes a estas actuaciones (nro. 9994134641 - CBU 01 10025950099941346415).
+ 
+ ASTIAN COCUZZA La Señorita ASHLEY CRISTINA DONOSO JIMÉN
+ 
+-istihtamente. —
++istihtamente. -
+ 
+ Tengo el agrado de dirigirme a usted en los autos caratulados ""COC
+-TIAN e/ GIORELLO, NATALIA PAOLA s/EJECUCION"" (Expte. 12817/2(
++TIAN e/ GIORELLO, NATALIA PAOLA s/EJECUCION"" (expediente. 12817/2(A, JUAN
+ 
+-A, JUAN
+-
+-Se informa cuenta judicial para deposito de fondos: Banco Nación de la Nac
+-10089 Tribunales, a la orden del Juzgado y para la cuenta de autos (Cuenta Nro. D
++Se informa cuenta judicial para deposito de fondos: banco Nación de la Nac
++10089 Tribunales, a la orden del juzgado y para la cuenta de autos (cuenta Nro. D
+ 
+ 4| de ($800.000 que se presupuestan provisoriamente para responder a intereses y do
+ 4reo isobre los fondos -presentes y futuros- que pudiere tener la ejecutada NATAI
+ 
+-[E]
+-El
+-E
+-o
+-S
+-Z
+->
+-id
+-[==]
+-NO
+ 3
+-E
+-Q
+-S
+ 5
+-N
+ 0
+-UY
+-S
+-un
+-a]
+-E]
+ [3
+-F
+-e
+-o
+-S
+ 12]
+[...] diff truncado"
+525013,Embargo - usuario,0.9256598051762077,legible,3177,3082,0.029902423670129054,"PODER JUDICIAL DE LA NACION
+
+RECEPCIÓN EN NOTIFICACIONES
+
+SESECRISFARIA No 57 |
+Sr: MEREADO HiBRE SRL
+
+DOMIC
+
+CARAC
+
+OBSER
+
+Rez:
+ii?
+
+pi
+
+cumplimiento, daj
+
+IBTO: Caseros 3039, Piso 2 Ciudad Autónoma de Buenos Aires,
+
+DENUNCIADO
+
+od A AA, o
+
+989/23 101 co 29 57 sI NO NO
+No.Ord mp No - Zona Fuero Juz. Sec. Copias Pers. Obs.
+
+Not
+
+(IA
+qyo ¡saber a Ud. en mi carácter de letrado de la parte actor
+te ¡A ""PROMOTORA FIDUCIARIA S.A. C/ ARROLLO, Marcel
+
+o"" que tramita por ante este Tribunal se ha dictado la siguiente
+A ires l pa de 2026.AGA Practíquese la intimación solicitada, fijándose el plazo de ci
+p apercibimiento de ley. Notifíquese. HERNÁN DIEGO PAPA JUEZ
+
+Se MT"" copias 1 escrito
+
+Ud. notificado.
+
+Buerlog Aires, de febrero del 2026
+
+15 FER 20%
+
+RECIBIDO
+
+| Montevideo
+
+f.|| Negativa
+
+e en el
+bavid Ss/
+
+R 3b OLUCION:
+| Ías para su
+
+J: 29 / 8:57
+
+SEÑOR JUEZ:
+
+EN A e DENATO.A SIENDO LAS
+Me edo o ....+HORAS, ME CONSTITUI EN EL DOMICILIO PRECEDENTEMENTE INDI-
+CADO REQUIRIENDO LA PRESENCIA DE ....... cos0....««. + INTERESADO. ..........Y
+OA . . .RESPONDIENDOSE A MIS LLAMADOS UNA PERSONA QUE DIJO SER
+A oo o A RAQUERAQUELNNS NN IS: a 359
+VIVEN mAs .« «ALLI PROCEDI A...... RS NENOMIRICARLE Nel. 00 cesa ole) HA-
+CIENDOLE ENTREGA DE........ o... ....««DUPLICADO.........DE IGUAL TENOR A LA
+
+PRESENTE .....ooooooooooo»»COPIA....o.oo..».» «PREVIA LECTURA .....o.o.ooo.o..- ....
+
+SE INTIME-
+
+Señor Juez:
+
+diegorobre(Ohotmail.com), en autos caratulados:PROMOTORA FIDUCIARIA S.
+A. c/ ARROLLO, MARCEL
+[...]","PODER JUDICIAL DE LA NACION
+
+RECEPCIÓN EN NOTIFICACIONES
+
+SESECRISFARIA No 57 |
+Sr: MEREADO HiBRE SRL
+
+DOMIC
+
+CARAC
+
+OBSER
+
+Rez:
+ii?
+
+cumplimiento, daj
+
+IBTO: Caseros 3039, Piso 2 Ciudad Autónoma de Buenos Aires,
+
+DENUNCIADO
+
+od A AA, o
+
+989/23 101 co 29 57 sI NO NO
+No.Ord mp No - Zona Fuero Juz. Sec. Copias Pers. Obs.
+
+Not
+
+(IA
+qyo ¡saber a Ud. en mi carácter de letrado de la parte actor
+te ¡A ""PROMOTORA FIDUCIARIA S.A. C/ ARROLLO, Marcel
+
+o"" que tramita por ante este Tribunal se ha dictado la siguiente
+A ires l pa de 2026.AGA Practíquese la intimación solicitada, fijándose el plazo de ci
+p apercibimiento de ley. Notifíquese. HERNÁN DIEGO PAPA JUEZ
+
+Se MT"" copias 1 escrito
+
+Ud. notificado.
+
+Buerlog Aires, de febrero del 2026
+
+15 FER 20%
+
+RECIBIDO
+
+| Montevideo
+
+f.|| Negativa
+
+e en el
+bavid Ss/
+
+R 3b OLUCION:
+| Ías para su
+
+J: 29 / 8:57
+
+SEÑOR JUEZ:
+
+EN A e DENATO.A SIENDO LAS
+Me edo o.+HORAS, ME CONSTITUI EN EL DOMICILIO PRECEDENTEMENTE INDI-
+CADO REQUIRIENDO LA PRESENCIA DE. cos0."""". + INTERESADO.Y
+OA...RESPONDIENDOSE A MIS LLAMADOS UNA PERSONA QUE DIJO SER
+A oo o A RAQUERAQUELNNS NN IS: a 359
+VIVEN mAs."" ""ALLI PROCEDI A. RS NENOMIRICARLE Nel. 00 cesa ole) HA-
+CIENDOLE ENTREGA DE. o..""""DUPLICADO.DE IGUAL TENOR A LA
+
+PRESENTE.ooo""""COPIA.o.oo..""."" ""PREVIA LECTURA.o.o.ooo.o..-.
+
+SE INTIME-
+
+Señor Juez:
+
+diegorobre(Ohotmail.com), en autos caratulados:PROMOTORA FIDUCIARIA S.
+A. c/ ARROLLO, MARCELO DAVID S/ ORDINARIO"" (Causa N*
+V.S. digo:
+
+A] 48]
+Diego M. ROBREDO, abogado, por la
+[...]","--- antes
++++ despues
+@@ -13,8 +13,6 @@
+ 
+ Rez:
+ ii?
+-
+-pi
+ 
+ cumplimiento, daj
+ 
+@@ -62,14 +60,14 @@
+ SEÑOR JUEZ:
+ 
+ EN A e DENATO.A SIENDO LAS
+-Me edo o ....+HORAS, ME CONSTITUI EN EL DOMICILIO PRECEDENTEMENTE INDI-
+-CADO REQUIRIENDO LA PRESENCIA DE ....... cos0....««. + INTERESADO. ..........Y
+-OA . . .RESPONDIENDOSE A MIS LLAMADOS UNA PERSONA QUE DIJO SER
++Me edo o.+HORAS, ME CONSTITUI EN EL DOMICILIO PRECEDENTEMENTE INDI-
++CADO REQUIRIENDO LA PRESENCIA DE. cos0."""". + INTERESADO.Y
++OA...RESPONDIENDOSE A MIS LLAMADOS UNA PERSONA QUE DIJO SER
+ A oo o A RAQUERAQUELNNS NN IS: a 359
+-VIVEN mAs .« «ALLI PROCEDI A...... RS NENOMIRICARLE Nel. 00 cesa ole) HA-
+-CIENDOLE ENTREGA DE........ o... ....««DUPLICADO.........DE IGUAL TENOR A LA
++VIVEN mAs."" ""ALLI PROCEDI A. RS NENOMIRICARLE Nel. 00 cesa ole) HA-
++CIENDOLE ENTREGA DE. o..""""DUPLICADO.DE IGUAL TENOR A LA
+ 
+-PRESENTE .....ooooooooooo»»COPIA....o.oo..».» «PREVIA LECTURA .....o.o.ooo.o..- ....
++PRESENTE.ooo""""COPIA.o.oo..""."" ""PREVIA LECTURA.o.o.ooo.o..-.
+ 
+ SE INTIME-
+ 
+@@ -79,12 +77,11 @@
+ A. c/ ARROLLO, MARCELO DAVID S/ ORDINARIO"" (Causa N*
+ V.S. digo:
+ 
+-A ] 48]
++A] 48]
+ Diego M. ROBREDO, abogado, por la adtgra; od hi
+-Af
+ constituido en el ESTUDIO ROBREDO, sito en Rodolfo Rivarola.140 9 pS y
+-SECRETARIA? 57 |
+-domicilio electrónico en 20243131279 ( Whatsapp +54-9++=3049- Ú e-mail
++secretaría? 57 |
++domicilio electrónico en 20243131279 (Whatsapp +54-9++=3049- Ú e-mail
+ 
+ Atento la contestación de Mercado libre y teniendo eh cuenta que
+ los fondos embargados todavia no fueron depositados solicito se inti mercado
+@@ -104,17 +101,16 @@
+ e Primera en lo
+ 
+ omercial n* 29 de la Capital Federal, a cargo del Dr. Hernan Diego Papaj segretaría Nro. 57 ¿
+-argo del Dr. Juan Sebastian Forciniti, sito en la Montevideo 546 , 4"" piso, de Il autónoma
+-le Buenos Aires, , a fin de informarle los datos en de la cuenta para que realibe las trascendencia
++argo del Dr. Juan Sebastian Forciniti, sito en la Montevideo 546, 4"" piso, de Il autónoma
++le Buenos Aires,, a fin de informarle los datos en de la cuenta para que realibe las trascendencia
+ le las sumas embargadas.- sobre la cuenta de titularidad de la demandada ARCELO DAVID
+-RROLO - DNI 26.445.201 y CUIT 20-26445201-6 , , existente en el sistema de MERCADO
++RROLO - DNI 26.445.201 y CUIT 20-26445201-6,, existente en el sistema de MERCADO
+ 
+ IBRE SRL (MERCADO PAGO), Se hace saber que las sumas emb;
+ 
+ o das deberán se!
+ 
+-E
+-epositadas en la cuenta del Banco de la Ciudad de Buenos Aires-Sucursal 1- nombre
++epositadas en la cuenta del banco de la Ciudad de Buenos Aires-Sucursal 1- nombre
+ 
+ le estas actuaciones y a la orden de la suscripta. CBU: 02900759-0021308D9 $423, CUIT Bco
+ iudad: 30-99903208-3, Clave 0002-007-013-0899-0342-5. er
+@@ -126,5 +122,6 @@
+ 
+ 2
+ 
+-Se deje con
++Se deje constancia que se encuentran autorizados al
++resente oficio el Dr. Diego Mariano Robredo y/o quien 
+ [...]"
+547367,Embargo - usuario,0.6198876465072671,regular,706,685,0.029745042492917848,"Sy
+
+CERTIFICA que la presente es copia fel cuyo original
+sido firmado digalmente por: ÉRUNELLO, Analia -
+
+PROSECRETARIO/A LETRADO. FASSETTA,
+
+Di Ignacio - JUE,
+
+Ñ 5
+Ñ 2
+
+. GOACO,
+
+Fi di e,
+EM reto guinana ($
+
+Administración RNTSY
+
+Pp E de Causas
+PODER JUDICIAL DE CORDOBA
+
+EXPEDIENTE SAC: 9517286 - MARGEN COMERCIAL S.A. C/ LUCERO MORENO, RODRIGO DENIS -
+
+EXPED.ELECTRONICO - EJEC.POR COBRO DE LETRAS O PAGARES
+
+CORDOBA, 13/10/2025.
+
+SS
+SK NY Mes
+Y ELOY
+librado
+OFICIO LEY 22.172. 2 0 FA Ron E
+i
+
+o]
+Po
+po
+3
+
+Texto Firmado digitalmente por: .
+BRUNELLO Analia
+PROSECRETARIO/A LETRADO
+Fecha: 2025.10.13
+
+FASSETTA Domingo Ignacio
+JUEZ/A DE ARA. INSTANCIA
+Fecha: 2025.10.13
+
+Expediente SAC 9517286 - Pág. 3 / 3","CERTIFICA que la presente es copia fel cuyo original
+sido firmado digalmente por: ÉRUNELLO, Analia -
+
+PROSECRETARIO/A LETRADO. FASSETTA,
+
+Di Ignacio - JUE,
+
+Ñ 5
+Ñ 2. GOACO,
+
+Fi di e,
+EM reto guinana ($
+
+Administración RNTSY
+
+Pp E de Causas
+PODER JUDICIAL DE CORDOBA
+
+expediente SAC: 9517286 - MARGEN COMERCIAL S.A. C/ LUCERO MORENO, RODRIGO DENIS -
+
+EXPED.ELECTRONICO - EJEC.POR COBRO DE LETRAS O PAGARES
+
+CORDOBA, 13/10/2025.
+
+SK NY Mes
+Y ELOY
+librado
+OFICIO LEY 22.172. 2 0 FA Ron E
+
+3
+
+Texto Firmado digitalmente por:.
+BRUNELLO Analia
+PROSECRETARIO/A LETRADO
+Fecha: 2025.10.13
+
+FASSETTA Domingo Ignacio
+JUEZ/A DE ARA. INSTANCIA
+Fecha: 2025.10.13
+
+expediente SAC 9517286 - Pág. 3 / 3","--- antes
++++ despues
+@@ -1,5 +1,3 @@
+-Sy
+-
+ CERTIFICA que la presente es copia fel cuyo original
+ sido firmado digalmente por: ÉRUNELLO, Analia -
+ 
+@@ -8,9 +6,7 @@
+ Di Ignacio - JUE,
+ 
+ Ñ 5
+-Ñ 2
+-
+-. GOACO,
++Ñ 2. GOACO,
+ 
+ Fi di e,
+ EM reto guinana ($
+@@ -20,25 +16,20 @@
+ Pp E de Causas
+ PODER JUDICIAL DE CORDOBA
+ 
+-EXPEDIENTE SAC: 9517286 - MARGEN COMERCIAL S.A. C/ LUCERO MORENO, RODRIGO DENIS -
++expediente SAC: 9517286 - MARGEN COMERCIAL S.A. C/ LUCERO MORENO, RODRIGO DENIS -
+ 
+ EXPED.ELECTRONICO - EJEC.POR COBRO DE LETRAS O PAGARES
+ 
+ CORDOBA, 13/10/2025.
+ 
+-SS
+ SK NY Mes
+ Y ELOY
+ librado
+ OFICIO LEY 22.172. 2 0 FA Ron E
+-i
+ 
+-o]
+-Po
+-po
+ 3
+ 
+-Texto Firmado digitalmente por: .
++Texto Firmado digitalmente por:.
+ BRUNELLO Analia
+ PROSECRETARIO/A LETRADO
+ Fecha: 2025.10.13
+@@ -47,4 +38,4 @@
+ JUEZ/A DE ARA. INSTANCIA
+ Fecha: 2025.10.13
+ 
+-Expediente SAC 9517286 - Pág. 3 / 3
++expediente SAC 9517286 - Pág. 3 / 3"
+516905,Embargo - usuario,0.7789911389176918,legible,2287,2219,0.029733275032794052,"OFICIO.-
+
+Buenos Aires, 10 Febrero de
+|| At. MERCADO PAGO
+ASSET MANAGEMENT SA
+S / D
+
+Tengo el agrado de dirigirme a Usted,
+autos caratulados ""UMANSKY Adrián Marcelo c/MARQUEZ M:
+Adrián y otro s/EJECUTIVO"", Expte. Nro. 10.983/2025, en trámi al
+ante el Juzgado Nacional de Primera Instancia en lo Comercial N: d
+a cargo del Dr. Gerardo D. Santicchia; Secretaría Nro. 37 a cargoj di
+
+Dra. M. Carolina Loernzo Duran, con asiento en la calle Marcelo
+
+proceda a trabar embargo sobre cada una de las cuentas de MER:
+
+g
+
+=
+a
+a
+a
+e
+pe
+
+PAGO que posean los señores Marcelo Adrián MARQUEZ, DN
+21.480.776 y Claudio Gustavo MARQUEZ, DNI Nro. 22.226.62
+la suma de PESOS CUATRO MILLONES CUATROCIE
+CIENTO UN MIL ($ 4.401.000.-) en concepto de capital, con más
+suma de PESOS UN MILLON TRESCIENTOSVEINTE
+TRESCIENTOS ($ 1.320.300.-) presupuestados provisoria
+para responder a intereses y costas.--
+
+Se hace saber, que las sumas embargadas, d
+ser depositadas en el Banco de la Ciudad de Buenos Aires -Su:
+
+Tribunales — a la orden de V.S. y como perteneciente al presente jui je
+
+200010 000 06 OM RD O 000 O DOLO 0 0D E SIA
+
+Im... 000000000800 000.00080 0000000000000 11
+
+|
+
+|
+|
+
+OL Zo|9zoz :aleg
+Ho Moyyo
+Hpayois Álreybig
+
+|
+
+|
+
+|
+
+|
+
+|
+NI
+
+VINVLANOES
+[| Ivana OZNWOT YNTTOWVO *H
+
+—aquoureJuoje epijes
+
+—P10RSIpar BuLo] US ""UezeuI y OH[NeIg sm] 9810 10998 [e o/£
+HH UoTeg Puy *e1q e] sjuosaxd [op oJuoruersua3 Ip Jo 109 191109
+
+Jioye exuonous os onb ""erouejsuoo efap ES
+
+«ZON[ ""EIYDONULS URMIE Y OpreJon)
+
+SO) Á sosoJoJu
+[...]","OFICIO.-
+
+Buenos Aires, 10 Febrero de
+|| At. MERCADO PAGO
+ASSET MANAGEMENT SA
+S / D
+
+Tengo el agrado de dirigirme a Usted,
+autos caratulados ""UMANSKY Adrián Marcelo c/MARQUEZ M:
+Adrián y otro s/EJECUTIVO"", expediente. Nro. 10.983/2025, en trámi al
+ante el juzgado Nacional de Primera Instancia en lo Comercial N: d
+a cargo del Dr. Gerardo D. Santicchia; secretaría Nro. 37 a cargoj di
+
+Dra. M. Carolina Loernzo Duran, con asiento en la calle Marcelo
+
+proceda a trabar embargo sobre cada una de las cuentas de MER:
+
+PAGO que posean los señores Marcelo Adrián MARQUEZ, DN
+21.480.776 y Claudio Gustavo MARQUEZ, DNI Nro. 22.226.62
+la suma de pesos CUATRO MILLONES CUATROCIE
+CIENTO UN MIL ($ 4.401.000.-) en concepto de capital, con más
+suma de pesos UN MILLON TRESCIENTOSVEINTE
+TRESCIENTOS ($ 1.320.300.-) presupuestados provisoria
+para responder a intereses y costas.--
+
+Se hace saber, que las sumas embargadas, d
+ser depositadas en el banco de la Ciudad de Buenos Aires -Su:
+
+Tribunales - a la orden de V.S. y como perteneciente al presente jui je
+
+200010 000 06 OM RD O 000 O DOLO 0 0D E SIA
+
+Im. 000800 000.00080 000 11
+
+OL Zo|9zoz:aleg
+Ho Moyyo
+Hpayois Álreybig
+
+VINVLANOES
+[| Ivana OZNWOT YNTTOWVO *H
+
+-aquoureJuoje epijes
+
+-P10RSIpar BuLo] US ""UezeuI y OH[NeIg sm] 9810 10998 [e o/£
+HH UoTeg Puy *e1q e] sjuosaxd [op oJuoruersua3 Ip Jo 109 191109
+
+Jioye exuonous os onb ""erouejsuoo efap ES
+
+""ZON[""EIYDONULS URMIE Y OpreJon)
+
+SO) Á sosoJoJul p 4apuodsas paod ajusWbriosiao4d sorsondnsosd
+
+$ 9p vuns
+[...]","--- antes
++++ despues
+@@ -7,82 +7,55 @@
+ 
+ Tengo el agrado de dirigirme a Usted,
+ autos caratulados ""UMANSKY Adrián Marcelo c/MARQUEZ M:
+-Adrián y otro s/EJECUTIVO"", Expte. Nro. 10.983/2025, en trámi al
+-ante el Juzgado Nacional de Primera Instancia en lo Comercial N: d
+-a cargo del Dr. Gerardo D. Santicchia; Secretaría Nro. 37 a cargoj di
++Adrián y otro s/EJECUTIVO"", expediente. Nro. 10.983/2025, en trámi al
++ante el juzgado Nacional de Primera Instancia en lo Comercial N: d
++a cargo del Dr. Gerardo D. Santicchia; secretaría Nro. 37 a cargoj di
+ 
+ Dra. M. Carolina Loernzo Duran, con asiento en la calle Marcelo
+ 
+ proceda a trabar embargo sobre cada una de las cuentas de MER:
+ 
+-g
+-
+-=
+-a
+-a
+-a
+-e
+-pe
+-
+ PAGO que posean los señores Marcelo Adrián MARQUEZ, DN
+ 21.480.776 y Claudio Gustavo MARQUEZ, DNI Nro. 22.226.62
+-la suma de PESOS CUATRO MILLONES CUATROCIE
++la suma de pesos CUATRO MILLONES CUATROCIE
+ CIENTO UN MIL ($ 4.401.000.-) en concepto de capital, con más
+-suma de PESOS UN MILLON TRESCIENTOSVEINTE
++suma de pesos UN MILLON TRESCIENTOSVEINTE
+ TRESCIENTOS ($ 1.320.300.-) presupuestados provisoria
+ para responder a intereses y costas.--
+ 
+ Se hace saber, que las sumas embargadas, d
+-ser depositadas en el Banco de la Ciudad de Buenos Aires -Su:
++ser depositadas en el banco de la Ciudad de Buenos Aires -Su:
+ 
+-Tribunales — a la orden de V.S. y como perteneciente al presente jui je
++Tribunales - a la orden de V.S. y como perteneciente al presente jui je
+ 
+ 200010 000 06 OM RD O 000 O DOLO 0 0D E SIA
+ 
+-Im... 000000000800 000.00080 0000000000000 11
++Im. 000800 000.00080 000 11
+ 
+-|
+-
+-|
+-|
+-
+-OL Zo|9zoz :aleg
++OL Zo|9zoz:aleg
+ Ho Moyyo
+ Hpayois Álreybig
+-
+-|
+-
+-|
+-
+-|
+-
+-|
+-
+-|
+-NI
+ 
+ VINVLANOES
+ [| Ivana OZNWOT YNTTOWVO *H
+ 
+-—aquoureJuoje epijes
++-aquoureJuoje epijes
+ 
+-—P10RSIpar BuLo] US ""UezeuI y OH[NeIg sm] 9810 10998 [e o/£
++-P10RSIpar BuLo] US ""UezeuI y OH[NeIg sm] 9810 10998 [e o/£
+ HH UoTeg Puy *e1q e] sjuosaxd [op oJuoruersua3 Ip Jo 109 191109
+ 
+ Jioye exuonous os onb ""erouejsuoo efap ES
+[...] diff truncado"
+495023,Embargo - usuario,0.8900019347267447,legible,1925,1870,0.02857142857142857,"OFICIO JUDICIAL
+DE EMBARGO
+
+BA, 11 de diciembre de 2025.
+
+«./ Mercado Pago Asset Management S.A.
+UIT 33-71862856-9)
+
+/ D
+
+E
+
+Ha
+
+u
+
+I
+o
+to
+D
+
+ae
+
+Be
+
+HA
+
+Tengo el agrado de dirigirme a usted en los autos:
+
+Axpte. 3102/2022 —- ""BARRERA, MARINA CECILIA c/ MITSU S.R.L. (ART.
+
+)| Y OTROS s/DESPIDO."", en trámite ante el Juzgado Nacional de
+imera Instancia del Trabajo N* 70, a mi cargo, secretaría única
+cargo de la Dra. PICCARDO, Leonor Angélica, sito en la calle
+raná n"" 520, Piso 2, de la Ciudad Autónoma de Buenos Aires, el
+al resulta competente en razón de la materia (DESPIDO) y el
+rritorio (relación laboral habida en la Ciudad Autónoma de
+enos Aires), con la finalidad de solicitarle proceda a EMBARGAR
+bre los fondos que COLLANTES, SONIA— ELIZABETH (CUIT
+
+287197247) tenga depositados en Mercado Pago Asset Management
+
+$.A., en su cuenta de Fondo Común de Inversión Mercado Fondo,
+
+sta cubrir la suma de $75.002.801,57 (PESOS SETENTA Y CINCO
+LLONES DOS MIL OCHOCIENTOS UNO CON CINCUENTA Y SIETE CVOS.) en
+ncepto de capital y honorarios representación letrada actora,
+n más la de $20.000.000 (PESOS VEINTE MILLONES) que se calcula
+ovisionalmente para responder a intereses y costas.
+
+Por su parte se le hace saber que los fondos deberán
+
+Y transferidos al Banco de la Ciudad de Buenos Aires, Sucursal
+mercado
+lore
+06 ENE 2026
+| RECEPCION
+
+la
+
+02
+
+39]
+
+in
+
+Tni
+
+|
+00
+
+|
+me
+
+ibunales, a la orden de este Juzgado y como pertenecientes a
+¡Ss Presentes actuaciones en la cuenta judicial C.B.U
+9007520
+[...]","OFICIO JUDICIAL
+DE embargo
+
+BA, 11 de diciembre de 2025.
+
+""./ Mercado Pago Asset Management S.A.
+UIT 33-71862856-9)
+
+Tengo el agrado de dirigirme a usted en los autos:
+
+Axpte. 3102/2022 -- ""BARRERA, MARINA CECILIA c/ MITSU S.R.L. (ART.)| Y OTROS s/DESPIDO."", en trámite ante el juzgado Nacional de
+imera Instancia del Trabajo N* 70, a mi cargo, secretaría única
+cargo de la Dra. PICCARDO, Leonor Angélica, sito en la calle
+raná n"" 520, Piso 2, de la Ciudad Autónoma de Buenos Aires, el
+al resulta competente en razón de la materia (DESPIDO) y el
+rritorio (relación laboral habida en la Ciudad Autónoma de
+enos Aires), con la finalidad de solicitarle proceda a EMBARGAR
+bre los fondos que COLLANTES, SONIA- ELIZABETH (CUIT
+
+287197247) tenga depositados en Mercado Pago Asset Management
+
+$.A., en su cuenta de Fondo Común de Inversión Mercado Fondo,
+
+sta cubrir la suma de $75.002.801,57 (pesos SETENTA Y CINCO
+LLONES DOS MIL OCHOCIENTOS UNO CON CINCUENTA Y SIETE CVOS.) en
+ncepto de capital y honorarios representación letrada actora,
+n más la de $20.000.000 (pesos VEINTE MILLONES) que se calcula
+ovisionalmente para responder a intereses y costas.
+
+Por su parte se le hace saber que los fondos deberán
+
+Y transferidos al banco de la Ciudad de Buenos Aires, Sucursal
+mercado
+lore
+06 ENE 2026
+| RECEPCION
+
+02
+
+39]
+
+Tni
+
+00
+
+ibunales, a la orden de este juzgado y como pertenecientes a
+¡Ss Presentes actuaciones en la cuenta judicial C.B.U
+90075200329135307809 CUIT Bco. Ciudad 30-99903208-3 Clave
+106-
+[...]","--- antes
++++ despues
+@@ -1,78 +1,49 @@
+ OFICIO JUDICIAL
+-DE EMBARGO
++DE embargo
+ 
+ BA, 11 de diciembre de 2025.
+ 
+-«./ Mercado Pago Asset Management S.A.
++""./ Mercado Pago Asset Management S.A.
+ UIT 33-71862856-9)
+-
+-/ D
+-
+-E
+-
+-Ha
+-
+-u
+-
+-I
+-o
+-to
+-D
+-
+-ae
+-
+-Be
+-
+-HA
+ 
+ Tengo el agrado de dirigirme a usted en los autos:
+ 
+-Axpte. 3102/2022 —- ""BARRERA, MARINA CECILIA c/ MITSU S.R.L. (ART.
+-
+-)| Y OTROS s/DESPIDO."", en trámite ante el Juzgado Nacional de
++Axpte. 3102/2022 -- ""BARRERA, MARINA CECILIA c/ MITSU S.R.L. (ART.)| Y OTROS s/DESPIDO."", en trámite ante el juzgado Nacional de
+ imera Instancia del Trabajo N* 70, a mi cargo, secretaría única
+ cargo de la Dra. PICCARDO, Leonor Angélica, sito en la calle
+ raná n"" 520, Piso 2, de la Ciudad Autónoma de Buenos Aires, el
+ al resulta competente en razón de la materia (DESPIDO) y el
+ rritorio (relación laboral habida en la Ciudad Autónoma de
+ enos Aires), con la finalidad de solicitarle proceda a EMBARGAR
+-bre los fondos que COLLANTES, SONIA— ELIZABETH (CUIT
++bre los fondos que COLLANTES, SONIA- ELIZABETH (CUIT
+ 
+ 287197247) tenga depositados en Mercado Pago Asset Management
+ 
+ $.A., en su cuenta de Fondo Común de Inversión Mercado Fondo,
+ 
+-sta cubrir la suma de $75.002.801,57 (PESOS SETENTA Y CINCO
++sta cubrir la suma de $75.002.801,57 (pesos SETENTA Y CINCO
+ LLONES DOS MIL OCHOCIENTOS UNO CON CINCUENTA Y SIETE CVOS.) en
+ ncepto de capital y honorarios representación letrada actora,
+-n más la de $20.000.000 (PESOS VEINTE MILLONES) que se calcula
++n más la de $20.000.000 (pesos VEINTE MILLONES) que se calcula
+ ovisionalmente para responder a intereses y costas.
+ 
+ Por su parte se le hace saber que los fondos deberán
+ 
+-Y transferidos al Banco de la Ciudad de Buenos Aires, Sucursal
++Y transferidos al banco de la Ciudad de Buenos Aires, Sucursal
+ mercado
+ lore
+ 06 ENE 2026
+ | RECEPCION
+ 
+-la
+-
+ 02
+ 
+ 39]
+ 
+-in
+-
+ Tni
+ 
+-|
+ 00
+[...] diff truncado"
+521004,Embargo - usuario,0.8731957335495996,legible,2021,1965,0.027709054923305294,"ICOLAS B
+hate: 2026.04.09 09
+
+OFICIO JUDICIAL
+
+Ni
+
+Ciudad autónoma de Buenos aires, do febrel
+
+A
+
+|
+MERCADOLIBRE S.R.L.
+Soarennnnrsor Aucicrnenos D
+
+Tengo el agrado de dir|girme a Usted en los autos caratuladog
+SOCIAL DE LOS EMPLEADOS DE COMERCIO Y ACTIVIDADES CIVILES |
+INTEGRAL S.A. S/ Ejecución Ley 23660"" (Expte. N? 51585/2025), que tra
+Juzgado Federal de 1"" Instancia de la Seguridad Social N* 4, a cargo de la P
+
+Alonso Candis, Secretaría a cargo de la Dra. María Victoria Guerrero, sito el
+de Alvear 1840 Piso 29, Capital Federal, a fin de que transfiera la suma PE PESOS
+VEINTISÉIS MILLONES TRESCIENTOS SIETE MIL QUINIENTOS cu ARE! TA Y
+SIETE 5 26.307.547,00.- al Banco de la Nación Argentina Sucursal Tribúnales, a la
+cuenta de autos 9995693476 CBU: 0110025950099956934760 como pe bl ciente
+a las presentes actuaciones, y a la orden del Juzgado Secretaría actua! |
+
+auto que
+
+ento de
+00.-, al
+693476
+
+CBU: 01 10025950099956934760 y coma perteneciente a las presentes actuád Pen ya
+
+la orden del Juzgado y Secretaría actuante. A tal fin firme, líbrese el pertinente ¡A en
+| |
+
+soporte papel quedando Su confección Y diligenciamiento a cargo dp|'A parte
+
+Para mayor recaudo, se transcribe la parte pertinente d
+ordena el presente: ""Buenos aires, 06 de febrero de 2026...11) Ordenar el libka
+oficio a MERCADO LIBRE S.R.L., a fin de que transfiera la suma de $26.307,
+
+Banco de la Nación Argentina, Sucursal Tribunales, a la cuenta de autos
+
+actora...FdO..: Karina Alonso Candis, Juez.""
+
+1
+|
+|
+Q
+[...]","ICOLAS B
+hate: 2026.04.09 09
+
+OFICIO JUDICIAL
+
+Ciudad autónoma de Buenos aires, do febrel
+
+MERCADOLIBRE S.R.L.
+Soarennnnrsor Aucicrnenos D
+
+Tengo el agrado de dir|girme a Usted en los autos caratuladog
+SOCIAL DE LOS EMPLEADOS DE COMERCIO Y ACTIVIDADES CIVILES |
+INTEGRAL S.A. S/ Ejecución Ley 23660"" (expediente. N? 51585/2025), que tra
+juzgado Federal de 1"" Instancia de la Seguridad Social N* 4, a cargo de la P
+
+Alonso Candis, secretaría a cargo de la Dra. María Victoria Guerrero, sito el
+de Alvear 1840 Piso 29, Capital Federal, a fin de que transfiera la suma PE pesos
+VEINTISÉIS MILLONES TRESCIENTOS SIETE MIL QUINIENTOS cu ARE! TA Y
+SIETE 5 26.307.547,00.- al banco de la Nación Argentina Sucursal Tribúnales, a la
+cuenta de autos 9995693476 CBU: 0110025950099956934760 como pe bl ciente
+a las presentes actuaciones, y a la orden del juzgado secretaría actua! |
+
+auto que
+
+ento de
+00.-, al
+693476
+
+CBU: 01 10025950099956934760 y coma perteneciente a las presentes actuád Pen ya
+
+la orden del juzgado y secretaría actuante. A tal fin firme, líbrese el pertinente ¡A en
+
+soporte papel quedando Su confección Y diligenciamiento a cargo dp|'A parte
+
+Para mayor recaudo, se transcribe la parte pertinente d
+ordena el presente: ""Buenos aires, 06 de febrero de 2026.11) Ordenar el libka
+oficio a MERCADO LIBRE S.R.L., a fin de que transfiera la suma de $26.307,
+
+banco de la Nación Argentina, Sucursal Tribunales, a la cuenta de autos
+
+actora.FdO. Karina Alonso Candis, Juez.""
+
+1
+Quedan autorizados 
+[...]","--- antes
++++ despues
+@@ -3,27 +3,22 @@
+ 
+ OFICIO JUDICIAL
+ 
+-Ni
+-
+ Ciudad autónoma de Buenos aires, do febrel
+ 
+-A
+-
+-|
+ MERCADOLIBRE S.R.L.
+ Soarennnnrsor Aucicrnenos D
+ 
+ Tengo el agrado de dir|girme a Usted en los autos caratuladog
+ SOCIAL DE LOS EMPLEADOS DE COMERCIO Y ACTIVIDADES CIVILES |
+-INTEGRAL S.A. S/ Ejecución Ley 23660"" (Expte. N? 51585/2025), que tra
+-Juzgado Federal de 1"" Instancia de la Seguridad Social N* 4, a cargo de la P
++INTEGRAL S.A. S/ Ejecución Ley 23660"" (expediente. N? 51585/2025), que tra
++juzgado Federal de 1"" Instancia de la Seguridad Social N* 4, a cargo de la P
+ 
+-Alonso Candis, Secretaría a cargo de la Dra. María Victoria Guerrero, sito el
+-de Alvear 1840 Piso 29, Capital Federal, a fin de que transfiera la suma PE PESOS
++Alonso Candis, secretaría a cargo de la Dra. María Victoria Guerrero, sito el
++de Alvear 1840 Piso 29, Capital Federal, a fin de que transfiera la suma PE pesos
+ VEINTISÉIS MILLONES TRESCIENTOS SIETE MIL QUINIENTOS cu ARE! TA Y
+-SIETE 5 26.307.547,00.- al Banco de la Nación Argentina Sucursal Tribúnales, a la
++SIETE 5 26.307.547,00.- al banco de la Nación Argentina Sucursal Tribúnales, a la
+ cuenta de autos 9995693476 CBU: 0110025950099956934760 como pe bl ciente
+-a las presentes actuaciones, y a la orden del Juzgado Secretaría actua! |
++a las presentes actuaciones, y a la orden del juzgado secretaría actua! |
+ 
+ auto que
+ 
+@@ -33,54 +28,37 @@
+ 
+ CBU: 01 10025950099956934760 y coma perteneciente a las presentes actuád Pen ya
+ 
+-la orden del Juzgado y Secretaría actuante. A tal fin firme, líbrese el pertinente ¡A en
+-| |
++la orden del juzgado y secretaría actuante. A tal fin firme, líbrese el pertinente ¡A en
+ 
+ soporte papel quedando Su confección Y diligenciamiento a cargo dp|'A parte
+ 
+ Para mayor recaudo, se transcribe la parte pertinente d
+-ordena el presente: ""Buenos aires, 06 de febrero de 2026...11) Ordenar el libka
++ordena el presente: ""Buenos aires, 06 de febrero de 2026.11) Ordenar el libka
+ oficio a MERCADO LIBRE S.R.L., a fin de que transfiera la suma de $26.307,
+ 
+-Banco de la Nación Argentina, Sucursal Tribunales, a la cuenta de autos
++banco de la Nación Argentina, Sucursal Tribunales, a la cuenta de autos
+ 
+-actora...FdO..: Karina Alonso Candis, Juez.""
++actora.FdO. Karina Alonso Candis, Juez.""
+ 
+ 1
+-|
+-|
+ Quedan autorizados para correr con el diligenciamiento del pl esente,
+ 
+ en forma indistinta, conjunta, altemativa y/0 sucesivamente, las siguientes pa sonas:
+-|
+ 
+ Dres. Gerardo Paulo Ravera, Patricio Alherto Neme, Ayelén Lisa, Julieta Tej de Tomás
+-| |
+ 
+ Francisco Funes, y/o los Sres./as. Agustina Buceta, Lucas Joaquín Perez, Aigal a Gatti
+ 1
+ 
+-|
+-
+ y/o quienes ellos designen. |
+ 
+-|
+-
+-|
+ Sin más salúdole muy atentamente.- í | |
+-
+[...] diff truncado"
+532435,Embargo - usuario,0.9186332868141324,legible,2597,2529,0.026184058529072005,"A |
+tE AA
+
+OFICIO JUDICIAL
+w Us
+SAN LORENZO, Febrero de 2026.-
+
+MERCADO PAGO SRL
+Av. Caseros N"" 3039, Piso 2- Ciudad Autónoma de Buenos Aires.-
+(soporte Ymercadopago.com)
+
+S / D
+
+En los autos caratulados: ""SALCEDO LAURA
+SILVINA c/ CENTURION NAHUEL EZEQUIEL s/ APREMIO"", Expte. 21-
+27880958-9 que tramitan por ante el Juzgado de Familia de la ciudad de San
+Lorenzo, a cargo del Dr. Marcelo E. Escola (Juez), Secretaria de la Dra.
+Mónica Y Muchiutti se ha dispuesto dirigir a Ud. el presente a fin TRABAR
+EMBARGO de las sumas depositadas en la cuenta que posee en Mercado
+Pago el Sr. NAHUEL EZEQUIEL CENTURION, DNI N* 40.278.373, hasta
+cubrir la suma de $ 713.414,20 con más la suma de $ 214.024,26 estimados
+provisoriamente para intereses y costas. Los montos retenidos deberán
+depositarse en la Cuenta Judicial N"" 417887 del Nuevo Banco de Santa Fo,
+Suc. San Lorenzo, CBU 3300028030000004178876.-
+
+Se deja constancia que la Dra. Laura S. Salcedo y/o
+
+quien ella indique se encuentran facultados para el diligengífamiento del
+
+presente.-
+
+Sin más saluda atte.-
+
+E. ESCOLA
+y Distr camilia
+sta Fe
+
+puso A 0
+
+O
+
+_ RECIBIDO
+
+AA E
+
+a
+
+y
+
+l
+
+APA mi
+
+r
+
+B Banco de Santa Fe
+
+Poder Judicial
+
+Informe de Saldos de Cuentas Judiciales del Nuevo Banco de Santa Fe S.A.
+al 29/12/2025 11:46:27
+
+Información extraída de los registros del nuevo Hanco de Santa Fe S.A.
+
+Sucursal....: SAN LORENZO - Tipo de Cuenta: 1 - $ $ PESOS $ $5
+CBU..........: 3300028030000004178876 - Nro, de cuenta: 417887
+
+Expediente: 0/0 - CUL
+[...]","tE AA
+
+OFICIO JUDICIAL
+w Us
+SAN LORENZO, Febrero de 2026.-
+
+MERCADO PAGO SRL
+Av. Caseros N"" 3039, Piso 2- Ciudad Autónoma de Buenos Aires.-
+(soporte Ymercadopago.com)
+
+S / D
+
+En los autos caratulados: ""SALCEDO LAURA
+SILVINA c/ CENTURION NAHUEL EZEQUIEL s/ APREMIO"", expediente. 21-
+27880958-9 que tramitan por ante el juzgado de Familia de la ciudad de San
+Lorenzo, a cargo del Dr. Marcelo E. Escola (Juez), secretaría de la Dra.
+Mónica Y Muchiutti se ha dispuesto dirigir a Ud. el presente a fin TRABAR
+embargo de las sumas depositadas en la cuenta que posee en Mercado
+Pago el Sr. NAHUEL EZEQUIEL CENTURION, DNI N* 40.278.373, hasta
+cubrir la suma de $ 713.414,20 con más la suma de $ 214.024,26 estimados
+provisoriamente para intereses y costas. Los montos retenidos deberán
+depositarse en la cuenta Judicial N"" 417887 del Nuevo banco de Santa Fo,
+Suc. San Lorenzo, CBU 3300028030000004178876.-
+
+Se deja constancia que la Dra. Laura S. Salcedo y/o
+
+quien ella indique se encuentran facultados para el diligengífamiento del
+
+presente.-
+
+Sin más saluda atte.-
+
+E. ESCOLA
+y Distr camilia
+sta Fe
+
+puso A 0
+
+_ RECIBIDO
+
+AA E
+
+APA mi
+
+B banco de Santa Fe
+
+Poder Judicial
+
+Informe de Saldos de Cuentas Judiciales del Nuevo banco de Santa Fe S.A.
+al 29/12/2025 11:46:27
+
+Información extraída de los registros del nuevo Hanco de Santa Fe S.A.
+
+Sucursal. SAN LORENZO - Tipo de cuenta: 1 - $ $ pesos $ $5
+CBU. 3300028030000004178876 - Nro, de cuenta: 417887
+
+expediente: 0/0 - CUL): 21278809584: SALCEDO LAUR
+[...]","--- antes
++++ despues
+@@ -1,4 +1,3 @@
+-A |
+ tE AA
+ 
+ OFICIO JUDICIAL
+@@ -12,15 +11,15 @@
+ S / D
+ 
+ En los autos caratulados: ""SALCEDO LAURA
+-SILVINA c/ CENTURION NAHUEL EZEQUIEL s/ APREMIO"", Expte. 21-
+-27880958-9 que tramitan por ante el Juzgado de Familia de la ciudad de San
+-Lorenzo, a cargo del Dr. Marcelo E. Escola (Juez), Secretaria de la Dra.
++SILVINA c/ CENTURION NAHUEL EZEQUIEL s/ APREMIO"", expediente. 21-
++27880958-9 que tramitan por ante el juzgado de Familia de la ciudad de San
++Lorenzo, a cargo del Dr. Marcelo E. Escola (Juez), secretaría de la Dra.
+ Mónica Y Muchiutti se ha dispuesto dirigir a Ud. el presente a fin TRABAR
+-EMBARGO de las sumas depositadas en la cuenta que posee en Mercado
++embargo de las sumas depositadas en la cuenta que posee en Mercado
+ Pago el Sr. NAHUEL EZEQUIEL CENTURION, DNI N* 40.278.373, hasta
+ cubrir la suma de $ 713.414,20 con más la suma de $ 214.024,26 estimados
+ provisoriamente para intereses y costas. Los montos retenidos deberán
+-depositarse en la Cuenta Judicial N"" 417887 del Nuevo Banco de Santa Fo,
++depositarse en la cuenta Judicial N"" 417887 del Nuevo banco de Santa Fo,
+ Suc. San Lorenzo, CBU 3300028030000004178876.-
+ 
+ Se deja constancia que la Dra. Laura S. Salcedo y/o
+@@ -37,52 +36,39 @@
+ 
+ puso A 0
+ 
+-O
+-
+ _ RECIBIDO
+ 
+ AA E
+ 
+-a
+-
+-y
+-
+-l
+-
+ APA mi
+ 
+-r
+-
+-B Banco de Santa Fe
++B banco de Santa Fe
+ 
+ Poder Judicial
+ 
+-Informe de Saldos de Cuentas Judiciales del Nuevo Banco de Santa Fe S.A.
++Informe de Saldos de Cuentas Judiciales del Nuevo banco de Santa Fe S.A.
+ al 29/12/2025 11:46:27
+ 
+ Información extraída de los registros del nuevo Hanco de Santa Fe S.A.
+ 
+-Sucursal....: SAN LORENZO - Tipo de Cuenta: 1 - $ $ PESOS $ $5
+-CBU..........: 3300028030000004178876 - Nro, de cuenta: 417887
++Sucursal. SAN LORENZO - Tipo de cuenta: 1 - $ $ pesos $ $5
++CBU. 3300028030000004178876 - Nro, de cuenta: 417887
+ 
+-Expediente: 0/0 - CUL): 21278809584
++expediente: 0/0 - CUL): 21278809584: SALCEDO LAURA SILVINA C/CENTURION NAHUEL
+ 
+-: SALCEDO LAURA SILVINA C/CENTURION NAHUEL
++APREMIOS: juzgado DE IRA. INSTANCIA DE DISTRITO DE FAMILIA
+ 
+-APREMIOS
+-: JUZGADO DE IRA. INSTANCIA DE DISTRITO DE FAMILIA
+-
+-Saldo contable al 29/12/2025 $$PESOS $ $ ¡prereermmnnnns
++Saldo contable al 29/12/2025 $$pesos $ $ ¡prereermmnnnns
+ 
+ CERO REAERRARERA
+ 
+ AA AAA
+-Saldo Bloqueado......: 0
+[...] diff truncado"
