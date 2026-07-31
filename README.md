@@ -89,6 +89,10 @@ Etapa inicial: exploración y limpieza de base de datos en CSV y JSON.
 ]
 ```
 
+## data/embargos_input
+
+Contiene 40 archivos de embargos con manualmente, preparados para usarlo en el calculo de las metricas.
+
 # data/prueba
 
 - **prueba:** Contiene dos carpetas de pruebas piloto de variantes
