@@ -3,6 +3,7 @@ from __future__ import annotations
 import sys
 import tempfile
 import unittest
+import os
 from pathlib import Path
 
 import pandas as pd
@@ -10,10 +11,12 @@ import pandas as pd
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT / "src"
 sys.path.insert(0, str(SRC))
+os.environ.setdefault("MPLCONFIGDIR", str(ROOT / ".matplotlib_test_cache"))
 
 from matching import MatchConfig, compare_model
 from metrics import metrics_by_label, metrics_by_model
 from normalization import normalize_amount, values_equivalent
+from pdf_report import write_dashboard_pdf, verify_dashboard_pdf
 from reports import dataframe_to_html, write_dashboard
 
 
@@ -254,6 +257,76 @@ class MetricLogicTests(unittest.TestCase):
             write_dashboard(path, metrics, metrics, detail, [])
             html = path.read_text(encoding="utf-8")
         self.assertIn("m20", html)
+
+    def test_pdf_generation_when_dependencies_are_available(self) -> None:
+        try:
+            import reportlab  # noqa: F401
+            import pypdf  # noqa: F401
+        except ImportError:
+            self.skipTest("Dependencias PDF no instaladas")
+        try:
+            import matplotlib.pyplot as plt
+        except ImportError:
+            self.skipTest("matplotlib no instalado")
+
+        metrics = pd.DataFrame(
+            {
+                "modelo": ["m1", "m2"],
+                "etiqueta": ["persona", "persona"],
+                "total_entidades_gold": [2, 2],
+                "total_entidades_predichas": [2, 1],
+                "exactas": [2, 1],
+                "parcial": [0, 0],
+                "extra": [0, 0],
+                "no_encontrada": [0, 1],
+                "duplicada": [0, 0],
+                "precision_relajada": [1.0, 1.0],
+                "recall_relajado": [1.0, 0.5],
+                "f1_relajado": [1.0, 0.6667],
+                "cobertura": [1.0, 0.5],
+                "f1_estricto": [1.0, 0.6667],
+            }
+        )
+        detail = compare_model(gold([{"etiqueta": "persona", "valor": "A"}]), preds("m1", []), CFG, "m1")
+        audit = pd.DataFrame(
+            {
+                "documento": ["doc1"],
+                "etiqueta": ["persona"],
+                "valor": ["A"],
+                "incluida": [True],
+                "categoria": ["obligatoria"],
+                "motivo_exclusion": [""],
+            }
+        )
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_path = Path(tmp)
+            graph = tmp_path / "grafico.png"
+            fig, ax = plt.subplots()
+            ax.plot([1, 2], [1, 2])
+            fig.savefig(graph)
+            plt.close(fig)
+            pdf = tmp_path / "dashboard.pdf"
+            ok, message = write_dashboard_pdf(
+                pdf,
+                {
+                    "run_id": "test_run",
+                    "fecha_hora": "2026-08-03T00:00:00",
+                    "tipo_documento": "embargo",
+                    "modelos": ["m1", "m2"],
+                    "gold": "gold.csv",
+                    "resultados": ["m1.csv", "m2.csv"],
+                    "rapidfuzz_threshold": 85,
+                    "length_tolerance": 3,
+                },
+                metrics,
+                metrics,
+                detail,
+                [graph],
+                audit,
+            )
+            self.assertTrue(ok, message)
+            verified, verify_message = verify_dashboard_pdf(pdf)
+            self.assertTrue(verified, verify_message)
 
 
 if __name__ == "__main__":

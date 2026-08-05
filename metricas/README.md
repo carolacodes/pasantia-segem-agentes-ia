@@ -21,6 +21,11 @@ El proyecto ya usa `pandas` y `PyYAML`. Para esta herramienta tambien se necesit
 pip install -r metricas/requirements.txt
 ```
 
+La version PDF del dashboard usa:
+
+- `reportlab` para generar `dashboard.pdf`;
+- `pypdf` para verificar paginas e imagenes embebidas.
+
 ## Como colocar las bases
 
 La estructura recomendada para embargos es:
@@ -198,6 +203,7 @@ En `metricas/outputs/<tipo_documento>/<corrida>/` se generan:
 - `entidades_detectadas_solo_por_un_modelo.csv`
 - `validaciones.csv`
 - `dashboard.html`
+- `dashboard.pdf`
 - `run_metadata.yaml`
 - `auditoria_gold.csv`
 - `auditoria_invariantes.csv`
@@ -213,6 +219,20 @@ En `detalle_comparaciones.csv`, `score_rapidfuzz` solo se completa cuando el met
 `auditoria_invariantes.csv` verifica reglas basicas de consistencia: mismo total gold obligatorio entre modelos, cada entidad gold clasificada exactamente una vez y cada prediccion clasificada exactamente una vez.
 
 El dashboard se abre localmente desde `metricas/outputs/<tipo_documento>/<corrida>/dashboard.html` y contiene explicaciones breves para las metricas y graficos.
+
+`dashboard.pdf` se genera automaticamente en la misma carpeta de la corrida. Si falta `reportlab` o `pypdf`, la herramienta muestra una advertencia clara, deja un `pdf_status.txt` con el motivo y no interrumpe la generacion de CSV, graficos y HTML.
+
+Para regenerar manualmente solo el PDF de una corrida existente, sin recalcular metricas:
+
+```bash
+python metricas/src/generar_pdf_dashboard.py --run-dir metricas/outputs/embargo/<corrida>
+```
+
+Si la carpeta de graficos no esta registrada correctamente en `run_metadata.yaml`, se puede indicar:
+
+```bash
+python metricas/src/generar_pdf_dashboard.py --run-dir metricas/outputs/embargo/<corrida> --graph-dir metricas/graficos/embargo/<corrida>
+```
 
 Las carpetas `metricas/outputs/embargo/`, `metricas/outputs/oficio/`, `metricas/graficos/embargo/` y `metricas/graficos/oficio/` funcionan como contenedores de corridas. No deberian tener CSV, HTML o PNG sueltos directamente adentro; esos archivos deben quedar dentro de una carpeta de corrida.
 

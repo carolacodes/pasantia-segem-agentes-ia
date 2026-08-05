@@ -220,6 +220,7 @@ def write_dashboard(
 </head>
 <body>
   <h1>Dashboard de metricas de entidades</h1>
+  <p class="intro"><a href="dashboard.pdf">Abrir o descargar version PDF del informe</a></p>
   <p class="intro">Este dashboard compara lo que extrajo cada modelo contra una base revisada manualmente. La idea es distinguir tres preguntas: cuanto acierta el modelo, cuanto deja sin detectar y cuanto ruido agrega con entidades de mas o etiquetas equivocadas.</p>
   <h2>Como leer las metricas</h2>
   <p class="intro">Ejemplos rapidos: si el gold contiene 100 entidades obligatorias, todos los modelos deben mostrar total_entidades_gold = 100. Si un modelo extrae 10 entidades y 8 son correctas, la precision es 0,80. Si el gold contiene 10 entidades y el modelo encuentra 6, el recall es 0,60. Si el modelo detecta como persona un nombre que no esta validado como entidad buscada, esa prediccion es extra. Si el valor 20-36003333-4 esta en el gold como cuit_cuil pero el modelo lo etiqueta como dni, es etiqueta_incorrecta.</p>

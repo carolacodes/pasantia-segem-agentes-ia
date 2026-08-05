@@ -14,6 +14,7 @@ from io_utils import build_gold_audit, infer_model_name, prepare_entities, read_
 from invariants import audit_invariants
 from matching import MatchConfig, compare_model
 from metrics import metrics_by_label, metrics_by_model, optional_metrics
+from pdf_report import verify_dashboard_pdf, write_dashboard_pdf
 from plots import create_plots
 from regex_compare import compare_models_vs_regex
 from reports import cross_model_reports, filtered_reports, write_csv, write_dashboard
@@ -145,7 +146,7 @@ def evaluate(args: argparse.Namespace) -> tuple[Path, Path, list[Path]]:
         "rapidfuzz_threshold": threshold,
         "length_tolerance": length_tolerance,
         "outputs": str(outdir),
-        "graficos": str(graph_dir),
+    "graficos": str(graph_dir),
     }
     (outdir / "run_metadata.yaml").write_text(
         yaml.safe_dump(metadata, sort_keys=False, allow_unicode=True),
@@ -160,6 +161,23 @@ def evaluate(args: argparse.Namespace) -> tuple[Path, Path, list[Path]]:
     graphs = create_plots(detail, metrics_model, metrics_label_all, regex_df, graph_dir)
     relative_graphs = [Path(os.path.relpath(graph, start=outdir)) for graph in graphs]
     write_dashboard(outdir / "dashboard.html", metrics_model, metrics_label_all, detail, relative_graphs, gold_audit)
+    pdf_ok, pdf_message = write_dashboard_pdf(
+        outdir / "dashboard.pdf",
+        metadata,
+        metrics_model,
+        metrics_label_all,
+        detail,
+        graphs,
+        gold_audit,
+    )
+    if pdf_ok:
+        verify_ok, verify_message = verify_dashboard_pdf(outdir / "dashboard.pdf")
+        pdf_message = verify_message
+        if not verify_ok:
+            print(f"Advertencia PDF: {verify_message}")
+    else:
+        print(f"Advertencia PDF: {pdf_message}")
+    (outdir / "pdf_status.txt").write_text(pdf_message, encoding="utf-8")
     return outdir, graph_dir, graphs
 
 
