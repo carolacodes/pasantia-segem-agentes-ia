@@ -69,34 +69,41 @@ python metricas/src/run_evaluacion.py --gold metricas/inputs/embargos/input_revi
 
 Tambien se puede evaluar un solo modelo pasando un unico archivo en `--results`.
 
+Para ejecutar la base conjunta configurada en `config.yaml`:
+
+```bash
+python metricas/src/run_evaluacion.py --doc-type conjunta --run-name conjunta
+```
+
 Cada ejecucion crea una carpeta nueva para no pisar resultados anteriores. El nombre de la carpeta se arma con:
 
 - fecha y hora;
 - umbral de RapidFuzz;
 - tolerancia de longitud;
-- modelos evaluados;
-- una descripcion opcional, si se usa `--run-name`.
+- una descripcion corta, si se usa `--run-name`; si no se indica, usa `corrida`.
+
+No se agregan nombres de archivos CSV ni nombres concatenados de modelos al nombre de carpeta. Eso evita rutas demasiado largas en Windows. Los modelos, archivos completos usados, umbral y tolerancia quedan registrados dentro de `run_metadata.yaml`.
 
 Ejemplo:
 
 ```text
-metricas/outputs/embargo/20260802_153012_thr85_len3_gliner2_large_v25_pii_v1/
-metricas/graficos/embargo/20260802_153012_thr85_len3_gliner2_large_v25_pii_v1/
+metricas/outputs/embargo/20260805_130000_thr85_len3_conjunta/
+metricas/graficos/embargo/20260805_130000_thr85_len3_conjunta/
 ```
 
 Si queres agregar una descripcion a la corrida:
 
 ```bash
-python metricas/src/run_evaluacion.py --doc-type embargo --run-name prueba_base
+python metricas/src/run_evaluacion.py --doc-type embargo --run-name conjunta
 ```
 
 Eso genera un nombre parecido a:
 
 ```text
-20260802_153012_thr85_len3_gliner2_large_v25_pii_v1_prueba_base
+20260805_130000_thr85_len3_conjunta
 ```
 
-`--run-name` no reemplaza la fecha ni los parametros; solo agrega una descripcion al final.
+`--run-name` no reemplaza la fecha ni los parametros; solo agrega una descripcion breve al final. Si ya existe una carpeta con el mismo nombre, la herramienta crea otra con sufijo numerico, por ejemplo `_2` o `_3`. Antes de escribir los archivos tambien valida que la ruta completa de los reportes principales no sea excesiva.
 
 ## Configuracion
 
@@ -109,7 +116,8 @@ Eso genera un nombre parecido a:
 - etiquetas evaluadas tambien por regex;
 - etiquetas numericas o identificadores que no usan similitud difusa;
 - alias de etiquetas de modelos a etiquetas canonicas del gold;
-- umbral de RapidFuzz y tolerancia de longitud.
+- umbral de RapidFuzz y tolerancia de longitud;
+- reglas de deteccion diagnostica amplia para revisar variantes que quedaron como `no_encontrada` y `extra`.
 
 El mapeo de etiquetas evita comparar, por ejemplo, `person` contra `persona` como si fueran etiquetas distintas. La configuracion inicial incluye:
 
@@ -142,6 +150,16 @@ La comparacion se realiza por documento y etiqueta. Cada prediccion se usa como 
 - `duplicada`: el modelo repitio la misma entidad normalizada o una equivalente.
 
 Para `dni`, `cuit_cuil`, `cbu`, `cvu` y `monto` no se usa fuzzy matching. Los identificadores se comparan sin espacios, puntos ni guiones. Los montos se comparan como valores numericos normalizados.
+
+## Deteccion diagnostica amplia
+
+Ademas del matching oficial, la herramienta genera una evaluacion diagnostica separada. Esta segunda lectura no cambia precision, recall ni F1. Solo revisa entidades que oficialmente quedaron como `no_encontrada` y predicciones que oficialmente quedaron como `extra`.
+
+La deteccion diagnostica intenta encontrar variantes asociables dentro del mismo documento y, por defecto, con la misma etiqueta. Usa reglas mas flexibles: contencion textual validada, diferencias por titulos como `Dr.` o `Dra.`, identificadores normalizados exactamente y scores reales de RapidFuzz (`token_sort_ratio`, `token_set_ratio`, `partial_ratio`). El overlap de spans es solo una senal complementaria: no alcanza por si solo.
+
+Los niveles son `detectada_adicional_alta`, `detectada_adicional_media` y `candidata_revision`. Solo alta y media se suman al porcentaje amplio confiable; las candidatas quedan para revision manual. En los reportes tambien se separan `no_encontrada_sin_candidato`, `extra_asociable` y `extra_real`.
+
+Ejemplo: si el gold contiene `Dra. Maria Soledad Perez` y la prediccion dice `Maria Soledad Perez`, el resultado oficial puede seguir siendo `no_encontrada` + `extra`, pero el diagnostico puede marcarlo como `detectada_adicional_alta`.
 
 ## Que significa cada metrica
 
@@ -183,6 +201,8 @@ Ejemplo simple: si el gold tiene 100 entidades y el modelo extrae 80, de las cua
 - `09_etiquetas_con_mas_errores.png`: prioriza etiquetas a revisar.
 - `10_documentos_con_mas_errores.png`: ayuda a encontrar documentos dificiles, con OCR malo o formatos raros.
 - `11_matriz_confusion_etiquetas.png`: muestra confusiones entre etiquetas. Lo ideal es que los valores se concentren en la diagonal.
+- `12_deteccion_diagnostica_amplia.png`: compara detectadas oficiales, detectadas adicionales y no encontradas sin candidato.
+- `13_extras_diagnosticos.png`: separa extras asociables de extras reales.
 
 ## Salidas
 
@@ -207,6 +227,17 @@ En `metricas/outputs/<tipo_documento>/<corrida>/` se generan:
 - `run_metadata.yaml`
 - `auditoria_gold.csv`
 - `auditoria_invariantes.csv`
+- `detecciones_diagnosticas.csv`
+- `detecciones_diagnosticas_principales.csv`
+- `detecciones_diagnosticas_opcionales.csv`
+- `resumen_detecciones_diagnosticas_principal.csv`
+- `resumen_detecciones_diagnosticas_opcional.csv`
+- `resumen_detecciones_diagnosticas_total.csv`
+- `no_encontradas_con_candidato.csv`
+- `no_encontradas_sin_candidato.csv`
+- `candidatas_revision.csv`
+- `extras_asociables.csv`
+- `extras_reales.csv`
 
 `metricas_por_etiqueta.csv` respeta la evaluacion principal y excluye etiquetas opcionales. `metricas_por_etiqueta_todas.csv` incluye todas las etiquetas canonicas y es la tabla recomendada para revisar cobertura por etiqueta.
 
@@ -217,6 +248,8 @@ En `detalle_comparaciones.csv`, `score_rapidfuzz` solo se completa cuando el met
 `auditoria_gold.csv` muestra cada fila del gold revisado, si entra en la metrica principal, si es obligatoria u opcional y el motivo de exclusion cuando corresponde.
 
 `auditoria_invariantes.csv` verifica reglas basicas de consistencia: mismo total gold obligatorio entre modelos, cada entidad gold clasificada exactamente una vez y cada prediccion clasificada exactamente una vez.
+
+`detecciones_diagnosticas.csv` contiene la evaluacion amplia. Conserva el resultado oficial por separado y agrega datos como nivel de confianza, regla principal, cantidad de senales, identificadores normalizados, ratios de RapidFuzz, diferencia de longitud, overlap de spans, contencion textual y motivo de deteccion. Los resumenes principal, opcional y total evitan mezclar etiquetas opcionales con el denominador principal.
 
 El dashboard se abre localmente desde `metricas/outputs/<tipo_documento>/<corrida>/dashboard.html` y contiene explicaciones breves para las metricas y graficos.
 

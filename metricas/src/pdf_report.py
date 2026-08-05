@@ -141,6 +141,8 @@ def write_dashboard_pdf(
     detail: pd.DataFrame,
     graph_files: list[Path],
     gold_audit: pd.DataFrame,
+    diagnostic_summary: pd.DataFrame | dict[str, pd.DataFrame] | None = None,
+    diagnostic_detail: pd.DataFrame | None = None,
 ) -> tuple[bool, str]:
     try:
         rl = _require_reportlab()
@@ -183,6 +185,15 @@ def write_dashboard_pdf(
     )
     max_width = page_size[0] - doc.leftMargin - doc.rightMargin
     max_graph_height = page_size[1] - doc.topMargin - doc.bottomMargin - 2.0 * cm
+    if isinstance(diagnostic_summary, dict):
+        diagnostic_summary_principal = diagnostic_summary.get("principal", pd.DataFrame())
+        diagnostic_summary_optional = diagnostic_summary.get("opcional", pd.DataFrame())
+        diagnostic_summary_total = diagnostic_summary.get("total", pd.DataFrame())
+    else:
+        diagnostic_summary_principal = diagnostic_summary if diagnostic_summary is not None else pd.DataFrame()
+        diagnostic_summary_optional = pd.DataFrame()
+        diagnostic_summary_total = pd.DataFrame()
+    diagnostic_detail = diagnostic_detail if diagnostic_detail is not None else pd.DataFrame()
 
     story = [
         Paragraph("Informe de metricas de entidades", styles["Title"]),
@@ -227,6 +238,34 @@ def write_dashboard_pdf(
         "cobertura",
     ]
     story.extend(_table(metrics_label, "Metricas por etiqueta", styles, columns=metrics_columns))
+
+    story.append(PageBreak())
+    story.append(Paragraph("Deteccion diagnostica amplia", styles["Heading2"]))
+    story.append(
+        Paragraph(
+            "Las metricas oficiales permanecen sin cambios. Esta seccion revisa solo casos oficiales no_encontrada y extra con reglas mas flexibles para encontrar variantes asociables.",
+            styles["BodyText"],
+        )
+    )
+    story.extend(_table(diagnostic_summary_principal, "Deteccion diagnostica principal", styles))
+    story.extend(_table(diagnostic_summary_optional, "Deteccion diagnostica opcional", styles))
+    story.extend(_table(diagnostic_summary_total, "Deteccion diagnostica total", styles))
+    diagnostic_columns = [
+        "documento",
+        "modelo",
+        "tipo_diagnostico",
+        "nivel_confianza",
+        "regla_principal",
+        "etiqueta_gold",
+        "valor_gold",
+        "etiqueta_predicha",
+        "valor_predicho",
+        "token_sort_ratio",
+        "token_set_ratio",
+        "partial_ratio",
+        "motivo_deteccion",
+    ]
+    story.extend(_table(diagnostic_detail, "Muestra diagnostica", styles, max_rows=40, columns=diagnostic_columns))
 
     story.append(PageBreak())
     story.append(Paragraph("Graficos", styles["Heading2"]))

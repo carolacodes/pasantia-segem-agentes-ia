@@ -52,6 +52,7 @@ def create_plots(
     metrics_label: pd.DataFrame,
     regex_compare: pd.DataFrame,
     graph_dir: str | Path,
+    diagnostic_summary: pd.DataFrame | None = None,
 ) -> list[Path]:
     graph_dir = Path(graph_dir)
     os.environ.setdefault("MPLCONFIGDIR", str(graph_dir / ".matplotlib"))
@@ -134,5 +135,25 @@ def create_plots(
                 ax.text(j, i, str(matrix.iloc[i, j]), ha="center", va="center", fontsize=8)
         fig.colorbar(im, ax=ax)
         created.append(_save(fig, graph_dir / "11_matriz_confusion_etiquetas.png"))
+
+    if diagnostic_summary is not None and not diagnostic_summary.empty:
+        item = _bar(
+            diagnostic_summary,
+            "modelo",
+            ["detectadas_oficiales_principales", "detectadas_adicionales_alta", "detectadas_adicionales_media", "candidatas_revision"],
+            "Deteccion diagnostica amplia",
+            graph_dir / "12_deteccion_diagnostica_amplia.png",
+        )
+        if item:
+            created.append(item)
+        item = _bar(
+            diagnostic_summary,
+            "modelo",
+            ["extras_asociables", "extras_reales"],
+            "Extras asociables y reales",
+            graph_dir / "13_extras_diagnosticos.png",
+        )
+        if item:
+            created.append(item)
 
     return created

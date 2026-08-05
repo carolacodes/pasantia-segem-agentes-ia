@@ -36,6 +36,8 @@ GRAPH_EXPLANATIONS = {
     "09_etiquetas_con_mas_errores": "Ordena las etiquetas con mas errores. Ayuda a priorizar mejoras.",
     "10_documentos_con_mas_errores": "Muestra los documentos donde se concentran mas errores. Sirve para detectar documentos dificiles o problemas de OCR/formato.",
     "11_matriz_confusion_etiquetas": "Cruza etiqueta esperada contra etiqueta predicha. Si hay valores fuera de la diagonal, el modelo suele confundir esas etiquetas.",
+    "12_deteccion_diagnostica_amplia": "Compara detecciones oficiales, detecciones adicionales y entidades que siguen sin candidato. Es solo diagnostico y no modifica F1.",
+    "13_extras_diagnosticos": "Separa extras que parecen asociables a una entidad gold de extras que siguen sin relacion diagnostica.",
 }
 
 
@@ -135,6 +137,34 @@ def gold_audit_by_label(gold_audit: pd.DataFrame) -> pd.DataFrame:
     return gold_audit.groupby(["etiqueta", "categoria"]).size().reset_index(name="cantidad")
 
 
+def _main_error_mask(df: pd.DataFrame) -> pd.Series:
+    return df["gold_incluida_principal"].astype(bool) | df["pred_incluida_principal"].astype(bool)
+
+
+def _optional_only_error_mask(df: pd.DataFrame) -> pd.Series:
+    has_gold = df["gold_id"].astype(str).ne("")
+    has_pred = df["pred_id"].astype(str).ne("")
+    gold_ok = (~has_gold) | df["gold_opcional"].astype(bool)
+    pred_ok = (~has_pred) | df["pred_opcional"].astype(bool)
+    return (has_gold | has_pred) & gold_ok & pred_ok
+
+
+def error_summary_by_scope(detail: pd.DataFrame, scope: str) -> pd.DataFrame:
+    error_types = ["duplicada", "etiqueta_incorrecta", "extra", "no_encontrada"]
+    errors = detail[detail["tipo_resultado"].isin(error_types)].copy()
+    if errors.empty:
+        return pd.DataFrame(columns=["modelo", "tipo_resultado", "cantidad"])
+    if scope == "principal":
+        errors = errors[_main_error_mask(errors)]
+    elif scope == "opcional":
+        errors = errors[_optional_only_error_mask(errors)]
+    elif scope != "total":
+        raise ValueError(f"Scope de errores no soportado: {scope}")
+    if errors.empty:
+        return pd.DataFrame(columns=["modelo", "tipo_resultado", "cantidad"])
+    return errors.groupby(["modelo", "tipo_resultado"]).size().reset_index(name="cantidad")
+
+
 def balanced_error_samples(detail: pd.DataFrame, per_group: int = 3) -> pd.DataFrame:
     error_types = ["duplicada", "etiqueta_incorrecta", "extra", "no_encontrada"]
     errors = detail[detail["tipo_resultado"].isin(error_types)].copy()
@@ -153,6 +183,8 @@ def write_dashboard(
     detail: pd.DataFrame,
     graph_files: list[Path],
     gold_audit: pd.DataFrame | None = None,
+    diagnostic_summary: pd.DataFrame | dict[str, pd.DataFrame] | None = None,
+    diagnostic_detail: pd.DataFrame | None = None,
 ) -> None:
     path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -160,13 +192,18 @@ def write_dashboard(
     gold_audit = gold_audit if gold_audit is not None else pd.DataFrame()
     gold_summary = gold_audit_summary(gold_audit)
     gold_by_label = gold_audit_by_label(gold_audit)
-    error_types = ["duplicada", "etiqueta_incorrecta", "extra", "no_encontrada"]
-    errors = detail[detail["tipo_resultado"].isin(error_types)]
-    error_summary = (
-        errors.groupby(["modelo", "tipo_resultado"]).size().reset_index(name="cantidad")
-        if not errors.empty
-        else pd.DataFrame(columns=["modelo", "tipo_resultado", "cantidad"])
-    )
+    if isinstance(diagnostic_summary, dict):
+        diagnostic_summary_principal = diagnostic_summary.get("principal", pd.DataFrame())
+        diagnostic_summary_optional = diagnostic_summary.get("opcional", pd.DataFrame())
+        diagnostic_summary_total = diagnostic_summary.get("total", pd.DataFrame())
+    else:
+        diagnostic_summary_principal = diagnostic_summary if diagnostic_summary is not None else pd.DataFrame()
+        diagnostic_summary_optional = pd.DataFrame()
+        diagnostic_summary_total = pd.DataFrame()
+    diagnostic_detail = diagnostic_detail if diagnostic_detail is not None else pd.DataFrame()
+    error_summary_principal = error_summary_by_scope(detail, "principal")
+    error_summary_optional = error_summary_by_scope(detail, "opcional")
+    error_summary_total = error_summary_by_scope(detail, "total")
     error_samples = balanced_error_samples(detail, per_group=3)
     error_sample_columns = [
         "documento",
@@ -236,12 +273,33 @@ def write_dashboard(
   <h2>Metricas por etiqueta</h2>
   <p class="intro">Esta tabla permite ver si el rendimiento cambia segun la entidad. Por ejemplo, un modelo puede funcionar bien para personas y mal para identificadores o cuentas.</p>
   {dataframe_to_html(metrics_label)}
+  <h2>Deteccion diagnostica amplia</h2>
+  <p class="intro">Las metricas oficiales permanecen sin cambios. Esta seccion revisa solamente pares oficiales `no_encontrada` + `extra` con reglas mas flexibles. El overlap de span es solo una senal complementaria: no alcanza por si solo si la relacion textual es debil. Las candidatas a revision no se suman al porcentaje amplio confiable.</p>
+  <p class="intro">Ejemplo 1: gold `Dra. Maria Soledad Perez`, prediccion `Maria Soledad Perez`. Resultado oficial: `no_encontrada` + `extra`. Resultado diagnostico: `detectada_adicional_alta`. Ejemplo 2: gold `Juan Carlos Perez`, prediccion `Dra. Leticia Frappa`. Resultado diagnostico: `no_encontrada_sin_candidato` y `extra_real`.</p>
+  <h2>Deteccion diagnostica principal</h2>
+  <p class="intro">Solo etiquetas obligatorias. El numerador y el denominador pertenecen al mismo universo principal.</p>
+  {dataframe_to_html(diagnostic_summary_principal)}
+  <h2>Deteccion diagnostica opcional</h2>
+  <p class="intro">Solo etiquetas configuradas como opcionales.</p>
+  {dataframe_to_html(diagnostic_summary_optional)}
+  <h2>Deteccion diagnostica total</h2>
+  <p class="intro">Vista completa de principales y opcionales, sin usar el denominador principal.</p>
+  {dataframe_to_html(diagnostic_summary_total)}
+  <h2>Muestra diagnostica</h2>
+  {selected_dataframe_to_html(diagnostic_detail, max_rows=40, columns=["documento", "modelo", "tipo_diagnostico", "nivel_confianza", "regla_principal", "etiqueta_gold", "valor_gold", "etiqueta_predicha", "valor_predicho", "token_sort_ratio", "token_set_ratio", "partial_ratio", "porcentaje_contencion", "tokens_coincidentes", "motivo_deteccion"])}
   <h2>Graficos</h2>
   <div class="grid">{graph_html}</div>
   <h2>Muestras de errores</h2>
   <p class="intro">Esta seccion no muestra todos los errores. Primero resume la cantidad de errores por modelo y tipo. Luego muestra una muestra balanceada: hasta 3 casos por cada combinacion de modelo y tipo de error. Asi se evita que el dashboard quede dominado por el primer modelo o por un unico tipo de error.</p>
-  <h2>Resumen de errores</h2>
-  {dataframe_to_html(error_summary, max_rows=100)}
+  <h2>Resumen de errores principales</h2>
+  <p class="intro">Usa el mismo universo que `metricas_por_modelo.csv`: etiquetas obligatorias incluidas en la evaluacion principal.</p>
+  {dataframe_to_html(error_summary_principal, max_rows=100)}
+  <h2>Resumen de errores opcionales</h2>
+  <p class="intro">Muestra solamente errores donde las entidades involucradas pertenecen al conjunto de etiquetas opcionales.</p>
+  {dataframe_to_html(error_summary_optional, max_rows=100)}
+  <h2>Resumen de errores total</h2>
+  <p class="intro">Incluye errores principales y opcionales para tener una vista completa de todo lo clasificado.</p>
+  {dataframe_to_html(error_summary_total, max_rows=100)}
   <h2>Muestra balanceada de errores</h2>
   <p class="intro">Esta tabla no contiene todos los errores: muestra como maximo 3 casos por cada combinacion de modelo y tipo_resultado. Para auditar el universo completo, abrí los CSV completos:</p>
   {error_report_links_to_html()}

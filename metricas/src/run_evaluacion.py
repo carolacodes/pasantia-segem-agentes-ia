@@ -10,6 +10,14 @@ import pandas as pd
 import yaml
 
 from config import get_doc_type_config, load_config
+from diagnostic_detection import (
+    diagnostic_config_from_dict,
+    diagnostic_invariants,
+    diagnostic_reports,
+    evaluate_diagnostic_detection,
+    filter_diagnostics_by_scope,
+    summarize_diagnostic_detection,
+)
 from io_utils import build_gold_audit, infer_model_name, prepare_entities, read_csv_auto, validate_spans
 from invariants import audit_invariants
 from matching import MatchConfig, compare_model
@@ -18,6 +26,16 @@ from pdf_report import verify_dashboard_pdf, write_dashboard_pdf
 from plots import create_plots
 from regex_compare import compare_models_vs_regex
 from reports import cross_model_reports, filtered_reports, write_csv, write_dashboard
+
+MAX_RUN_ID_LENGTH = 60
+MAX_SAFE_PATH_LENGTH = 245
+LONGEST_OUTPUT_FILENAMES = (
+    "entidades_no_detectadas_por_ningun_modelo.csv",
+    "entidades_detectadas_solo_por_un_modelo.csv",
+    "comparacion_modelos_vs_regex.csv",
+    "auditoria_invariantes.csv",
+    "dashboard.pdf",
+)
 
 
 def parse_args() -> argparse.Namespace:
@@ -30,14 +48,14 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--doc-type", default=None, help="Tipo de documento, por ejemplo embargo u oficio.")
     parser.add_argument("--rapidfuzz-threshold", type=int, default=None, help="Umbral minimo de similitud parcial.")
     parser.add_argument("--length-tolerance", type=int, default=None, help="Tolerancia de longitud para parciales.")
-    parser.add_argument("--run-name", default=None, help="Descripcion opcional para agregar al nombre de la corrida.")
+    parser.add_argument("--run-name", default=None, help="Descripcion corta para identificar la corrida.")
     return parser.parse_args()
 
 
-def safe_slug(value: str) -> str:
+def safe_slug(value: str, max_length: int = MAX_RUN_ID_LENGTH) -> str:
     slug = "".join(char if char.isalnum() or char in ("-", "_") else "_" for char in value.strip())
     slug = "_".join(part for part in slug.split("_") if part)
-    return slug[:140] or "corrida"
+    return slug[:max_length].strip("_-") or "corrida"
 
 
 def build_run_id(
@@ -46,11 +64,10 @@ def build_run_id(
     threshold: int,
     length_tolerance: int,
 ) -> str:
+    del result_paths
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    models = "_".join(safe_slug(infer_model_name(path)) for path in result_paths)
-    base = f"{timestamp}_thr{threshold}_len{length_tolerance}_{models}"
-    if run_name:
-        base = f"{base}_{safe_slug(run_name)}"
+    name = safe_slug(run_name or "corrida", max_length=24)
+    base = f"{timestamp}_thr{threshold}_len{length_tolerance}_{name}"
     return safe_slug(base)
 
 
@@ -60,10 +77,41 @@ def unique_run_dir(base_dir: Path, run_id: str) -> Path:
         return candidate
     counter = 2
     while True:
-        candidate = base_dir / f"{run_id}_{counter}"
+        suffix = f"_{counter}"
+        safe_id = f"{run_id[:MAX_RUN_ID_LENGTH - len(suffix)]}{suffix}"
+        candidate = base_dir / safe_id
         if not candidate.exists():
             return candidate
         counter += 1
+
+
+def unique_run_name(output_base: Path, graph_base: Path, run_id: str) -> str:
+    counter = 1
+    while True:
+        suffix = "" if counter == 1 else f"_{counter}"
+        safe_id = f"{run_id[:MAX_RUN_ID_LENGTH - len(suffix)]}{suffix}"
+        if not (output_base / safe_id).exists() and not (graph_base / safe_id).exists():
+            return safe_id
+        counter += 1
+
+
+def validate_run_paths(outdir: Path, graph_dir: Path) -> None:
+    candidate_paths = [outdir / filename for filename in LONGEST_OUTPUT_FILENAMES]
+    candidate_paths.extend(
+        [
+            graph_dir / "11_matriz_confusion_etiquetas.png",
+            graph_dir / "10_documentos_mayor_cantidad_errores.png",
+        ]
+    )
+    long_paths = [path for path in candidate_paths if len(str(path.resolve())) > MAX_SAFE_PATH_LENGTH]
+    if long_paths:
+        examples = "\n".join(f"- {path} ({len(str(path.resolve()))} caracteres)" for path in long_paths[:3])
+        raise ValueError(
+            "La ruta completa de la corrida es demasiado larga para Windows.\n"
+            f"Limite seguro configurado: {MAX_SAFE_PATH_LENGTH} caracteres.\n"
+            f"Ejemplos de rutas problematicas:\n{examples}\n"
+            "Usa un --run-name mas corto o mueve el repositorio a una ruta base mas breve."
+        )
 
 
 def evaluate(args: argparse.Namespace) -> tuple[Path, Path, list[Path]]:
@@ -87,8 +135,12 @@ def evaluate(args: argparse.Namespace) -> tuple[Path, Path, list[Path]]:
     optional_labels = set(doc_cfg.get("optional_labels", []))
 
     run_id = build_run_id(args.run_name, result_paths, threshold, length_tolerance)
-    outdir = unique_run_dir(Path(args.outdir) / doc_type, run_id)
-    graph_dir = unique_run_dir(Path(args.graph_dir) / doc_type, outdir.name)
+    output_base = Path(args.outdir) / doc_type
+    graph_base = Path(args.graph_dir) / doc_type
+    unique_id = unique_run_name(output_base, graph_base, run_id)
+    outdir = output_base / unique_id
+    graph_dir = graph_base / unique_id
+    validate_run_paths(outdir, graph_dir)
     outdir.mkdir(parents=True, exist_ok=True)
     graph_dir.mkdir(parents=True, exist_ok=True)
 
@@ -125,6 +177,14 @@ def evaluate(args: argparse.Namespace) -> tuple[Path, Path, list[Path]]:
     metrics_optional = optional_metrics(detail, optional_labels)
     regex_df = compare_models_vs_regex(gold, predictions, doc_cfg.get("regex_labels", []), numeric_labels)
     invariants_df = audit_invariants(detail, gold, predictions, metrics_model)
+    diagnostic_cfg = diagnostic_config_from_dict(config.get("diagnostic_detection", {}))
+    diagnostic_detail = evaluate_diagnostic_detection(detail, diagnostic_cfg)
+    diagnostic_summary_principal = summarize_diagnostic_detection(detail, diagnostic_detail, metrics_model, scope="principal")
+    diagnostic_summary_optional = summarize_diagnostic_detection(detail, diagnostic_detail, metrics_model, scope="opcional")
+    diagnostic_summary_total = summarize_diagnostic_detection(detail, diagnostic_detail, metrics_model, scope="total")
+    diagnostic_principal = filter_diagnostics_by_scope(diagnostic_detail, "principal")
+    diagnostic_optional = filter_diagnostics_by_scope(diagnostic_detail, "opcional")
+    diagnostic_invariants_df = diagnostic_invariants(detail, diagnostic_detail)
 
     write_csv(detail, outdir / "detalle_comparaciones.csv")
     write_csv(metrics_model, outdir / "metricas_por_modelo.csv")
@@ -135,6 +195,15 @@ def evaluate(args: argparse.Namespace) -> tuple[Path, Path, list[Path]]:
     write_csv(validation, outdir / "validaciones.csv")
     write_csv(gold_audit, outdir / "auditoria_gold.csv")
     write_csv(invariants_df, outdir / "auditoria_invariantes.csv")
+    write_csv(diagnostic_detail, outdir / "detecciones_diagnosticas.csv")
+    write_csv(diagnostic_principal, outdir / "detecciones_diagnosticas_principales.csv")
+    write_csv(diagnostic_optional, outdir / "detecciones_diagnosticas_opcionales.csv")
+    write_csv(diagnostic_summary_principal, outdir / "resumen_detecciones_diagnosticas_principal.csv")
+    write_csv(diagnostic_summary_optional, outdir / "resumen_detecciones_diagnosticas_opcional.csv")
+    write_csv(diagnostic_summary_total, outdir / "resumen_detecciones_diagnosticas_total.csv")
+    write_csv(diagnostic_invariants_df, outdir / "auditoria_invariantes_diagnosticas.csv")
+    for filename, df in diagnostic_reports(diagnostic_detail).items():
+        write_csv(df, outdir / filename)
 
     metadata = {
         "run_id": outdir.name,
@@ -145,8 +214,9 @@ def evaluate(args: argparse.Namespace) -> tuple[Path, Path, list[Path]]:
         "modelos": [infer_model_name(path) for path in result_paths],
         "rapidfuzz_threshold": threshold,
         "length_tolerance": length_tolerance,
+        "diagnostic_detection": config.get("diagnostic_detection", {}),
         "outputs": str(outdir),
-    "graficos": str(graph_dir),
+        "graficos": str(graph_dir),
     }
     (outdir / "run_metadata.yaml").write_text(
         yaml.safe_dump(metadata, sort_keys=False, allow_unicode=True),
@@ -158,9 +228,22 @@ def evaluate(args: argparse.Namespace) -> tuple[Path, Path, list[Path]]:
     for filename, df in cross_model_reports(detail).items():
         write_csv(df, outdir / filename)
 
-    graphs = create_plots(detail, metrics_model, metrics_label_all, regex_df, graph_dir)
+    graphs = create_plots(detail, metrics_model, metrics_label_all, regex_df, graph_dir, diagnostic_summary_principal)
     relative_graphs = [Path(os.path.relpath(graph, start=outdir)) for graph in graphs]
-    write_dashboard(outdir / "dashboard.html", metrics_model, metrics_label_all, detail, relative_graphs, gold_audit)
+    write_dashboard(
+        outdir / "dashboard.html",
+        metrics_model,
+        metrics_label_all,
+        detail,
+        relative_graphs,
+        gold_audit,
+        {
+            "principal": diagnostic_summary_principal,
+            "opcional": diagnostic_summary_optional,
+            "total": diagnostic_summary_total,
+        },
+        diagnostic_detail,
+    )
     pdf_ok, pdf_message = write_dashboard_pdf(
         outdir / "dashboard.pdf",
         metadata,
@@ -169,6 +252,12 @@ def evaluate(args: argparse.Namespace) -> tuple[Path, Path, list[Path]]:
         detail,
         graphs,
         gold_audit,
+        {
+            "principal": diagnostic_summary_principal,
+            "opcional": diagnostic_summary_optional,
+            "total": diagnostic_summary_total,
+        },
+        diagnostic_detail,
     )
     if pdf_ok:
         verify_ok, verify_message = verify_dashboard_pdf(outdir / "dashboard.pdf")
