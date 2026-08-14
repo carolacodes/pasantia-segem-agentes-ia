@@ -1,0 +1,39 @@
+# Bases reales cargadas manualmente
+inputs/**/*.csv
+inputs/**/*.json
+inputs/**/*.xlsx
+
+# Resultados generados por cada corrida
+outputs/**
+graficos/**
+
+# Mantener las carpetas aunque estén vacías
+!inputs/**/.gitkeep
+!outputs/.gitkeep
+!graficos/.gitkeep
+
+# Archivos temporales y logs
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Entornos virtuales locales
+.venv/
+venv/
+env/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini

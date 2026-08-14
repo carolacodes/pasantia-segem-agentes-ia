@@ -1,0 +1,121 @@
+default_doc_type: embargo
+
+input_paths:
+  embargo:
+    gold: inputs/embargos/input_revision_manual/embargos_input.csv
+    results_glob: inputs/embargos/pruebas_modelo/*.csv
+  oficio:
+    gold: inputs/oficios/input_revision_manual/oficios_input.csv
+    results_glob: inputs/oficios/pruebas_modelo/*.csv
+  conjunta:
+    gold: inputs/conjunta/input_revision_manual/bd_supervisada_conjunta_v1.csv
+    results_glob: inputs/conjunta/pruebas_modelo/*.csv
+
+columns:
+  document_id_candidates:
+    - id
+    - numero_archivo
+    - nombre_archivo
+  label: etiqueta
+  value: valor
+  text: texto_limpio
+  score: score
+  span_start: span_inicio
+  span_end: span_fin
+
+matching:
+  rapidfuzz_threshold: 85
+  length_tolerance: 3
+  min_span_overlap_ratio: 0.30
+  tier5_token_set_threshold: 60
+  tier5_partial_ratio_threshold: 70
+  numeric_labels:
+    - dni
+    - cuit_cuil
+    - cbu
+    - cvu
+    - monto
+  fuzzy_labels:
+    - persona
+    - persona_juridica
+    - alias
+  label_aliases:
+    person: persona
+    national_id_number: dni
+    government_id: dni
+    tax_id: cuit_cuil
+    bank_account: cbu
+    account_number: cbu
+    money: monto
+    amount: monto
+
+diagnostic_detection:
+  enabled: true
+  token_sort_threshold: 75
+  token_set_threshold: 80
+  partial_ratio_threshold: 80
+  require_same_document: true
+  require_same_label: true
+  allow_title_difference: true
+  allow_containment: true
+  allow_span_overlap: true
+  max_span_distance_for_containment: 50
+  min_containment_chars: 6
+  min_containment_tokens: 2
+  min_containment_ratio: 0.60
+  identifier_labels:
+    - dni
+    - cuit_cuil
+    - cbu
+    - cvu
+    - monto
+
+doc_types:
+  embargo:
+    required_labels: []
+    optional_labels:
+      - alias
+      - persona_juridica
+      - cuit_cuil
+      - dni
+      - cvu
+      - cbu
+      - monto
+    regex_labels:
+      - cuit_cuil
+      - dni
+      - cvu
+      - cbu
+      - monto
+  oficio:
+    required_labels: []
+    optional_labels:
+      - alias
+      - persona_juridica
+      - cuit_cuil
+      - dni
+      - cvu
+      - cbu
+      - monto
+    regex_labels:
+      - cuit_cuil
+      - dni
+      - cvu
+      - cbu
+      - monto
+  conjunta:
+    required_labels: []
+    optional_labels:
+      - alias
+      - persona_juridica
+      - cuit_cuil
+      - dni
+      - cvu
+      - cbu
+      - monto
+    regex_labels:
+      - cuit_cuil
+      - dni
+      - cvu
+      - cbu
+      - monto

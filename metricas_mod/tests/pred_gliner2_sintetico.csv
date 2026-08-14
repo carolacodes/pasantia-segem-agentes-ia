@@ -1,0 +1,8 @@
+id;nombre_archivo;clasificacion;texto_limpio;etiqueta;valor;span_inicio;span_fin;score
+doc_001;doc_001.txt;embargo;"Se ordena embargo a Juan Perez DNI 12345678 por $ 1000,00. CBU 0000000000000000000001.";persona;Juan Perez;19;29;0.98
+doc_001;doc_001.txt;embargo;"Se ordena embargo a Juan Perez DNI 12345678 por $ 1000,00. CBU 0000000000000000000001.";dni;12.345.678;34;44;0.95
+doc_001;doc_001.txt;embargo;"Se ordena embargo a Juan Perez DNI 12345678 por $ 1000,00. CBU 0000000000000000000001.";monto;1000.00;47;54;0.90
+doc_001;doc_001.txt;embargo;"Se ordena embargo a Juan Perez DNI 12345678 por $ 1000,00. CBU 0000000000000000000001.";persona;Juan Perez;19;29;0.88
+doc_002;doc_002.txt;embargo;"Oficio sobre Maria Gomez, alias mgomez, expediente ficticio ABC.";persona;Maria Gomes;13;24;0.87
+doc_002;doc_002.txt;embargo;"Oficio sobre Maria Gomez, alias mgomez, expediente ficticio ABC.";expediente;ABC;59;62;0.76
+

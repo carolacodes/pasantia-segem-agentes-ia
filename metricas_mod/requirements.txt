@@ -1,0 +1,6 @@
+pandas
+PyYAML
+rapidfuzz
+matplotlib
+reportlab
+pypdf

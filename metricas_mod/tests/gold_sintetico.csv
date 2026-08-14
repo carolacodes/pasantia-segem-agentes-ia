@@ -1,0 +1,7 @@
+id,nombre_archivo,clasificacion,texto_limpio,cantidad_entidades_encontradas,etiqueta,valor,orc_corregido,span_inicio,span_fin
+doc_001,doc_001.txt,embargo,"Se ordena embargo a Juan Perez DNI 12345678 por $ 1000,00. CBU 0000000000000000000001.",4,persona,Juan Perez,,19,29
+doc_001,doc_001.txt,embargo,"Se ordena embargo a Juan Perez DNI 12345678 por $ 1000,00. CBU 0000000000000000000001.",4,dni,12345678,,34,42
+doc_001,doc_001.txt,embargo,"Se ordena embargo a Juan Perez DNI 12345678 por $ 1000,00. CBU 0000000000000000000001.",4,monto,"$ 1000,00",,47,56
+doc_002,doc_002.txt,embargo,"Oficio sobre Maria Gomez, alias mgomez, expediente ficticio ABC.",2,persona,Maria Gomez,,13,24
+doc_002,doc_002.txt,embargo,"Oficio sobre Maria Gomez, alias mgomez, expediente ficticio ABC.",2,alias,mgomez,,32,38
+

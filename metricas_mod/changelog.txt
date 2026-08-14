@@ -1,0 +1,57 @@
+v 1.9
+- Mejora de la normalizacion numerica compartida para `dni`, `cuit_cuil`, `cbu`, `cvu` y `monto`, reconociendo variantes OCR/formato como `D.N.I.`, `C.U.I.T.`, `Nº`, `N°`, dos puntos, puntos, guiones y espacios.
+- La normalizacion sigue siendo especifica por etiqueta y conservadora: valores ambiguos con identificadores incompatibles no se concatenan ni se fuerzan como equivalentes.
+- El diagnostico amplio reutiliza `normalize_value()` para pares `no_encontrada` + `extra` numericos del mismo modelo, documento y etiqueta; si ambos normalizados validos son identicos, clasifica `detectada_adicional_alta`.
+- No se agregan categorias ni columnas diagnosticas nuevas y no se usa RapidFuzz para aceptar valores numericos diferentes.
+- Incorporacion de tests para variantes OCR de identificadores, montos, ambiguedad, diagnostico numerico por igualdad normalizada, rechazo de digitos diferentes y no alteracion de personas/metrica oficial.
+
+v 1.8
+- Correccion de la distribucion de conteos por scope en las tablas por modelo: los resultados asociados a gold (`exacta_span`, `exacta_valor`, `parcial`, `no_encontrada`, `etiqueta_incorrecta`) ahora se asignan por scope del gold.
+- `extra` y `duplicada` se mantienen asignadas por scope de la prediccion cuando no hay entidad gold asociada.
+- La cobertura de cada scope ahora se puede reconstruir directamente como `(exactas + parcial + etiqueta_incorrecta) / total_entidades_gold` usando las columnas visibles de la misma tabla.
+- Precision, recall y F1 no cambian; solo cambia la distribucion visible de conteos entre principal y opcional.
+- Incorporacion de tests cruzados para etiqueta incorrecta principal/opcional, extras por scope, consistencia principal + opcional = total y reconstruccion de cobertura.
+
+v 1.7
+- Incorporacion de dos vistas complementarias por modelo: `metricas_por_modelo_opcionales.csv` para etiquetas opcionales y `metricas_por_modelo_total.csv` para principales + opcionales.
+- El dashboard HTML/PDF agrega las tablas "Metricas opcionales por modelo" y "Metricas totales por modelo" debajo del ranking principal, sin reemplazar ni modificar `metricas_por_modelo.csv`.
+- Las nuevas vistas reutilizan la misma logica de precision, recall, F1 y cobertura, cambiando solamente el universo evaluado.
+- Incorporacion de tests para validar independencia por modelo, consistencia de universos y no alteracion de las metricas principales existentes.
+
+v 1.6
+- Mejora de la normalizacion previa de `dni`, `cuit_cuil`, `cbu`, `cvu` y `monto` sin modificar la logica de matching por tiers ni su orden.
+- Los identificadores ahora aceptan prefijos de etiqueta y separadores comunes cuando queda un unico candidato compatible con la etiqueta evaluada.
+- Los valores ambiguos con varios identificadores no se concatenan ni se fuerzan como equivalentes.
+- Los montos aceptan variantes con `$`, `ARS`, espacios y separadores argentinos conservando decimales.
+- Incorporacion de tests para prefijos, separadores, montos, ambiguedad, preservacion de valores originales e invariantes.
+
+v 1.5
+- Endurecimiento del Tier 5 (`overlap_span`): el solapamiento fisico de spans ya no alcanza por si solo; ahora debe superar `min_span_overlap_ratio` y ademas cumplir al menos una senal textual configurable por RapidFuzz.
+- Incorporacion de los parametros `tier5_token_set_threshold` y `tier5_partial_ratio_threshold` en `config.yaml` y en `MatchConfig`.
+- Correccion de la lectura efectiva de `min_span_overlap_ratio` desde `config.yaml` en `run_evaluacion.py`; el flujo de configuracion ahora llega explicitamente a `matching.py`.
+- Endurecimiento de `extra_fragmento`: una prediccion sobrante con overlap solo se clasifica como fragmento si tambien tiene relacion textual suficiente con la entidad gold relacionada.
+- Incorporacion de tests para rechazar overlaps sin evidencia textual, validar fragmentos reales, verificar cambios de YAML y sostener invariantes.
+
+v 1.4
+- Corrección del conteo inflado de entidades gold: las predicciones `extra_fragmento` ahora dejan `gold_id` vacío y registran la referencia a la entidad en `gold_id_relacionado`, evitando duplicar el conteo de entidades gold reales.
+- Incorporación de la columna `extra_fragmento` en las tablas de resumen diagnóstico (`resumen_detecciones_diagnosticas_*`) y actualización de la invariante de extras (`extras_oficiales == extras_asociables + extras_reales + extra_fragmento`).
+- Exclusión de filas `extra_fragmento` del matching de candidatos en la detección diagnóstica, evitando asociaciones redundantes.
+- Formato numérico en `gold_id`: el identificador de entidades gold ahora es numérico simple (`0`, `1`, `2`, ...), facilitando el filtrado y ordenamiento en planillas de cálculo.
+
+v 1.3
+- Incorporación del Tier 5 de matching (`overlap_span`) basado en solapamiento físico de spans para resolver el caso de entidades fragmentadas por los modelos.
+- Clasificación de predicciones fragmentadas sobrantes como `extra` con subtipo `extra_fragmento` (FP leve), registrando la trazabilidad a la entidad en `gold_id_relacionado` sin duplicar la entidad gold original para no alterar el inventario real de entidades gold.
+- Modificación en la detección diagnóstica para descartar/degradar coincidencias por contención textual cuando la distancia entre spans supera un umbral configurable (`max_span_distance_for_containment`).
+- Reordenamiento de candidatos diagnósticos priorizando el solapamiento de spans (`hay_overlap_span`) sobre coincidencias textuales lejanas.
+- Incorporación de pruebas automáticas (`test_fragmented_entity_tier5_and_extra_fragmento` y `test_distant_containment_is_not_matched_in_diagnostics`).
+
+v 1.2
+- Reestructuración de la lógica de matching a un esquema global multipaso (tier-based). Esto previene que entidades duplicadas o similares se asocien incorrectamente, priorizando la cercanía y solapamiento de spans en cada nivel (exacto, valor, etiqueta incorrecta, parcial).
+- Ajuste de las rutas relativas en `config.yaml` para permitir correr la evaluación directamente desde la raíz del proyecto.
+- Incorporación de pruebas automáticas (`test_greedy_span_mismatch_issue`) para validar el caso de conflicto de spans en nombres repetidos.
+
+v 1.1
+- Ahora todos los reportes CSV individuales muestran el número de archivo al que pertenecen como la primera columna de la tabla.
+- Este número de archivo se saca directamente de la lista de referencia o "gold standard" cruzando el ID del documento.
+- Las tablas globales (que muestran el resumen de rendimiento general de los modelos o etiquetas) se mantienen igual porque no corresponden a un único documento.
+- Agregamos pruebas automáticas para comprobar que el número de archivo siempre se coloque correctamente en su lugar.
