@@ -1,3 +1,11 @@
+v 1.10
+- Incorporacion de `resumen_amplio_por_modelo.csv`, una vista ejecutiva independiente para el universo total.
+- La tabla calcula `detectadas_amplias`, `extras_reales`, `no_encontradas_reales`, `candidatas_revision`, `precision_amplia`, `recall_amplio` y `f1_amplio` sin modificar metricas oficiales existentes.
+- `detectadas_amplias` suma detecciones oficiales y detecciones diagnosticas confiables (`detectada_adicional_alta` y `detectada_adicional_media`) deduplicadas por entidad gold.
+- `candidatas_revision` no cuenta como acierto y `extra_fragmento` queda fuera de los falsos positivos amplios.
+- El dashboard HTML/PDF agrega la seccion "Resumen amplio por modelo".
+- Incorporacion de tests para TP/FP/FN amplios, deduplicacion por gold, candidatas, extra_fragmento y preservacion de metricas existentes.
+
 v 1.9
 - Mejora de la normalizacion numerica compartida para `dni`, `cuit_cuil`, `cbu`, `cvu` y `monto`, reconociendo variantes OCR/formato como `D.N.I.`, `C.U.I.T.`, `Nº`, `N°`, dos puntos, puntos, guiones y espacios.
 - La normalizacion sigue siendo especifica por etiqueta y conservadora: valores ambiguos con identificadores incompatibles no se concatenan ni se fuerzan como equivalentes.

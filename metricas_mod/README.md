@@ -242,6 +242,7 @@ En `metricas/outputs/<tipo_documento>/<corrida>/` se generan:
 - `resumen_detecciones_diagnosticas_principal.csv`
 - `resumen_detecciones_diagnosticas_opcional.csv`
 - `resumen_detecciones_diagnosticas_total.csv`
+- `resumen_amplio_por_modelo.csv`
 - `no_encontradas_con_candidato.csv`
 - `no_encontradas_sin_candidato.csv`
 - `candidatas_revision.csv`
@@ -265,6 +266,8 @@ En `detalle_comparaciones.csv`, `score_rapidfuzz` solo se completa cuando el met
 `auditoria_invariantes.csv` verifica reglas basicas de consistencia: mismo total gold obligatorio entre modelos, cada entidad gold clasificada exactamente una vez y cada prediccion clasificada exactamente una vez.
 
 `detecciones_diagnosticas.csv` contiene la evaluacion amplia. Conserva el resultado oficial por separado y agrega datos como nivel de confianza, regla principal, cantidad de senales, identificadores normalizados, ratios de RapidFuzz, diferencia de longitud, overlap de spans, contencion textual y motivo de deteccion. Los resumenes principal, opcional y total (`resumen_detecciones_diagnosticas_*`) incluyen una columna `extra_fragmento` para contabilizar estas predicciones fragmentadas de forma transparente sin alterar la metrica oficial ni inflar el inventario gold.
+
+`resumen_amplio_por_modelo.csv` es una vista ejecutiva complementaria para el universo total. Calcula `detectadas_amplias` como entidades gold detectadas oficialmente (`exacta_span`, `exacta_valor`, `parcial`) o recuperadas por diagnostico confiable (`detectada_adicional_alta`, `detectada_adicional_media`). `candidatas_revision` queda visible pero no cuenta como acierto, `no_encontradas_reales` usa `no_encontrada_sin_candidato`, y `extras_reales` excluye `extras_asociables` y `extra_fragmento`. Sus metricas `precision_amplia`, `recall_amplio` y `f1_amplio` no reemplazan precision, recall ni F1 oficiales.
 
 El dashboard se abre localmente desde `metricas/outputs/<tipo_documento>/<corrida>/dashboard.html` y contiene explicaciones breves para las metricas y graficos.
 

@@ -195,6 +195,7 @@ def write_dashboard(
     metrics_model_optional: pd.DataFrame,
     metrics_model_total: pd.DataFrame,
     metrics_label: pd.DataFrame,
+    wide_model_summary: pd.DataFrame,
     detail: pd.DataFrame,
     graph_files: list[Path],
     gold_audit: pd.DataFrame | None = None,
@@ -291,6 +292,9 @@ def write_dashboard(
   <h2>Metricas totales por modelo</h2>
   <p class="intro">Esta tabla incluye entidades principales y opcionales para dar una vista global del rendimiento del modelo sobre todas las entidades evaluadas. No reemplaza ni modifica el ranking principal.</p>
   {dataframe_to_html(metrics_model_total)}
+  <h2>Resumen amplio por modelo</h2>
+  <p class="intro">Esta metrica complementaria no reemplaza las metricas oficiales. Suma detecciones oficiales y detecciones adicionales confiables recuperadas por la capa diagnostica. Las `candidatas_revision` no cuentan como aciertos y `extra_fragmento` no se penaliza como falso positivo en este resumen amplio.</p>
+  {dataframe_to_html(wide_model_summary)}
   <h2>Metricas por etiqueta</h2>
   <p class="intro">Esta tabla permite ver si el rendimiento cambia segun la entidad. Por ejemplo, un modelo puede funcionar bien para personas y mal para identificadores o cuentas.</p>
   {dataframe_to_html(metrics_label)}

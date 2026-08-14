@@ -464,6 +464,48 @@ def summarize_diagnostic_detection(detail: pd.DataFrame, diagnostics: pd.DataFra
     return pd.DataFrame(rows)
 
 
+def summarize_wide_model_detection(detail: pd.DataFrame, diagnostics: pd.DataFrame) -> pd.DataFrame:
+    if detail.empty:
+        return pd.DataFrame()
+    rows = []
+    for model, group in detail.groupby("modelo"):
+        gold_rows = group[group["gold_id"].astype(str).ne("")]
+        official_detected = gold_rows[gold_rows["tipo_resultado"].isin(["exacta_span", "exacta_valor", "parcial"])]
+        official_gold_keys = set(zip(official_detected["modelo"].astype(str), official_detected["gold_id"].astype(str)))
+
+        diag_model = diagnostics[diagnostics["modelo"] == model] if not diagnostics.empty else pd.DataFrame()
+        reliable_diag = (
+            diag_model[diag_model["tipo_diagnostico"].isin(["detectada_adicional_alta", "detectada_adicional_media"])]
+            if not diag_model.empty
+            else pd.DataFrame()
+        )
+        diagnostic_gold_keys = (
+            set(zip(reliable_diag["modelo"].astype(str), reliable_diag["gold_id"].astype(str)))
+            if not reliable_diag.empty
+            else set()
+        )
+        detectadas_amplias = len(official_gold_keys | diagnostic_gold_keys)
+        extras_reales = int((diag_model["tipo_diagnostico"] == "extra_real").sum()) if not diag_model.empty else 0
+        no_encontradas_reales = int((diag_model["tipo_diagnostico"] == "no_encontrada_sin_candidato").sum()) if not diag_model.empty else 0
+        candidatas_revision = int((diag_model["tipo_diagnostico"] == "candidata_revision").sum()) if not diag_model.empty else 0
+        precision = detectadas_amplias / (detectadas_amplias + extras_reales) if detectadas_amplias + extras_reales else 0.0
+        recall = detectadas_amplias / (detectadas_amplias + no_encontradas_reales) if detectadas_amplias + no_encontradas_reales else 0.0
+        f1 = 2 * precision * recall / (precision + recall) if precision + recall else 0.0
+        rows.append(
+            {
+                "modelo": model,
+                "detectadas_amplias": detectadas_amplias,
+                "extras_reales": extras_reales,
+                "no_encontradas_reales": no_encontradas_reales,
+                "candidatas_revision": candidatas_revision,
+                "precision_amplia": round(precision, 4),
+                "recall_amplio": round(recall, 4),
+                "f1_amplio": round(f1, 4),
+            }
+        )
+    return pd.DataFrame(rows)
+
+
 def diagnostic_invariants(detail: pd.DataFrame, diagnostics: pd.DataFrame) -> pd.DataFrame:
     rows = []
     for scope in ["principal", "opcional", "total"]:

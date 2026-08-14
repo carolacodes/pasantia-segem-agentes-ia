@@ -140,6 +140,7 @@ def write_dashboard_pdf(
     metrics_model_optional: pd.DataFrame,
     metrics_model_total: pd.DataFrame,
     metrics_label: pd.DataFrame,
+    wide_model_summary: pd.DataFrame,
     detail: pd.DataFrame,
     graph_files: list[Path],
     gold_audit: pd.DataFrame,
@@ -226,6 +227,13 @@ def write_dashboard_pdf(
     story.extend(_table(metrics_model, "Ranking y metricas por modelo", styles))
     story.extend(_table(metrics_model_optional, "Metricas opcionales por modelo", styles))
     story.extend(_table(metrics_model_total, "Metricas totales por modelo", styles))
+    story.append(
+        Paragraph(
+            "Resumen amplio por modelo: vista complementaria que suma detecciones oficiales y detecciones adicionales confiables del diagnostico. Las candidatas a revision no cuentan como aciertos y extra_fragmento no penaliza como falso positivo.",
+            styles["BodyText"],
+        )
+    )
+    story.extend(_table(wide_model_summary, "Resumen amplio por modelo", styles))
     metrics_columns = [
         "modelo",
         "etiqueta",

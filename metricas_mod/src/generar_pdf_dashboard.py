@@ -36,6 +36,7 @@ def main() -> None:
     metrics_model_optional = read_optional_csv(run_dir / "metricas_por_modelo_opcionales.csv")
     metrics_model_total = read_optional_csv(run_dir / "metricas_por_modelo_total.csv")
     metrics_label = pd.read_csv(run_dir / "metricas_por_etiqueta_todas.csv", dtype=str, keep_default_na=False, encoding="utf-8-sig")
+    wide_model_summary = read_optional_csv(run_dir / "resumen_amplio_por_modelo.csv")
     detail = pd.read_csv(run_dir / "detalle_comparaciones.csv", dtype=str, keep_default_na=False, encoding="utf-8-sig")
     gold_audit = pd.read_csv(run_dir / "auditoria_gold.csv", dtype=str, keep_default_na=False, encoding="utf-8-sig")
 
@@ -46,6 +47,7 @@ def main() -> None:
         metrics_model_optional,
         metrics_model_total,
         metrics_label,
+        wide_model_summary,
         detail,
         graph_files,
         gold_audit,

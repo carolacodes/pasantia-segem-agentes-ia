@@ -17,6 +17,7 @@ from diagnostic_detection import (
     evaluate_diagnostic_detection,
     filter_diagnostics_by_scope,
     summarize_diagnostic_detection,
+    summarize_wide_model_detection,
 )
 from io_utils import build_gold_audit, choose_document_column, infer_model_name, prepare_entities, read_csv_auto, validate_spans
 from normalization import clean_text
@@ -244,6 +245,7 @@ def evaluate(args: argparse.Namespace) -> tuple[Path, Path, list[Path]]:
     diagnostic_summary_principal = summarize_diagnostic_detection(detail, diagnostic_detail, metrics_model, scope="principal")
     diagnostic_summary_optional = summarize_diagnostic_detection(detail, diagnostic_detail, metrics_model, scope="opcional")
     diagnostic_summary_total = summarize_diagnostic_detection(detail, diagnostic_detail, metrics_model, scope="total")
+    wide_model_summary = summarize_wide_model_detection(detail, diagnostic_detail)
     diagnostic_principal = filter_diagnostics_by_scope(diagnostic_detail, "principal")
     diagnostic_optional = filter_diagnostics_by_scope(diagnostic_detail, "opcional")
     diagnostic_invariants_df = diagnostic_invariants(detail, diagnostic_detail)
@@ -265,6 +267,7 @@ def evaluate(args: argparse.Namespace) -> tuple[Path, Path, list[Path]]:
     write_csv(diagnostic_summary_principal, outdir / "resumen_detecciones_diagnosticas_principal.csv", doc_to_file_num)
     write_csv(diagnostic_summary_optional, outdir / "resumen_detecciones_diagnosticas_opcional.csv", doc_to_file_num)
     write_csv(diagnostic_summary_total, outdir / "resumen_detecciones_diagnosticas_total.csv", doc_to_file_num)
+    write_csv(wide_model_summary, outdir / "resumen_amplio_por_modelo.csv", doc_to_file_num)
     write_csv(diagnostic_invariants_df, outdir / "auditoria_invariantes_diagnosticas.csv", doc_to_file_num)
     for filename, df in diagnostic_reports(diagnostic_detail).items():
         write_csv(df, outdir / filename, doc_to_file_num)
@@ -303,6 +306,7 @@ def evaluate(args: argparse.Namespace) -> tuple[Path, Path, list[Path]]:
         metrics_model_optional,
         metrics_model_total,
         metrics_label_all,
+        wide_model_summary,
         detail,
         relative_graphs,
         gold_audit,
@@ -320,6 +324,7 @@ def evaluate(args: argparse.Namespace) -> tuple[Path, Path, list[Path]]:
         metrics_model_optional,
         metrics_model_total,
         metrics_label_all,
+        wide_model_summary,
         detail,
         graphs,
         gold_audit,

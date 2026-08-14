@@ -14,7 +14,7 @@ SRC = ROOT / "src"
 sys.path.insert(0, str(SRC))
 os.environ.setdefault("MPLCONFIGDIR", str(ROOT / ".matplotlib_test_cache"))
 
-from diagnostic_detection import DiagnosticConfig, diagnostic_invariants, evaluate_diagnostic_detection, summarize_diagnostic_detection
+from diagnostic_detection import DiagnosticConfig, diagnostic_invariants, evaluate_diagnostic_detection, summarize_diagnostic_detection, summarize_wide_model_detection
 from config import get_doc_type_config, load_config
 from invariants import audit_invariants
 from matching import MatchConfig, compare_model
@@ -570,6 +570,42 @@ class MetricLogicTests(unittest.TestCase):
             after[["precision_relajada", "recall_relajado", "f1_relajado"]].to_dict("records"),
         )
 
+    def test_wide_model_summary_counts_reliable_detection_once(self) -> None:
+        detail = pd.DataFrame(
+            [
+                {"documento": "doc1", "modelo": "m", "gold_id": "g0", "pred_id": "p0", "tipo_resultado": "exacta_span", "subtipo_resultado": ""},
+                {"documento": "doc1", "modelo": "m", "gold_id": "g1", "pred_id": "p1", "tipo_resultado": "exacta_valor", "subtipo_resultado": ""},
+                {"documento": "doc1", "modelo": "m", "gold_id": "g2", "pred_id": "p2", "tipo_resultado": "parcial", "subtipo_resultado": ""},
+                {"documento": "doc1", "modelo": "m", "gold_id": "g3", "pred_id": "", "tipo_resultado": "no_encontrada", "subtipo_resultado": ""},
+                {"documento": "doc1", "modelo": "m", "gold_id": "g4", "pred_id": "", "tipo_resultado": "no_encontrada", "subtipo_resultado": ""},
+                {"documento": "doc1", "modelo": "m", "gold_id": "g5", "pred_id": "", "tipo_resultado": "no_encontrada", "subtipo_resultado": ""},
+                {"documento": "doc1", "modelo": "m", "gold_id": "g6", "pred_id": "", "tipo_resultado": "no_encontrada", "subtipo_resultado": ""},
+                {"documento": "doc1", "modelo": "m", "gold_id": "", "pred_id": "p7", "tipo_resultado": "extra", "subtipo_resultado": ""},
+                {"documento": "doc1", "modelo": "m", "gold_id": "", "pred_id": "p8", "tipo_resultado": "extra", "subtipo_resultado": "extra_fragmento"},
+            ]
+        )
+        diagnostics = pd.DataFrame(
+            [
+                {"documento": "doc1", "modelo": "m", "gold_id": "g3", "pred_id": "p3", "tipo_diagnostico": "detectada_adicional_alta"},
+                {"documento": "doc1", "modelo": "m", "gold_id": "g3", "pred_id": "p9", "tipo_diagnostico": "detectada_adicional_alta"},
+                {"documento": "doc1", "modelo": "m", "gold_id": "g4", "pred_id": "p4", "tipo_diagnostico": "detectada_adicional_media"},
+                {"documento": "doc1", "modelo": "m", "gold_id": "g5", "pred_id": "p5", "tipo_diagnostico": "candidata_revision"},
+                {"documento": "doc1", "modelo": "m", "gold_id": "g6", "pred_id": "", "tipo_diagnostico": "no_encontrada_sin_candidato"},
+                {"documento": "doc1", "modelo": "m", "gold_id": "", "pred_id": "p7", "tipo_diagnostico": "extra_real"},
+            ]
+        )
+        before = detail.copy(deep=True)
+        summary = summarize_wide_model_detection(detail, diagnostics).iloc[0]
+
+        self.assertEqual(summary["detectadas_amplias"], 5)
+        self.assertEqual(summary["extras_reales"], 1)
+        self.assertEqual(summary["no_encontradas_reales"], 1)
+        self.assertEqual(summary["candidatas_revision"], 1)
+        self.assertEqual(summary["precision_amplia"], 0.8333)
+        self.assertEqual(summary["recall_amplio"], 0.8333)
+        self.assertEqual(summary["f1_amplio"], 0.8333)
+        pd.testing.assert_frame_equal(detail, before)
+
     def test_diagnostic_prediction_cannot_match_two_gold(self) -> None:
         detail = compare_model(
             gold(
@@ -878,7 +914,7 @@ class MetricLogicTests(unittest.TestCase):
         detail = pd.DataFrame(columns=["modelo", "tipo_resultado"])
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "dashboard.html"
-            write_dashboard(path, metrics, metrics, metrics, metrics, detail, [])
+            write_dashboard(path, metrics, metrics, metrics, metrics, metrics, detail, [])
             html = path.read_text(encoding="utf-8")
         self.assertIn("m20", html)
 
@@ -942,6 +978,7 @@ class MetricLogicTests(unittest.TestCase):
                     "rapidfuzz_threshold": 85,
                     "length_tolerance": 3,
                 },
+                metrics,
                 metrics,
                 metrics,
                 metrics,
